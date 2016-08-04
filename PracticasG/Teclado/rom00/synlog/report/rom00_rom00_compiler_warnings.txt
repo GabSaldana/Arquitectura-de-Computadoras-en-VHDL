@@ -1,0 +1,4 @@
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd":44:6:44:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd":46:7:46:15|Referenced variable inflagrom is not in sensitivity list
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

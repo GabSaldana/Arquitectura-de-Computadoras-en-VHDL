@@ -1,0 +1,2 @@
+@E: CD383 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd":40:1:40:1|Specified too many values in aggregate, limit is 0
+

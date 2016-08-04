@@ -1,0 +1,223 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "mux01")
+  (DATE "Fri Oct 30 07:54:09 2015")
+  (VENDOR "Lattice")
+  (PROGRAM "ldbanno")
+  (VERSION "Diamond (64-bit) 3.5.0.102")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "salida_3_1_SLICE_0")
+    (INSTANCE salida_3_1_SLICE_0I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH C1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH B1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH D0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH C0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH B0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH M0 OFX0 (322:349:376)(322:349:376))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "salida_3_0_SLICE_1")
+    (INSTANCE salida_3_0_SLICE_1I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH C1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH A1 OFX0 (457:589:721)(457:589:721))
+        (IOPATH D0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH C0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH B0 OFX0 (457:589:721)(457:589:721))
+        (IOPATH M0 OFX0 (322:349:376)(322:349:376))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "salida_0_B")
+    (INSTANCE salida_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO salida0 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "a_0_B")
+    (INSTANCE a_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH a0 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge a0) (3330:3330:3330))
+      (WIDTH (negedge a0) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "salida_1_B")
+    (INSTANCE salida_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO salida1 (3220:3334:3448)(3220:3334:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "sel_1_B")
+    (INSTANCE sel_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH sel1 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge sel1) (3330:3330:3330))
+      (WIDTH (negedge sel1) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "sel_0_B")
+    (INSTANCE sel_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH sel0 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge sel0) (3330:3330:3330))
+      (WIDTH (negedge sel0) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "d_1_B")
+    (INSTANCE d_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH d1 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge d1) (3330:3330:3330))
+      (WIDTH (negedge d1) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "d_0_B")
+    (INSTANCE d_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH d0 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge d0) (3330:3330:3330))
+      (WIDTH (negedge d0) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "c_1_B")
+    (INSTANCE c_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH c1 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge c1) (3330:3330:3330))
+      (WIDTH (negedge c1) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "c_0_B")
+    (INSTANCE c_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH c0 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge c0) (3330:3330:3330))
+      (WIDTH (negedge c0) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "b_1_B")
+    (INSTANCE b_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH b1 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge b1) (3330:3330:3330))
+      (WIDTH (negedge b1) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "b_0_B")
+    (INSTANCE b_0_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH b0 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge b0) (3330:3330:3330))
+      (WIDTH (negedge b0) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "a_1_B")
+    (INSTANCE a_1_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH a1 PADDI (1223:1297:1372)(1223:1297:1372))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge a1) (3330:3330:3330))
+      (WIDTH (negedge a1) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "mux01")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT d_1_I/PADDI salida_3_1_SLICE_0I/D1 (1327:1445:1563)(1327:1445:1563))
+        (INTERCONNECT sel_1_I/PADDI salida_3_1_SLICE_0I/C1 (2011:2215:2419)
+          (2011:2215:2419))
+        (INTERCONNECT sel_1_I/PADDI salida_3_1_SLICE_0I/D0 (2327:2511:2695)
+          (2327:2511:2695))
+        (INTERCONNECT sel_1_I/PADDI salida_3_0_SLICE_1I/D1 (2223:2410:2598)
+          (2223:2410:2598))
+        (INTERCONNECT sel_1_I/PADDI salida_3_0_SLICE_1I/C0 (1907:2114:2322)
+          (1907:2114:2322))
+        (INTERCONNECT b_1_I/PADDI salida_3_1_SLICE_0I/B1 (1303:1454:1606)(1303:1454:1606))
+        (INTERCONNECT a_1_I/PADDI salida_3_1_SLICE_0I/C0 (1072:1210:1349)(1072:1210:1349))
+        (INTERCONNECT c_1_I/PADDI salida_3_1_SLICE_0I/B0 (1569:1755:1941)(1569:1755:1941))
+        (INTERCONNECT sel_0_I/PADDI salida_3_1_SLICE_0I/M0 (1298:1405:1512)
+          (1298:1405:1512))
+        (INTERCONNECT sel_0_I/PADDI salida_3_0_SLICE_1I/M0 (2404:2621:2839)
+          (2404:2621:2839))
+        (INTERCONNECT salida_3_1_SLICE_0I/OFX0 salida_1_I/PADDO (1020:1147:1274)
+          (1020:1147:1274))
+        (INTERCONNECT d_0_I/PADDI salida_3_0_SLICE_1I/C1 (1357:1519:1681)(1357:1519:1681))
+        (INTERCONNECT b_0_I/PADDI salida_3_0_SLICE_1I/A1 (1290:1428:1566)(1290:1428:1566))
+        (INTERCONNECT a_0_I/PADDI salida_3_0_SLICE_1I/D0 (1080:1152:1225)(1080:1152:1225))
+        (INTERCONNECT c_0_I/PADDI salida_3_0_SLICE_1I/B0 (1588:1763:1938)(1588:1763:1938))
+        (INTERCONNECT salida_3_0_SLICE_1I/OFX0 salida_0_I/PADDO (936:1038:1140)
+          (936:1038:1140))
+      )
+    )
+  )
+)

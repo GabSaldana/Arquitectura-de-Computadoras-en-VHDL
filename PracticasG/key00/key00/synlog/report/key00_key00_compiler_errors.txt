@@ -1,0 +1,2 @@
+@E: CD147 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\topkey00.vhd":17:4:17:8|Variable flag0 should have a constrained type
+

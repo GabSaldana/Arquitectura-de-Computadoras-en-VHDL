@@ -1,0 +1,5 @@
+@W: MT462 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":50:10:50:15|Net R002.prom\.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MO129 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":40:2:40:5|Sequential instance R002.outwordrom_1[1] reduced to a combinational gate by constant propagation
+@W: MT462 :|Net R004.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :|Net R004.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:R001.OS00.osc_int"

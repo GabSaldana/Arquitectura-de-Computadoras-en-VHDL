@@ -1,0 +1,19 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_hdl_.srs  -top  topadder00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd" -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\xor00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\and00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\ha00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\nxor00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\or00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topha00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\packagefa00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topfa00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\packageadder00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topadder00.vhdl  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\syntax.log  -fileorder  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\syntmp\hdlorder.tcl 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\synwork\adder8bit00_adder8bit00_hdl_.srs|o|0|0
+"D:\Program|i|0|0
+Files|i|0|0
+(x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd"|i|0|0
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\xor00.vhdl|i|1443568752|263
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\and00.vhdl|i|1443568616|263
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\ha00.vhdl|i|1443568802|348
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\nxor00.vhdl|i|1443568713|278
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\or00.vhdl|i|1443568676|258
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topha00.vhdl|i|1443568948|399
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\packagefa00.vhdl|i|1443569382|385
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topfa00.vhdl|i|1443569469|571
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\packageadder00.vhdl|i|1446039735|424
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\source\topadder00.vhdl|i|1443569586|2488
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder8bit00\adder8bit00\syntax.log|o|1446039927|980
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\c_vhdl.exe|i|1429561728|2318336
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe|i|1429561930|3172352

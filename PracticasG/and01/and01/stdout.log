@@ -1,0 +1,105 @@
+line 5789, col 42: Option set not found: vcs_ECP4_lib.
+line 5803, col 44: Option set not found: vcs_ECP45M_lib.
+
+
+Running in Lattice mode
+
+
+Starting:    D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\win64\mbin\synbatch.exe
+Install:     D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase
+Date:        Fri Jan 30 17:45:55 2015
+Version:     I-2013.09L-SP1-1 
+
+Arguments:   -product synplify_pro  -batch and01_and01_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+Copied D:\PracticasDiamond\and01\and01\and01_and01.srr to D:\PracticasDiamond\and01\and01\backup\and01_and01.srr
+
+log file: "D:\PracticasDiamond\and01\and01\and01_and01.srr"
+
+
+
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+
+Copied D:\PracticasDiamond\and01\and01\and01_and01.srr to D:\PracticasDiamond\and01\and01\and01_and01.srf
+
+log file: "D:\PracticasDiamond\and01\and01\and01_and01.srr"
+
+
+
+
+
+Running proj_1|and01
+
+
+Running: Compile on proj_1|and01
+
+
+Running: Compile Process on proj_1|and01
+
+
+Running: Compile Input on proj_1|and01
+
+Copied D:\PracticasDiamond\and01\and01\synwork\and01_and01_comp.srs to D:\PracticasDiamond\and01\and01\and01_and01.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Copied D:\PracticasDiamond\and01\and01\and01_and01.srr to D:\PracticasDiamond\and01\and01\and01_and01.srf
+
+Complete: Compile Process on proj_1|and01
+
+
+Running: Pre-mapping on proj_1|and01
+
+premap Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+
+Complete: Compile on proj_1|and01
+
+
+Running: Map on proj_1|and01
+
+
+Running: Map & Optimize on proj_1|and01
+
+fpga_mapper Completed
+Return Code: 0
+Run Time:0h:00m:03s
+
+
+Complete: Map on proj_1|and01
+
+Copied D:\PracticasDiamond\and01\and01\and01_and01.srr to D:\PracticasDiamond\and01\and01\and01_and01.srf
+
+Complete: Logic Synthesis on proj_1|and01
+
+TCL script complete: "and01_and01_synplify.tcl"
+
+exit status=0
+
+
+exit status=0
+
+
+Save changes for project:
+D:\PracticasDiamond\and01\and01\proj_1.prj
+
+batch mode default:no
+

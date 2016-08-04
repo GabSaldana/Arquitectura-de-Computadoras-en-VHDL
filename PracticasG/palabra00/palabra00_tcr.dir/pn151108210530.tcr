@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/8/2015 21:05:20
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00; Project name: palabra00
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00.ldf"
+prj_project close
+#Stop recording: 11/8/2015 21:05:30

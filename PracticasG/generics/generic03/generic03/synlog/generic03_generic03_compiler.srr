@@ -1,0 +1,70 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\topgeneric00.vhdl":11:7:11:18|Top entity is set to topgeneric00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\topgeneric00.vhdl":11:7:11:18|Synthesizing work.topgeneric00.topgeneric0 
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\packagegeneric00.vhdl":102:4:102:12|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\uc00.vhdl":10:7:10:10|Synthesizing work.uc00.uc0 
+Post processing for work.uc00.uc0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\not00.vhdl":10:7:10:11|Synthesizing work.not00.not0 
+Post processing for work.not00.not0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\not00.vhdl":26:2:26:3|Pruning register outFlagnot_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xnor00.vhdl":10:7:10:12|Synthesizing work.xnor00.xnor0 
+Post processing for work.xnor00.xnor0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xnor00.vhdl":26:2:26:3|Pruning register outFlagxnor_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xor00.vhdl":10:7:10:11|Synthesizing work.xor00.xor0 
+Post processing for work.xor00.xor0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xor00.vhdl":26:2:26:3|Pruning register outFlagxor_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nand00.vhdl":10:7:10:12|Synthesizing work.nand00.nand0 
+Post processing for work.nand00.nand0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nand00.vhdl":26:2:26:3|Pruning register outFlagnand_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nor00.vhdl":10:7:10:11|Synthesizing work.nor00.nor0 
+Post processing for work.nor00.nor0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nor00.vhdl":26:2:26:3|Pruning register outFlagnor_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\or00.vhdl":10:7:10:10|Synthesizing work.or00.or0 
+Post processing for work.or00.or0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\or00.vhdl":26:2:26:3|Pruning register outFlago_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\and00.vhdl":10:7:10:11|Synthesizing work.and00.and0 
+Post processing for work.and00.and0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\and00.vhdl":26:2:26:3|Pruning register outFlaga_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generic00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generic00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\generic00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topgeneric00.topgeneric0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 21:41:19 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 21:41:19 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 21:41:19 2016
+
+###########################################################]

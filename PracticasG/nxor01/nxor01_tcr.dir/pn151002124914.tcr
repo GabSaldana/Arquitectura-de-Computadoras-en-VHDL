@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/2/2015 12:41:03
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/nxor01; Project name: nxor01
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/nxor01/nxor01.ldf"
+prj_run Export -impl nxor01 -task Jedecgen
+prj_project close
+#Stop recording: 10/2/2015 12:49:14

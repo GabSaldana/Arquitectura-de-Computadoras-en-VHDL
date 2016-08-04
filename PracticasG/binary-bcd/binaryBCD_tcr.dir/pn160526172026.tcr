@@ -1,0 +1,24 @@
+#Start recording tcl command: 5/26/2016 16:49:55
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/binary-bcd; Project name: binaryBCD
+prj_project new -name "binaryBCD" -impl "binaryBCD" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/ac8bit04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/ac12bit0.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/coderNibbles04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/compadd04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/contIter04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/contring04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/div04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/init04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/leeInst04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/mux04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/packagep04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/pcinc04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/portAB04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/shift8bit04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/shift12bit04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/sust04.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/binary-bcd/topp04.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/26/2016 17:20:26

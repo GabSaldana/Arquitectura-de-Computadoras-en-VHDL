@@ -1,0 +1,66 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\rom00\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439970574
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440056346
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439970216
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377018008
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\osc00.vhd":1459478362
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\div00.vhd":1459478399
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\packagediv00.vhd":1459478435
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\topdiv00.vhd":1459478459
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\rom00.vhd":1459520119
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\contread00.vhdl":1459519801
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\packagerom00.vhdl":1459519988
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\Teclado\\toprom00.vhdl":1459520045
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd" vhdl
+2 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd" vhdl
+3 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd" vhdl
+4 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd" vhdl
+5 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd" vhdl
+6 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\contread00.vhdl" vhdl
+7 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagerom00.vhdl" vhdl
+8 "C:\Users\Gabriela\Desktop\PracticasG\Teclado\toprom00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 1 2 0 3 
+5 0 
+6 0 
+7 0 
+8 4 5 6 0 7 
+
+# Dependency Lists (Users Of)
+0 8 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 8 
+5 8 
+6 8 
+7 8 
+8 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work topdiv00 topdiv0 4
+module work topdiv00 4
+arch work rom00 rom0 5
+module work rom00 5
+arch work contread00 contread0 6
+module work contread00 6
+arch work toprom00 toprom0 8
+module work toprom00 8

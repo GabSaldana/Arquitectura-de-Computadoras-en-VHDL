@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/9/2016 09:03:56
+#Project Location: C:/Users/lu_he/Documents/proyect/generics/generic00; Project name: generic00
+prj_project new -name "generic00" -impl "generic00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/toposcvhdl/div00.vhdl" "C:/Users/lu_he/Documents/proyect/generics/toposcvhdl/osc00.vhdl" "C:/Users/lu_he/Documents/proyect/generics/toposcvhdl/packageosc00.vhdl" "C:/Users/lu_he/Documents/proyect/generics/toposcvhdl/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/generic00/and00.vhdl"
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/generic00/or00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/9/2016 09:36:48

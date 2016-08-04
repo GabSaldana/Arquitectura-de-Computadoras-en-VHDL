@@ -1,0 +1,96 @@
+
+// Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.7.0.96.1
+
+// ldbanno -n Verilog -o combin01_combin01_mapvo.vo -w -neg -gui -msgset C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/combinacional01/promote.xml combin01_combin01_map.ncd 
+// Netlist created on Tue Jun 07 23:10:27 2016
+// Netlist written on Tue Jun 07 23:10:29 2016
+// Design is for device LCMXO2-7000ZE
+// Design is for package TQFP144
+// Design is for performance grade 1
+
+`timescale 1 ns / 1 ps
+
+module eXor ( entrada1_xor, entrada2_xor, salida_xor );
+  input  entrada1_xor, entrada2_xor;
+  output salida_xor;
+  wire   entrada2_xor_c, entrada1_xor_c, salida_xor_c, VCCI;
+
+  SLICE_0 SLICE_0( .B0(entrada2_xor_c), .A0(entrada1_xor_c), .F0(salida_xor_c));
+  salida_xor salida_xor_I( .PADDO(salida_xor_c), .salida_xor(salida_xor));
+  entrada1_xor entrada1_xor_I( .PADDI(entrada1_xor_c), 
+    .entrada1_xor(entrada1_xor));
+  entrada2_xor entrada2_xor_I( .PADDI(entrada2_xor_c), 
+    .entrada2_xor(entrada2_xor));
+  VHI VHI_INST( .Z(VCCI));
+  PUR PUR_INST( .PUR(VCCI));
+  GSR GSR_INST( .GSR(VCCI));
+endmodule
+
+module SLICE_0 ( input B0, A0, output F0 );
+  wire   GNDI;
+
+  lut4 salida_xor( .A(A0), .B(B0), .C(GNDI), .D(GNDI), .Z(F0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut4 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h6666) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module salida_xor ( input PADDO, output salida_xor );
+  wire   GNDI;
+
+  xo2iobuf salida_xor_pad( .I(PADDO), .T(GNDI), .PAD(salida_xor));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => salida_xor) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf ( input I, T, output PAD );
+
+  OBZPD INST5( .I(I), .T(T), .O(PAD));
+endmodule
+
+module entrada1_xor ( output PADDI, input entrada1_xor );
+
+  xo2iobuf0001 entrada1_xor_pad( .Z(PADDI), .PAD(entrada1_xor));
+
+  specify
+    (entrada1_xor => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada1_xor, 0:0:0);
+    $width (negedge entrada1_xor, 0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf0001 ( output Z, input PAD );
+
+  IBPD INST1( .I(PAD), .O(Z));
+endmodule
+
+module entrada2_xor ( output PADDI, input entrada2_xor );
+
+  xo2iobuf0001 entrada2_xor_pad( .Z(PADDI), .PAD(entrada2_xor));
+
+  specify
+    (entrada2_xor => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada2_xor, 0:0:0);
+    $width (negedge entrada2_xor, 0:0:0);
+  endspecify
+
+endmodule

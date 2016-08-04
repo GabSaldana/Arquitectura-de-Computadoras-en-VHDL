@@ -1,0 +1,13 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Sep 22 08:12:10 2015 *
+NOTE DESIGN NAME: toposc00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outdiv0 : 109 : out *
+NOTE PINS indiv0[0] : 71 : in *
+NOTE PINS indiv0[3] : 68 : in *
+NOTE PINS indiv0[2] : 70 : in *
+NOTE PINS indiv0[1] : 69 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

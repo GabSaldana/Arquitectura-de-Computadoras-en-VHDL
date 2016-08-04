@@ -1,0 +1,55 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl":9:7:9:14|Top entity is set to toposc00.
+File D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl changed - recompiling
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl changed - recompiling
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl changed - recompiling
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl changed - recompiling
+VHDL syntax check successful!
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl changed - recompiling
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@W: CD277 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl":25:7:25:13|Port direction mismatch between component and entity
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\enab00.vhdl":8:7:8:12|Synthesizing work.enab00.ena 
+Post processing for work.enab00.ena
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl":10:7:10:14|Synthesizing work.oscint00.oscint0 
+@W: CD276 :"D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Post processing for work.toposc00.toposc0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Sep 22 08:11:16 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+File D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Sep 22 08:11:17 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Sep 22 08:11:17 2015
+
+###########################################################]

@@ -1,0 +1,16 @@
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd":23:3:23:9|Port direction mismatch between component and entity
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":38:6:38:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":45:9:45:15|Referenced variable offtran is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:7:40:15|Referenced variable inflagrom is not in sensitivity list
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Latch generated from process for signal outwordrom(6 downto 0); possible missing assignment in an if or case statement.
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 0 of sring(3 downto 0)  
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Register bit sring(3) is always 1, optimizing ...
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 3 of sring(3 downto 1)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 6 of outwordrom(6 downto 0)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 3 of outwordrom(6 downto 0)  
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":13:3:13:10|Input port bit 3 of indirrom(3 downto 0) is unused 
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(3) is always 0, optimizing ...
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Pruning register bits 3 to 2 of outcont(3 downto 0)  
+

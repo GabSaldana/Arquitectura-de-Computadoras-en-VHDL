@@ -1,0 +1,24 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Mar 15 08:09:25 2016 *
+NOTE DESIGN NAME: eTopMultip00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS resultado_tm[0] : 109 : out *
+NOTE PINS entrada1_tm[0] : 71 : in *
+NOTE PINS resultado_tm[7] : 4 : out *
+NOTE PINS resultado_tm[6] : 3 : out *
+NOTE PINS resultado_tm[5] : 2 : out *
+NOTE PINS resultado_tm[4] : 1 : out *
+NOTE PINS resultado_tm[3] : 112 : out *
+NOTE PINS resultado_tm[2] : 111 : out *
+NOTE PINS resultado_tm[1] : 110 : out *
+NOTE PINS entrada2_tm[3] : 57 : in *
+NOTE PINS entrada2_tm[2] : 59 : in *
+NOTE PINS entrada2_tm[1] : 58 : in *
+NOTE PINS entrada2_tm[0] : 60 : in *
+NOTE PINS entrada1_tm[3] : 68 : in *
+NOTE PINS entrada1_tm[2] : 70 : in *
+NOTE PINS entrada1_tm[1] : 69 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

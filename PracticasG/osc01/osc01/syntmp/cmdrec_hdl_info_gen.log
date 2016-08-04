@@ -1,0 +1,14 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_hdl_.srs  -top  toposc00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd" -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\enab00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\syntax.log  -fileorder  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\syntmp\hdlorder.tcl 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_hdl_.srs|o|0|0
+"D:\Program|i|0|0
+Files|i|0|0
+(x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd"|i|0|0
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\enab00.vhdl|i|1442926817|245
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl|i|1432297972|674
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl|i|1442927402|2006
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl|i|1432298051|494
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl|i|1442927471|751
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\syntax.log|o|1442927475|951
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\c_vhdl.exe|i|1429565328|2318336
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe|i|1429565530|3172352

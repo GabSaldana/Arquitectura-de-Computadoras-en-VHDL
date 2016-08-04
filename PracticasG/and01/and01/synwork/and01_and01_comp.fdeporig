@@ -1,0 +1,27 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|and01|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\bin64\\c_vhdl.exe":1397620946
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\location.map":1397749650
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std1164.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\numeric.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1397620828
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\arith.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1397620578
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377014408
+#CUR:"D:\\PracticasDiamond\\and01\\and01.vhdl":1422648132
+0 "D:\Archivos de Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\PracticasDiamond\and01\and01.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+
+# Dependency Lists (Users Of)
+0 1 
+1 -1
+
+# Design Unit to File Association
+arch work and01 and0 1
+module work and01 1

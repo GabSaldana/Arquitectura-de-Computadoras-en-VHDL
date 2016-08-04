@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00\synwork\rom00_rom00_comp.srs  -top  work.toprom00  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00\synlog\rom00_rom00_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\osc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\div00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\packageosc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\toposc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\contread00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\packagerom00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rom00\toprom00.vhdl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00\synwork\rom00_rom00_comp.srs|o|1459903455|8732
+C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00\synlog\rom00_rom00_compiler.srr|o|1459903455|4487
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\rom00\osc00.vhdl|i|1459898085|573
+C:\Users\Gabriela\Desktop\PracticasG\rom00\div00.vhdl|i|1459898112|2201
+C:\Users\Gabriela\Desktop\PracticasG\rom00\packageosc00.vhdl|i|1459898198|396
+C:\Users\Gabriela\Desktop\PracticasG\rom00\toposc00.vhdl|i|1459898164|526
+C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00.vhdl|i|1459903454|1193
+C:\Users\Gabriela\Desktop\PracticasG\rom00\contread00.vhdl|i|1459898259|722
+C:\Users\Gabriela\Desktop\PracticasG\rom00\packagerom00.vhdl|i|1459898378|731
+C:\Users\Gabriela\Desktop\PracticasG\rom00\toprom00.vhdl|i|1459898417|961
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439973922|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439974110|1896960

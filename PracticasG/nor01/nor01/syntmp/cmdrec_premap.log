@@ -1,0 +1,13 @@
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\PracticasDiamond\nor01\nor01  -part LCMXO2_7000HE  -package TG144C  -grade -4   -maxfan 1000    -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1  -use_rename_in_edif 1 -Write_declared_clocks_only 1     -summaryfile D:\PracticasDiamond\nor01\nor01\synlog\report\nor01_nor01_premap.xml -top_level_module  nor01  -oedif  D:\PracticasDiamond\nor01\nor01\nor01_nor01.edi  -conchk_prepass  D:\PracticasDiamond\nor01\nor01\nor01_nor01_cck_prepass.rpt  -freq 1.000  D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_comp.srs  -flow prepass  -gcc_prepass  -osrd  D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_prem.srd  -devicelib  "D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v"  -devicelib  "D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v"  -ologparam  D:\PracticasDiamond\nor01\nor01\syntmp\nor01_nor01.plg  -osyn  D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_prem.srd  -prjdir  D:\PracticasDiamond\nor01\nor01\  -prjname  proj_1  -log  D:\PracticasDiamond\nor01\nor01\synlog\nor01_nor01_premap.srr 
+rc:0 success:1
+D:\PracticasDiamond\nor01\nor01\nor01_nor01.edi|o|0|0
+D:\PracticasDiamond\nor01\nor01\nor01_nor01_cck_prepass.rpt|o|0|0
+D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_comp.srs|i|1422650370|1616
+D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_prem.srd|o|1422650372|1687
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v|i|1397653498|51625
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v|i|1397653498|40584
+D:\PracticasDiamond\nor01\nor01\syntmp\nor01_nor01.plg|o|1422650372|0
+D:\PracticasDiamond\nor01\nor01\synwork\nor01_nor01_prem.srd|o|1422650372|1687
+D:\PracticasDiamond\nor01\nor01\synlog\nor01_nor01_premap.srr|o|1422650373|1955
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe|i|1397657722|24119808
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin\m_gen_lattice.exe|i|1397655102|20611584

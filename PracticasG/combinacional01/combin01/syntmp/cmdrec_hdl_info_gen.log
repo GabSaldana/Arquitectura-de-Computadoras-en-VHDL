@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synwork\combin01_combin01_hdl_.srs  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\and.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\or.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\paquete_sumadormedio.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\top_sumadorcompleto.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\top_sumadormedio.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\xor.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\paquete_topcombin.vhdl -lib work C:\Users\Gabriela\Desktop\Practicas\combinacional01\topmulticomb01.vhdl  -log  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\syntax.log  -fileorder  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synwork\combin01_combin01_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377018008|73964
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\and.vhdl|i|1443501140|249
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\or.vhdl|i|1443501450|238
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl|i|1443501736|398
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\paquete_sumadormedio.vhdl|i|1443501794|352
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\top_sumadorcompleto.vhdl|i|1443502012|772
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\top_sumadormedio.vhdl|i|1443502008|518
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\source\xor.vhdl|i|1443501550|249
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\paquete_topcombin.vhdl|i|1449017394|429
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\topmulticomb01.vhdl|i|1458047534|4268
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\syntax.log|o|1458048327|936
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439970378|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439970574|3183616

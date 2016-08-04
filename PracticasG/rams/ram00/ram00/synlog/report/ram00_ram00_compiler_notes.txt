@@ -1,0 +1,23 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl":9:7:9:14|Top entity is set to topram00.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl":9:7:9:14|Synthesizing work.topram00.topram0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl":10:7:10:16|Synthesizing work.contread00.contread0 
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl":30:6:30:16|Removed redundant assignment
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":8:7:8:17|Synthesizing work.coder7seg00.coder7seg0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl":10:7:10:11|Synthesizing work.ram00.ram0 
+@N: CL134 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl":25:7:25:10|Found RAM dato, depth=16, width=7
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl":9:7:9:14|Synthesizing work.topkey00.topkey0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":10:7:10:13|Synthesizing work.coder00.coder0 
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":42:8:42:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":86:8:86:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":130:8:130:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":174:8:174:15|Removed redundant assignment
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl":8:7:8:16|Synthesizing work.contring00.contring0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0 
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+@N|Running in 64-bit mode
+

@@ -1,0 +1,5 @@
+CKID0001:@|S:M03.un1_incont_12@|E:M03.outbcd_1_i[4]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:M03.un1_incont_13@|E:M03.outbcd_1_i[3]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:M03.un1_incont_10@|E:M03.outbcd_1[1]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:clkr0@|E:MO2_scringio[0]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:M01.U0.OSCInst0@|E:M01.U1.outdiv@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 

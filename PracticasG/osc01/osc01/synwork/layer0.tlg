@@ -1,0 +1,12 @@
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@W: CD277 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl":25:7:25:13|Port direction mismatch between component and entity
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\enab00.vhdl":8:7:8:12|Synthesizing work.enab00.ena 
+Post processing for work.enab00.ena
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl":10:7:10:14|Synthesizing work.oscint00.oscint0 
+@W: CD276 :"D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Post processing for work.toposc00.toposc0

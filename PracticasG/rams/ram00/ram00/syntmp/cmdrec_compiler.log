@@ -1,0 +1,20 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00\synwork\ram00_ram00_comp.srs  -top  work.topram00  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00\synlog\ram00_ram00_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\osc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageosc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packagekey00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00\synwork\ram00_ram00_comp.srs|o|1461455918|16782
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00\synlog\ram00_ram00_compiler.srr|o|1461458267|6914
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\osc00.vhdl|i|1461025024|573
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl|i|1461025043|2201
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageosc00.vhdl|i|1461025059|396
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl|i|1461025076|526
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl|i|1461025094|716
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl|i|1461451942|5688
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packagekey00.vhdl|i|1461455588|722
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl|i|1461455309|1016
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl|i|1461025327|1293
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl|i|1461025144|683
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl|i|1461025191|823
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl|i|1461025291|1535
+C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl|i|1461451552|2041
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439973922|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439974110|1896960

@@ -1,0 +1,50 @@
+#Start recording tcl command: 10/2/2015 07:35:26
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00; Project name: palabra00
+prj_project new -name "palabra00" -impl "palabra00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/div00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/oscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/packageoscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/toposc00.vhdl"
+prj_src remove "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/div00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/oscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/packageoscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/toposc00.vhdl"
+file copy -force -- "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/div00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/oscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/packageoscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/osc01/toposc00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/div00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/oscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packageoscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/toposc00.vhdl"
+file copy -force -- "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/cring00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/mux00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/packageword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/topword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/cring00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/mux00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packageword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topword00.vhdl"
+prj_run Export -impl palabra00 -task Jedecgen
+prj_run Export -impl palabra00 -task Jedecgen
+file copy -force -- "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/topdiv00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topdiv00.vhdl"
+prj_src remove "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/div00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/oscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packageoscint00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/toposc00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topdiv00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/cring00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/mux00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packageword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topword00.vhdl"
+file copy -force -- "F:/5/palabra00/palabra00/source/div0.vhdl" "F:/5/palabra00/palabra00/source/enab00.vhdl" "F:/5/palabra00/palabra00/source/osc00.vhdl" "F:/5/palabra00/palabra00/source/packagediv00.vhdl" "F:/5/palabra00/palabra00/source/topdiv00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/div0.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/enab00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/osc00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packagediv00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topdiv00.vhdl"
+file copy -force -- "F:/5/palabra00/cring00.vhdl" "F:/5/palabra00/mux00.vhdl" "F:/5/palabra00/packageword00.vhdl" "F:/5/palabra00/topword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/cring00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/mux00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/packageword00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/source/topword00.vhdl"
+prj_run Export -impl palabra00 -task Jedecgen
+prj_run Export -impl palabra00 -task Jedecgen
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+prj_src add -exclude "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+prj_src enable "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_project close
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl palabra00 -task Jedecgen
+prj_run Export -impl palabra00 -task Jedecgen
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+prj_run Export -impl palabra00 -task Jedecgen
+pgr_project close
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+prj_run Export -impl palabra00 -task Jedecgen
+prj_run Export -impl palabra00 -task Jedecgen
+pgr_project close
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_project close
+pgr_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/palabra00/palabra00/palabra00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 10/2/2015 12:36:03

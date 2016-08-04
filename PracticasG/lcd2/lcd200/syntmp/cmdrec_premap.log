@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synlog\report\lcd200_lcd200_premap.xml  -top_level_module  work.toplcd00  -oedif  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\lcd200_lcd200.edi  -conchk_prepass  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\lcd200_lcd200_cck_prepass.rpt   -freq 1.000   C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\syntmp\lcd200_lcd200.plg  -osyn  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_prem.srd  -prjdir  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\  -prjname  proj_1  -log  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synlog\lcd200_lcd200_premap.srr 
+rc:1 success:1
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\lcd200_lcd200.edi|o|1464396271|133535
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\lcd200_lcd200_cck_prepass.rpt|o|0|0
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_mult.srs|i|1464396868|5665
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_prem.srd|o|1464396869|19850
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v|i|1439967574|54295
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439967574|40584
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\syntmp\lcd200_lcd200.plg|o|1464396868|0
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_prem.srd|o|1464396869|19850
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synlog\lcd200_lcd200_premap.srr|o|1464396869|5801
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439968652|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439970284|20782592

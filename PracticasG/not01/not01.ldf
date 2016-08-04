@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="not01" device="LCMXO2-7000HE-4TG144C" default_implementation="not01">
+    <Options/>
+    <Implementation title="not01" dir="not01" description="not01" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="not01"/>
+        <Source name="not01.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="not01"/>
+        </Source>
+        <Source name="not01.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="not01/not01.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="not011.sty"/>
+</BaliProject>

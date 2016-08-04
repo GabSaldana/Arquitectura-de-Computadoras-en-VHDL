@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  eXor  -incremental_debug  -multisrs  "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synwork\combin01_combin01_comp.srs"  -osyn  "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synwork\combin01_combin01_mult.srs"  -log  "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synlog\combin01_combin01_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synwork\combin01_combin01_comp.srs|i|1465359022|2604
+C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synwork\combin01_combin01_mult.srs|o|1465359023|2744
+C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\synlog\combin01_combin01_multi_srs_gen.srr|o|1465359023|609
+C:\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449734274|3110400
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449734476|4182528

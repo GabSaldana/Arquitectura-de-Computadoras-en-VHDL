@@ -1,0 +1,520 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":27:13:27:28|Removing sequential instance U08.outFlagsu_1,  because it is equivalent to instance U02.outFlagLp_1
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|ROM outcode_1[2:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|ROM outcode_1[2:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|Found ROM, 'outcode_1[2:0]', 16 words by 3 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|ROM outC_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|ROM outD_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|ROM outU_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|ROM outC_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|Found ROM, 'outC_1[6:0]', 10 words by 7 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|ROM outD_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|Found ROM, 'outD_1[6:0]', 10 words by 7 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|ROM outU_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|Found ROM, 'outU_1[6:0]', 10 words by 7 bits 
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_23[11],  because it is equivalent to instance U10.outACss_cl_22[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_22[11],  because it is equivalent to instance U10.outACss_cl_20[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_21[11],  because it is equivalent to instance U10.outACss_cl_19[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_20[11],  because it is equivalent to instance U10.outACss_cl_18[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_19[11],  because it is equivalent to instance U10.outACss_cl_17[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_18[11],  because it is equivalent to instance U10.outACss_cl_16[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_17[11],  because it is equivalent to instance U10.outACss_cl_15[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_16[11],  because it is equivalent to instance U10.outACss_cl_14[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_15[11],  because it is equivalent to instance U10.outACss_cl_13[11]
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_8[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\init04.vhdl":26:6:26:7|Removing sequential instance outACA8init_1[4] of view:PrimLib.sdffse(prim) in hierarchy view:work.init04(init0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_3[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_10[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_8[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_3[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@W: MO129 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":30:9:30:10|Sequential instance U05.outcode[3] reduced to a combinational gate by constant propagation
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+@N: MF578 :"c:\users\gabriela\desktop\practicasg\binary-bcd\ac12bit0.vhdl":22:7:22:8|Incompatible asynchronous control logic preventing generated clock conversion of U07.aux (view:work.topp04(topp0)).
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   494.61ns		 181 /       131
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 121 clock pin(s) of sequential element(s)
+0 instances converted, 121 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0003       clk0                port                   13         U13.outr[2]    
+=======================================================================================
+================================================= Gated/Generated Clocks ==================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance            Explanation             
+---------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U14.outdiv          FD1S3DX                118        U08.outAC12bitsu_1[11]     Inferred clock from port
+@K:CKID0002       U03.outFlagpc       FD1S3AX                3          U05.outcode[2]             Inferred clock from port
+===========================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 145MB)
+
+Writing Analyst data base C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L-SP1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+@W: MT420 |Found inferred clock topp04|clk0 with period 1000.00ns. Please declare a user-defined clock on object "p:clk0"
+
+Found clock div04|outdiv_derived_clock with period 1000.00ns 
+Found clock pcinc04|outFlagpc_derived_clock with period 1000.00ns 
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun May 29 09:03:27 2016
+#
+
+
+Top view:               topp04
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 993.880
+
+                                    Requested     Estimated     Requested     Estimated                 Clock                          Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type                           Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+div04|outdiv_derived_clock          1.0 MHz       163.4 MHz     1000.000      6.120         997.868     derived (from topp04|clk0)     Inferred_clkgroup_0
+pcinc04|outFlagpc_derived_clock     1.0 MHz       163.4 MHz     1000.000      6.120         993.880     derived (from topp04|clk0)     Inferred_clkgroup_0
+topp04|clk0                         1.0 MHz       501.7 MHz     1000.000      1.993         998.007     inferred                       Inferred_clkgroup_0
+==========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+topp04|clk0                      topp04|clk0                      |  1000.000    998.007   |  No paths    -      |  No paths    -      |  No paths    -    
+div04|outdiv_derived_clock       div04|outdiv_derived_clock       |  1000.000    1994.089  |  No paths    -      |  No paths    -      |  No paths    -    
+div04|outdiv_derived_clock       pcinc04|outFlagpc_derived_clock  |  1000.000    997.868   |  No paths    -      |  No paths    -      |  No paths    -    
+pcinc04|outFlagpc_derived_clock  div04|outdiv_derived_clock       |  1000.000    993.880   |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div04|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                                                        Arrival             
+Instance                        Reference                      Type         Pin     Net                         Time        Slack   
+                                Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------
+U03.outpc[0]                    div04|outdiv_derived_clock     FD1S3IX      Q       outpcport_c[0]              1.204       997.868 
+U03.outpc[1]                    div04|outdiv_derived_clock     FD1S3IX      Q       outpcport_c[1]              1.188       997.884 
+U03.outpc[2]                    div04|outdiv_derived_clock     FD1S3IX      Q       outpcport_c[2]              1.188       997.884 
+U03.outpc[3]                    div04|outdiv_derived_clock     FD1S3IX      Q       outpcport_c[3]              1.180       997.892 
+U04_outFlagac8io                div04|outdiv_derived_clock     IFS1P3DX     Q       sFlag8out_c                 1.108       1994.089
+U11.outFlagIt                   div04|outdiv_derived_clock     FD1S3IX      Q       soutFlagIt                  1.108       1995.034
+U07.outFlagac12                 div04|outdiv_derived_clock     FD1S3JX      Q       sFlag12out_c                1.180       1995.034
+U01.outFlag8init_tri_enable     div04|outdiv_derived_clock     FD1S3IX      Q       outFlag8init_tri_enable     1.148       1995.626
+U02.outFlagLp_1                 div04|outdiv_derived_clock     FD1S3AX      Q       outFlagsu_1                 1.148       1995.626
+U01.outFlag8init_1              div04|outdiv_derived_clock     FD1S3JX      Q       outFlag8init_1              1.108       1995.666
+====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                            Required             
+Instance           Reference                      Type        Pin     Net              Time         Slack   
+                   Clock                                                                                    
+------------------------------------------------------------------------------------------------------------
+U05.outcode[0]     div04|outdiv_derived_clock     FD1S1AY     D       N_9_i            1000.089     997.868 
+U05.outcode[1]     div04|outdiv_derived_clock     FD1S1AY     D       N_11_i           1000.089     997.868 
+U05.outcode[2]     div04|outdiv_derived_clock     FD1S1AY     D       N_13_i           1000.089     997.868 
+U03.outpc[2]       div04|outdiv_derived_clock     FD1S3IX     D       outpc_5[2]       2000.089     1994.089
+U03.outpc[3]       div04|outdiv_derived_clock     FD1S3IX     D       outpc_5[3]       2000.089     1994.089
+U03.outpc[0]       div04|outdiv_derived_clock     FD1S3IX     D       outpc_5[0]       2000.089     1995.178
+U03.outpc[1]       div04|outdiv_derived_clock     FD1S3IX     D       outpc_5[1]       2000.089     1995.178
+U07.outac12[0]     div04|outdiv_derived_clock     FD1P3AX     SP      aux_0_sqmuxa     1999.528     1995.626
+U07.outac12[1]     div04|outdiv_derived_clock     FD1P3AX     SP      aux_0_sqmuxa     1999.528     1995.626
+U07.outac12[2]     div04|outdiv_derived_clock     FD1P3AX     SP      aux_0_sqmuxa     1999.528     1995.626
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      2.221
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 997.868
+
+    Number of logic level(s):                1
+    Starting point:                          U03.outpc[0] / Q
+    Ending point:                            U05.outcode[0] / D
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            pcinc04|outFlagpc_derived_clock [rising] on pin CK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+U03.outpc[0]           FD1S3IX      Q        Out     1.204     1.204       -         
+outpcport_c[0]         Net          -        -       -         -           7         
+U05.outcode_RNO[0]     ORCALUT4     A        In      0.000     1.204       -         
+U05.outcode_RNO[0]     ORCALUT4     Z        Out     1.017     2.221       -         
+N_9_i                  Net          -        -       -         -           1         
+U05.outcode[0]         FD1S1AY      D        In      0.000     2.221       -         
+=====================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pcinc04|outFlagpc_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                     Arrival            
+Instance           Reference                           Type        Pin     Net                  Time        Slack  
+                   Clock                                                                                           
+-------------------------------------------------------------------------------------------------------------------
+U05.outcode[2]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[2]     1.317       993.880
+U05.outcode[1]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[1]     1.314       993.883
+U05.outcode[0]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[0]     1.309       993.888
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                                    Required            
+Instance             Reference                           Type        Pin     Net                 Time         Slack  
+                     Clock                                                                                           
+---------------------------------------------------------------------------------------------------------------------
+U03.outpc[2]         pcinc04|outFlagpc_derived_clock     FD1S3IX     D       outpc_5[2]          1000.089     993.880
+U03.outpc[3]         pcinc04|outFlagpc_derived_clock     FD1S3IX     D       outpc_5[3]          1000.089     993.880
+U03.outpc[0]         pcinc04|outFlagpc_derived_clock     FD1S3IX     D       outpc_5[0]          1000.089     994.969
+U03.outpc[1]         pcinc04|outFlagpc_derived_clock     FD1S3IX     D       outpc_5[1]          1000.089     994.969
+U10.outACss_1[1]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+U10.outACss_1[2]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+U10.outACss_1[3]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+U10.outACss_1[4]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+U10.outACss_1[5]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+U10.outACss_1[6]     pcinc04|outFlagpc_derived_clock     FD1P3AX     SP      outACss_1ce[10]     999.528      995.842
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      6.209
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     993.880
+
+    Number of logic level(s):                5
+    Starting point:                          U05.outcode[2] / Q
+    Ending point:                            U03.outpc[2] / D
+    The start point is clocked by            pcinc04|outFlagpc_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+U05.outcode[2]                   FD1S1AY      Q        Out     1.317     1.317       -         
+outcodeport_c[2]                 Net          -        -       -         -           31        
+U03.un3_inflagac8bit_10_i_a2     ORCALUT4     C        In      0.000     1.317       -         
+U03.un3_inflagac8bit_10_i_a2     ORCALUT4     Z        Out     1.017     2.333       -         
+un3_inflagac8bit_10_i_a2         Net          -        -       -         -           1         
+U03.un3_inflagac8bit_10_i_0      ORCALUT4     A        In      0.000     2.333       -         
+U03.un3_inflagac8bit_10_i_0      ORCALUT4     Z        Out     1.017     3.350       -         
+un3_inflagac8bit_10_i_0          Net          -        -       -         -           1         
+U03.un3_inflagac8bit_10_i        ORCALUT4     B        In      0.000     3.350       -         
+U03.un3_inflagac8bit_10_i        ORCALUT4     Z        Out     1.153     4.503       -         
+un3_inflagac8bit_10_i            Net          -        -       -         -           3         
+U03.un1_outpc_ac0_1              ORCALUT4     A        In      0.000     4.503       -         
+U03.un1_outpc_ac0_1              ORCALUT4     Z        Out     1.089     5.592       -         
+un1_outpc_c2                     Net          -        -       -         -           2         
+U03.pcprocess\.outpc_5[2]        ORCALUT4     B        In      0.000     5.592       -         
+U03.pcprocess\.outpc_5[2]        ORCALUT4     Z        Out     0.617     6.209       -         
+outpc_5[2]                       Net          -        -       -         -           1         
+U03.outpc[2]                     FD1S3IX      D        In      0.000     6.209       -         
+===============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: topp04|clk0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                            Arrival            
+Instance            Reference       Type        Pin     Net             Time        Slack  
+                    Clock                                                                  
+-------------------------------------------------------------------------------------------
+U14.outdiv          topp04|clk0     FD1S3DX     Q       outdiv_i        1.465       998.007
+U14.QR[1]           topp04|clk0     FD1S3DX     Q       QR[1]           1.180       998.292
+U14.QR[0]           topp04|clk0     FD1S3DX     Q       QR[0]           1.148       998.324
+U14.QR[2]           topp04|clk0     FD1S3DX     Q       QR[2]           1.148       998.324
+U14.QR[3]           topp04|clk0     FD1S3DX     Q       QR[3]           1.108       998.364
+U13.sintRing[0]     topp04|clk0     FD1S3IX     Q       sintRing[0]     1.044       998.851
+U13.sintRing[1]     topp04|clk0     FD1S3JX     Q       sintRing[1]     1.044       998.851
+U13.sintRing[2]     topp04|clk0     FD1S3JX     Q       sintRing[2]     1.044       998.851
+U13.sintRing[3]     topp04|clk0     FD1S3JX     Q       sintRing[3]     1.044       998.851
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                 Required            
+Instance            Reference       Type         Pin     Net                 Time         Slack  
+                    Clock                                                                        
+-------------------------------------------------------------------------------------------------
+U14.outdiv          topp04|clk0     FD1S3DX      D       outdiv_RNO          1000.089     998.007
+U14.QR[0]           topp04|clk0     FD1S3DX      D       QR_3[0]             1000.089     998.292
+U14.QR[1]           topp04|clk0     FD1S3DX      D       QR_RNO[1]           1000.089     998.292
+U14.QR[2]           topp04|clk0     FD1S3DX      D       QR_RNO[2]           1000.089     998.292
+U14.QR[3]           topp04|clk0     FD1S3DX      D       QR_3[3]             1000.089     998.292
+U13_outrio[3]       topp04|clk0     OFS1P3DX     D       U13.sintRing[3]     999.894      998.851
+U13.outr[0]         topp04|clk0     FD1P3AX      D       sintRing[0]         999.894      998.851
+U13.outr[1]         topp04|clk0     FD1P3AX      D       sintRing[1]         999.894      998.851
+U13.outr[2]         topp04|clk0     FD1P3AX      D       sintRing[2]         999.894      998.851
+U13.sintRing[0]     topp04|clk0     FD1S3IX      D       sintRing[3]         999.894      998.851
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      2.082
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 998.007
+
+    Number of logic level(s):                1
+    Starting point:                          U14.outdiv / Q
+    Ending point:                            U14.outdiv / D
+    The start point is clocked by            topp04|clk0 [rising] on pin CK
+    The end   point is clocked by            topp04|clk0 [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U14.outdiv         FD1S3DX      Q        Out     1.465     1.465       -         
+outdiv_i           Net          -        -       -         -           120       
+U14.outdiv_RNO     ORCALUT4     A        In      0.000     1.465       -         
+U14.outdiv_RNO     ORCALUT4     Z        Out     0.617     2.082       -         
+outdiv_RNO         Net          -        -       -         -           1         
+U14.outdiv         FD1S3DX      D        In      0.000     2.082       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 149MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 131 of 6864 (2%)
+Latch bits:      3
+PIC Latch:       0
+I/O cells:       56
+
+
+Details:
+BB:             2
+FD1P3AX:        79
+FD1S1AY:        3
+FD1S3AX:        6
+FD1S3DX:        5
+FD1S3IX:        25
+FD1S3JX:        6
+GSR:            1
+IB:             10
+IFS1P3DX:       9
+INV:            3
+OB:             44
+OFS1P3DX:       1
+ORCALUT4:       174
+PUR:            1
+VHI:            14
+VLO:            12
+false:          3
+true:           1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 52MB peak: 149MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sun May 29 09:03:27 2016
+
+###########################################################]

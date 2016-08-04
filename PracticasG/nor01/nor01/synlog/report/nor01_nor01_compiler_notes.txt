@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N: CD720 :"D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\PracticasDiamond\nor01\nor01.vhdl":6:7:6:11|Top entity is set to nor01.
+@N: CD630 :"D:\PracticasDiamond\nor01\nor01.vhdl":6:7:6:11|Synthesizing work.nor01.nor0 
+

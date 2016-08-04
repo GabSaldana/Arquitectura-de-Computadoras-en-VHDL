@@ -1,0 +1,7 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toposc00  -multisrs  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_comp.srs  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_mult.srs  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synlog\osc01_osc01_multi_srs_gen.srr 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_comp.srs|i|1442927477|5434
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_mult.srs|o|1442927478|3047
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synlog\osc01_osc01_multi_srs_gen.srr|o|1442927478|497
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429565366|3000832
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429565558|3967488

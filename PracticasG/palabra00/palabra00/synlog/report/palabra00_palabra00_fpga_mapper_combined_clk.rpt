@@ -1,0 +1,25 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 3 clock pin(s) of sequential element(s)
+0 instances converted, 3 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0004       clkr0               port                   8          MO2_scringio[0]
+@K:CKID0005       M01.U0.OSCInst0     OSCH                   22         M01.U1.outdiv  
+=======================================================================================
+================================================ Gated/Generated Clocks =================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance       Explanation              
+-------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       M03.un1_incont_12     ORCALUT4               1          M03.outbcd_1_i[4]     No clocks found on inputs
+@K:CKID0002       M03.un1_incont_13     ORCALUT4               1          M03.outbcd_1_i[3]     No clocks found on inputs
+@K:CKID0003       M03.un1_incont_10     ORCALUT4               1          M03.outbcd_1[1]       No clocks found on inputs
+=========================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

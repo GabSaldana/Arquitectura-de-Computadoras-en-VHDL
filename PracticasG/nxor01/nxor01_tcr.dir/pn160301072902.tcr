@@ -1,0 +1,14 @@
+#Start recording tcl command: 3/1/2016 07:20:47
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/nxor01; Project name: nxor01
+C:/Users/Gabriela/Desktop/Practicas/xor01
+xor01
+#Start recording tcl command: 3/1/2016 07:29:02
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/xor01; Project name: xor01
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/nxor01/nxor01.ldf"
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/nxor01/nxor01/nxor01.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/nxor01/nxor01/nxor01.xcf"
+prj_project close
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/xor01/xor01.ldf"
+pgr_project close
+#Stop recording: 3/1/2016 07:29:02

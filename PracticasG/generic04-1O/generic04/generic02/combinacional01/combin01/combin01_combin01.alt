@@ -1,0 +1,11 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jun 07 23:10:43 2016 *
+NOTE DESIGN NAME: eXor *
+NOTE DEVICE NAME: LCMXO2-7000ZE-1TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS salida_xor : 33 : out *
+NOTE PINS entrada1_xor : 35 : in *
+NOTE PINS entrada2_xor : 34 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

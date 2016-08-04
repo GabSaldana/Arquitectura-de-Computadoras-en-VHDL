@@ -1,0 +1,10 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_comp.srs  -top  mux01  -hdllog  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synlog\mux00_mux00_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd" -lib work D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\source\mux01.vhd 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_comp.srs|o|1446213206|1831
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synlog\mux00_mux00_compiler.srr|o|1446213206|2386
+"D:\Program|i|0|0
+Files|i|0|0
+(x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd"|i|0|0
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\source\mux01.vhd|i|1425481711|837
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\c_hdl.exe|i|1429561672|1298944
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\c_hdl.exe|i|1429561866|1901568

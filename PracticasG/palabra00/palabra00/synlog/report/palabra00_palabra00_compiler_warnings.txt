@@ -1,0 +1,8 @@
+@W: CL111 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\mux00.vhdl":17:2:17:5|All reachable assignments to outbcd(0) assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\mux00.vhdl":17:2:17:5|All reachable assignments to outbcd(2) assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\mux00.vhdl":17:2:17:5|All reachable assignments to outbcd(5) assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\mux00.vhdl":17:2:17:5|All reachable assignments to outbcd(6) assign '0'; register removed by optimization
+@W: CL117 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\mux00.vhdl":17:2:17:5|Latch generated from process for signal outbcd(6 downto 0); possible missing assignment in an if or case statement.
+@W: CD277 :"C:\Users\Gabriela\Desktop\Practicas\palabra00\palabra00\source\packagediv00.vhdl":23:7:23:13|Port direction mismatch between component and entity
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

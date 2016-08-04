@@ -1,0 +1,18 @@
+#Start recording tcl command: 4/1/2016 07:23:19
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/Teclado; Project name: rom00
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/Teclado/rom00.ldf"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/Teclado/contread00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/Teclado/packagerom00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/Teclado/div00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/osc00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/packagediv00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/topdiv00.vhd"
+prj_src remove "C:/Users/Gabriela/Desktop/PracticasG/osc01/packageoscint00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/osc01/toposc00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/osc01/div00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/osc01/enab00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/osc01/oscint00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/Teclado/toprom00.vhdl"
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+prj_run Export -impl rom00 -task Jedecgen
+#Stop recording: 4/1/2016 08:19:29

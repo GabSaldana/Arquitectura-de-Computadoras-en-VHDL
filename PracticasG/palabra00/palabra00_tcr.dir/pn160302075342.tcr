@@ -1,0 +1,16 @@
+#Start recording tcl command: 3/2/2016 07:48:55
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/palabra00; Project name: palabra00
+C:/Users/Gabriela/Documents/Escuela/3er nivel/DD/Practicas/palabra00
+palabra00
+#Start recording tcl command: 3/2/2016 07:53:42
+#Project Location: C:/Users/Gabriela/Documents/Escuela/3er nivel/DD/Practicas/palabra00; Project name: palabra00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00.ldf"
+prj_run Export -impl palabra00 -task Jedecgen
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00/palabra00.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/Gabriela/Documents/Escuela/3er nivel/DD/Practicas/palabra00/palabra00.ldf"
+pgr_project close
+#Stop recording: 3/2/2016 07:53:42

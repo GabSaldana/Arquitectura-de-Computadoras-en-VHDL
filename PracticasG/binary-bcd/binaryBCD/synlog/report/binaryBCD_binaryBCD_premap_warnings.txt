@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\gabriela\desktop\practicasg\binary-bcd\contring04.vhdl":20:8:20:9|Found inferred clock topp04|clk0 which controls 13 sequential elements including U13.outr[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

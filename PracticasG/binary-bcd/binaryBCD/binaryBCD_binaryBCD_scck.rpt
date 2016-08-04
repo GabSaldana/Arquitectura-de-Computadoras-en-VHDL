@@ -1,0 +1,30 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1264R, built Aug 18 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Sun May 29 09:03:24 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "topp04"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                               Requested     Requested     Clock                          Clock              
+Clock                               Frequency     Period        Type                           Group              
+------------------------------------------------------------------------------------------------------------------
+div04|outdiv_derived_clock          1.0 MHz       1000.000      derived (from topp04|clk0)     Inferred_clkgroup_0
+pcinc04|outFlagpc_derived_clock     1.0 MHz       1000.000      derived (from topp04|clk0)     Inferred_clkgroup_0
+topp04|clk0                         1.0 MHz       1000.000      inferred                       Inferred_clkgroup_0
+==================================================================================================================

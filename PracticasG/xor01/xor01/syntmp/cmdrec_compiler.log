@@ -1,0 +1,10 @@
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\PracticasDiamond\xor01\xor01\synwork\xor01_xor01_comp.srs  -top  xor01  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  D:\PracticasDiamond\xor01\xor01\dm  -lite   -ui -fid2 -ram -sharing on  -ll 2000 -autosm -ignore_undefined_lib  -lib work "D:\Archivos de Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" -lib work D:\PracticasDiamond\xor01\xor01.vhdl -loga  D:\PracticasDiamond\xor01\xor01\xor01_xor01.srr 
+rc:0 success:1
+D:\PracticasDiamond\xor01\xor01\synwork\xor01_xor01_comp.srs|o|1422648945|1571
+"D:\Archivos|i|0|0
+de|i|0|0
+Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd"|i|0|0
+D:\PracticasDiamond\xor01\xor01.vhdl|i|1422648929|312
+D:\PracticasDiamond\xor01\xor01\xor01_xor01.srr|o|1422648945|1310
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe|i|1397620946|5463552
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin\c_vhdl.exe|i|1397620744|1982464

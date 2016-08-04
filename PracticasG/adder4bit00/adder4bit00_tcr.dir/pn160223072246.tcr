@@ -1,0 +1,8 @@
+#Start recording tcl command: 2/23/2016 07:08:22
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/adder4bit00/adder4bit00.ldf"
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_project close
+#Stop recording: 2/23/2016 07:22:46

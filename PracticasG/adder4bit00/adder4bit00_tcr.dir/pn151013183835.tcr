@@ -1,0 +1,13 @@
+#Start recording tcl command: 10/13/2015 08:21:19
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Ricardo/Downloads/and00.vhdl" "C:/Users/Ricardo/Downloads/or00.vhdl" "C:/Users/Ricardo/Downloads/packagefa4bit00.vhdl" "C:/Users/Ricardo/Downloads/packageha4bit00.vhdl" "C:/Users/Ricardo/Downloads/packagetopadder4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source"
+file copy -force -- "C:/Users/Ricardo/Downloads/topadder4bit00.vhdl" "C:/Users/Ricardo/Downloads/topfa4bit00.vhdl" "C:/Users/Ricardo/Downloads/topha4bit00.vhdl" "C:/Users/Ricardo/Downloads/xor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/and00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/or00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/packagefa4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/packageha4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/packagetopadder4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/topadder4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/topfa4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/topha4bit00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/xor00.vhdl"
+prj_project save
+prj_run Export -impl adder4bit00 -task Jedecgen
+prj_run Export -impl adder4bit00 -task Jedecgen
+file copy -force -- "C:/Users/Ricardo/Downloads/nxor00.vhdl" "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source"
+prj_src add "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/source/nxor00.vhdl"
+prj_run Export -impl adder4bit00 -task Jedecgen
+#Stop recording: 10/13/2015 18:38:35

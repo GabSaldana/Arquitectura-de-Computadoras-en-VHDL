@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\synwork\key00_key00_hdl_.srs  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\contring00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagekey00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\topkey00.vhd  -log  C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\syntax.log  -fileorder  C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\synwork\key00_key00_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377018008|73964
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd|i|1459478362|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd|i|1459478399|2096
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd|i|1459478435|387
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd|i|1459478459|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\contring00.vhd|i|1459478774|716
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd|i|1459478888|2712
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagekey00.vhd|i|1459478929|720
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\topkey00.vhd|i|1459478950|935
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\key00\syntax.log|o|1459481833|918
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439970378|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439970574|3183616

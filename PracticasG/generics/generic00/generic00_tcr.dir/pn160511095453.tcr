@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/11/2016 08:45:51
+#Project Location: C:/Users/lu_he/Documents/proyect/generics/generic00; Project name: generic00
+prj_project open "C:/Users/lu_he/Documents/proyect/generics/generic00/generic00.ldf"
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/generic00/uc00.vhdl"
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/generic00/packagegeneric00.vhdl"
+prj_src add "C:/Users/lu_he/Documents/proyect/generics/generic00/topgeneric00.vhdl"
+prj_run Export -impl generic00 -task Jedecgen
+prj_run Export -impl generic00 -task Jedecgen
+prj_run Export -impl generic00 -task Jedecgen
+#Stop recording: 5/11/2016 09:54:53

@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00\synwork\rom00_rom00_comp.srs  -top  work.toprom00  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00\synlog\rom00_rom00_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\contread00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagerom00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\toprom00.vhdl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00\synwork\rom00_rom00_comp.srs|o|1459520120|8712
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00\synlog\rom00_rom00_compiler.srr|o|1459520120|3556
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377018008|73964
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd|i|1459478362|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd|i|1459478399|2096
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd|i|1459478435|387
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd|i|1459478459|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\rom00.vhd|i|1459520119|1322
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\contread00.vhdl|i|1459519801|794
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagerom00.vhdl|i|1459519988|685
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\toprom00.vhdl|i|1459520045|859
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439970322|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439970510|1896960

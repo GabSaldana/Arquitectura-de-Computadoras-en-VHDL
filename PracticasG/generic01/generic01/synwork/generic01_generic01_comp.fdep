@@ -1,0 +1,76 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\generic01\\synwork\\generic01_generic01_comp.srs|-top|work.topgeneric00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\div00.vhdl":1464461327
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\cpld\\lattice.vhd":1439967574
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1439967574
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\osc00.vhdl":1464461352
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\packageosc00.vhdl":1464461379
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\toposc00.vhdl":1464461405
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\and00.vhdl":1464461433
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\or00.vhdl":1464461457
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\uc00.vhdl":1464461485
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\packagegeneric00.vhdl":1464462252
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\xor00.vhdl":1464462228
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic01\\topgeneric00.vhdl":1464462170
+0			"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\Gabriela\Desktop\PracticasG\generic01\div00.vhdl" vhdl
+2			"C:\Users\Gabriela\Desktop\PracticasG\generic01\osc00.vhdl" vhdl
+3			"C:\Users\Gabriela\Desktop\PracticasG\generic01\packageosc00.vhdl" vhdl
+4			"C:\Users\Gabriela\Desktop\PracticasG\generic01\toposc00.vhdl" vhdl
+5			"C:\Users\Gabriela\Desktop\PracticasG\generic01\and00.vhdl" vhdl
+6			"C:\Users\Gabriela\Desktop\PracticasG\generic01\or00.vhdl" vhdl
+7			"C:\Users\Gabriela\Desktop\PracticasG\generic01\uc00.vhdl" vhdl
+8			"C:\Users\Gabriela\Desktop\PracticasG\generic01\packagegeneric00.vhdl" vhdl
+9			"C:\Users\Gabriela\Desktop\PracticasG\generic01\xor00.vhdl" vhdl
+10			"C:\Users\Gabriela\Desktop\PracticasG\generic01\topgeneric00.vhdl" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 0
+3 0
+4 3 0 1 2
+5 0
+6 0
+7 0
+8 0
+9 0
+10 8 0 7 9 6 5 4
+#Dependency Lists(Users Of)
+0 1 2 3 4 5 6 7 8 9 10
+1 4
+2 4
+3 4
+4 10
+5 10
+6 10
+7 10
+8 10
+9 10
+10 -1
+#Design Unit to File Association
+module work topgeneric00 10
+arch work topgeneric00 topgeneric0 10
+module work xor00 9
+arch work xor00 xor0 9
+module work uc00 7
+arch work uc00 uc0 7
+module work or00 6
+arch work or00 or0 6
+module work and00 5
+arch work and00 and0 5
+module work toposc00 4
+arch work toposc00 toposc0 4
+module work osc00 2
+arch work osc00 osc0 2
+module work div00 1
+arch work div00 div0 1

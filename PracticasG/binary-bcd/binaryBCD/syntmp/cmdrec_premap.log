@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synlog\report\binaryBCD_binaryBCD_premap.xml  -top_level_module  work.topp04  -oedif  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.edi  -conchk_prepass  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD_cck_prepass.rpt   -freq 1.000   C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\syntmp\binaryBCD_binaryBCD.plg  -osyn  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_prem.srd  -prjdir  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\  -prjname  proj_1  -log  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synlog\binaryBCD_binaryBCD_premap.srr 
+rc:1 success:1
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.edi|o|0|0
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD_cck_prepass.rpt|o|0|0
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_mult.srs|i|1464530603|10392
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_prem.srd|o|1464530604|47558
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v|i|1439967574|54295
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439967574|40584
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\syntmp\binaryBCD_binaryBCD.plg|o|1464530604|0
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_prem.srd|o|1464530604|47558
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synlog\binaryBCD_binaryBCD_premap.srr|o|1464530604|3354
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439968652|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439970284|20782592

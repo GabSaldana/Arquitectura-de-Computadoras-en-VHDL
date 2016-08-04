@@ -1,0 +1,60 @@
+---------------------------------------------------
+Report for cell topkey00
+   Instance path: topkey00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        100.0
+                                 IOLGC	       7.00        100.0
+                                  LUT4	      54.00        100.0
+                                 IOREG	          7        100.0
+                                 IOBUF	         27        100.0
+                                PFUREG	         28        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               coder00	          1        38.6
+                            contring00	          1         4.8
+                              topdiv00	          1        55.3
+---------------------------------------------------
+Report for cell coder00
+   Instance path: topkey00/K03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.67        38.6
+                                  LUT4	      31.00        57.4
+                                PFUREG	          1         3.6
+---------------------------------------------------
+Report for cell contring00
+   Instance path: topkey00/K02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         4.8
+                                  LUT4	       1.00         1.9
+                                PFUREG	          5        17.9
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topkey00/K01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00        55.3
+                                  LUT4	      20.00        37.0
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        55.3
+---------------------------------------------------
+Report for cell div00
+   Instance path: topkey00/K01/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00        55.3
+                                  LUT4	      20.00        37.0
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topkey00/K01/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

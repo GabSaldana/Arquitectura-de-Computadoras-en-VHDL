@@ -1,0 +1,55 @@
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0 
+@W: CD638 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl":28:19:28:26|Signal sinflagx is undriven 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":8:7:8:17|Synthesizing work.bufferlcd00.bufferlcd0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":28:9:28:15|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":31:20:31:31|Referenced variable inwordconfig is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":38:10:38:13|Referenced variable rswb is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":37:10:37:13|Referenced variable rwwb is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":33:10:33:13|Referenced variable rscb is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":32:10:32:13|Referenced variable rwcb is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":36:20:36:30|Referenced variable inwordwrite is not in sensitivity list
+Post processing for work.bufferlcd00.bufferlcd0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":30:4:30:5|Latch generated from process for signal outwordbuff(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":30:4:30:5|Latch generated from process for signal RWbb; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":30:4:30:5|Latch generated from process for signal RSbb; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl":30:4:30:5|Latch generated from process for signal ENbb; possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":10:7:10:13|Synthesizing work.write00.write0 
+@W: CD434 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":85:18:85:21|Signal clkw in the sensitivity list is not used in the process
+@W: CD434 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":85:24:85:29|Signal resetw in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":85:10:85:16|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":88:11:88:17|Referenced variable inflagw is not in sensitivity list
+Post processing for work.write00.write0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":88:6:88:9|Latch generated from process for signal outwordw(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":88:6:88:9|Latch generated from process for signal outFlagw; possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl":10:7:10:13|Synthesizing work.contw00.contw0 
+@W: CD434 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl":25:22:25:28|Signal resetcw in the sensitivity list is not used in the process
+Post processing for work.contw00.contw0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":8:7:8:14|Synthesizing work.config00.config0 
+@W: CD434 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":23:19:23:22|Signal clkc in the sensitivity list is not used in the process
+Post processing for work.config00.config0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|Latch generated from process for signal outWordc(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|Latch generated from process for signal outFlagc; possible missing assignment in an if or case statement.
+@W: CL111 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|All reachable assignments to RWc assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|All reachable assignments to RSc assign '0'; register removed by optimization
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|Latch generated from process for signal ENc; possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl":10:7:10:18|Synthesizing work.contconfig00.contconfig0 
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl":33:6:33:10|Removed redundant assignment
+Post processing for work.contconfig00.contconfig0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcd00.toplcd0
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":25:5:25:8|Pruning register bit 7 of outWordc(7 downto 6)  
+@W: CL159 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl":10:7:10:10|Input clkc is unused
+@W: CL138 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl":27:4:27:5|Removing register 'RWcw' because it is only assigned 0 or its original value.
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl":27:4:27:5|Register bit RScw is always 1, optimizing ...
+@W: CL159 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl":13:4:13:10|Input resetcw is unused
+@W: CL159 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":12:7:12:10|Input clkw is unused
+@W: CL159 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":13:4:13:9|Input resetw is unused
+@W: CL159 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":14:4:14:6|Input ENx is unused

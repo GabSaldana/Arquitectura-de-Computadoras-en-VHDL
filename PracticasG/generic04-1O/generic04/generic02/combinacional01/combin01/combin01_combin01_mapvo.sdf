@@ -1,0 +1,69 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "eXor")
+  (DATE "Tue Jun 07 23:10:29 2016")
+  (VENDOR "Lattice")
+  (PROGRAM "ldbanno")
+  (VERSION "Diamond (64-bit) 3.7.0.96.1")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "SLICE_0")
+    (INSTANCE SLICE_0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH B0 F0 (741:832:923)(741:832:923))
+        (IOPATH A0 F0 (741:832:923)(741:832:923))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "salida_xor")
+    (INSTANCE salida_xor_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO salida_xor (3222:3335:3448)(3222:3335:3448))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "entrada1_xor")
+    (INSTANCE entrada1_xor_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH entrada1_xor PADDI (1504:1560:1616)(1504:1560:1616))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge entrada1_xor) (3330:3330:3330))
+      (WIDTH (negedge entrada1_xor) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "entrada2_xor")
+    (INSTANCE entrada2_xor_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH entrada2_xor PADDI (1504:1560:1616)(1504:1560:1616))
+      )
+    )
+    (TIMINGCHECK
+      (WIDTH (posedge entrada2_xor) (3330:3330:3330))
+      (WIDTH (negedge entrada2_xor) (3330:3330:3330))
+    )
+  )
+  (CELL
+    (CELLTYPE "eXor")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT entrada2_xor_I/PADDI SLICE_0/B0 (0:0:0)(0:0:0))
+        (INTERCONNECT entrada1_xor_I/PADDI SLICE_0/A0 (0:0:0)(0:0:0))
+        (INTERCONNECT SLICE_0/F0 salida_xor_I/PADDO (0:0:0)(0:0:0))
+      )
+    )
+  )
+)

@@ -1,0 +1,24 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\xor00.vhdl":24:4:24:5|Removing sequential instance outx_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\xor00.vhdl":24:4:24:5|Removing sequential instance outx_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\xor00.vhdl":24:4:24:5|Removing sequential instance outx_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\or00.vhdl":24:4:24:5|Removing sequential instance outo_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\generic01\and00.vhdl":24:4:24:5|Removing sequential instance outa_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

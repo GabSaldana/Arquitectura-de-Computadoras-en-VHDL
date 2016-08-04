@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/30/2015 14:25:11
+#Project Location: D:/PracticasDiamond/nxor01; Project name: nxor01
+prj_project new -name "nxor01" -impl "nxor01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 1/30/2015 14:25:11

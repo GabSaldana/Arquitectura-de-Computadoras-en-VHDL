@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_comp.srs  -top  work.topkey00  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synlog\key00_key00_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\contring00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagekey00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\Teclado\topkey00.vhd 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_comp.srs|o|1461450428|10317
+C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synlog\key00_key00_compiler.srr|o|1461450428|4909
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\osc00.vhd|i|1459481962|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\div00.vhd|i|1459481999|2096
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagediv00.vhd|i|1459482035|387
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\topdiv00.vhd|i|1459482059|527
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\contring00.vhd|i|1459482374|716
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd|i|1461450417|3023
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\packagekey00.vhd|i|1461447515|765
+C:\Users\Gabriela\Desktop\PracticasG\Teclado\topkey00.vhd|i|1461435766|1206
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439973922|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439974110|1896960

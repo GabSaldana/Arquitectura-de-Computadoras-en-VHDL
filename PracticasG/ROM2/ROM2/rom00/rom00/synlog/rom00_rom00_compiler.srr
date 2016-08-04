@@ -1,0 +1,78 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd":11:7:11:14|Top entity is set to toprom00.
+File C:\lscc\diamond\3.6_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packageosc00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd changed - recompiling
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd":11:7:11:14|Synthesizing work.toprom00.toprom0 
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd":23:3:23:9|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":10:7:10:16|Synthesizing work.contread00.contread0 
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":10:7:10:11|Synthesizing work.rom00.rom0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":38:6:38:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":45:9:45:15|Referenced variable offtran is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:7:40:15|Referenced variable inflagrom is not in sensitivity list
+Post processing for work.rom00.rom0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Latch generated from process for signal outwordrom(6 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":8:7:8:16|Synthesizing work.contring00.contring0 
+Post processing for work.contring00.contring0
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 0 of sring(3 downto 0)  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toprom00.toprom0
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Register bit sring(3) is always 1, optimizing ...
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 3 of sring(3 downto 1)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 6 of outwordrom(6 downto 0)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 3 of outwordrom(6 downto 0)  
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":13:3:13:10|Input port bit 3 of indirrom(3 downto 0) is unused 
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(3) is always 0, optimizing ...
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Pruning register bits 3 to 2 of outcont(3 downto 0)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:14 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:15 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:15 2016
+
+###########################################################]

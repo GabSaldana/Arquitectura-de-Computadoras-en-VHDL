@@ -1,0 +1,34 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Oct 28 07:57:55 2015 *
+NOTE DESIGN NAME: topadder00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS LED : 5 : out *
+NOTE PINS SL : 50 : in *
+NOTE PINS So[7] : 4 : out *
+NOTE PINS So[6] : 3 : out *
+NOTE PINS So[5] : 2 : out *
+NOTE PINS So[4] : 1 : out *
+NOTE PINS So[3] : 112 : out *
+NOTE PINS So[2] : 111 : out *
+NOTE PINS So[1] : 110 : out *
+NOTE PINS So[0] : 109 : out *
+NOTE PINS Bi[7] : 52 : in *
+NOTE PINS Bi[6] : 55 : in *
+NOTE PINS Bi[5] : 54 : in *
+NOTE PINS Bi[4] : 56 : in *
+NOTE PINS Bi[3] : 57 : in *
+NOTE PINS Bi[2] : 59 : in *
+NOTE PINS Bi[1] : 58 : in *
+NOTE PINS Bi[0] : 60 : in *
+NOTE PINS Ai[7] : 61 : in *
+NOTE PINS Ai[6] : 65 : in *
+NOTE PINS Ai[5] : 62 : in *
+NOTE PINS Ai[4] : 67 : in *
+NOTE PINS Ai[3] : 68 : in *
+NOTE PINS Ai[2] : 70 : in *
+NOTE PINS Ai[1] : 69 : in *
+NOTE PINS Ai[0] : 71 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

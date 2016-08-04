@@ -1,0 +1,136 @@
+---------------------------------------------------
+Report for cell topp04
+   Instance path: topp04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      94.00        100.0
+                                 IOLGC	      10.00        100.0
+                                  LUT4	     176.00        100.0
+                                 IOREG	         10        100.0
+                                 IOBUF	         56        100.0
+                                PFUREG	        124        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                init04	          1         8.8
+                            contring04	          1         2.0
+                                 div04	          1         2.8
+                            contIter04	          1         3.2
+                             compadd04	          1        15.1
+                              ac8bit04	          1         2.1
+                             ac12bit04	          1         4.8
+                                sust04	          1         5.3
+                          shift12bit04	          1        13.3
+                           shift8bit04	          1         8.4
+                              portAB04	          1         2.7
+                               pcinc04	          1         6.6
+                             leeInst04	          1         1.8
+                                 mux04	          1        21.6
+---------------------------------------------------
+Report for cell sust04
+   Instance path: topp04/U08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         5.3
+                                  LUT4	       3.00         1.7
+                                PFUREG	         14        11.3
+---------------------------------------------------
+Report for cell init04
+   Instance path: topp04/U01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.25         8.8
+                                  LUT4	      12.00         6.8
+                                PFUREG	          6         4.8
+---------------------------------------------------
+Report for cell portAB04
+   Instance path: topp04/U02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.50         2.7
+                                  LUT4	       4.00         2.3
+                                PFUREG	          3         2.4
+---------------------------------------------------
+Report for cell shift8bit04
+   Instance path: topp04/U06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.92         8.4
+                                  LUT4	      16.00         9.1
+                                PFUREG	         11         8.9
+---------------------------------------------------
+Report for cell mux04
+   Instance path: topp04/U15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.33        21.6
+                                  LUT4	      55.00        31.3
+---------------------------------------------------
+Report for cell div04
+   Instance path: topp04/U14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67         2.8
+                                  LUT4	       5.00         2.8
+                                PFUREG	          5         4.0
+---------------------------------------------------
+Report for cell contring04
+   Instance path: topp04/U13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         2.0
+                                PFUREG	          7         5.6
+---------------------------------------------------
+Report for cell contIter04
+   Instance path: topp04/U11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         3.2
+                                  LUT4	       6.00         3.4
+                                PFUREG	          5         4.0
+---------------------------------------------------
+Report for cell shift12bit04
+   Instance path: topp04/U10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.50        13.3
+                                  LUT4	      30.00        17.0
+                                PFUREG	         15        12.1
+---------------------------------------------------
+Report for cell compadd04
+   Instance path: topp04/U09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.17        15.1
+                                  LUT4	      21.00        11.9
+                                PFUREG	         28        22.6
+---------------------------------------------------
+Report for cell ac12bit04
+   Instance path: topp04/U07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         4.8
+                                  LUT4	       3.00         1.7
+                                PFUREG	         14        11.3
+---------------------------------------------------
+Report for cell leeInst04
+   Instance path: topp04/U05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.67         1.8
+                                  LUT4	       3.00         1.7
+                                PFUREG	          3         2.4
+---------------------------------------------------
+Report for cell ac8bit04
+   Instance path: topp04/U04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         2.1
+                                PFUREG	          8         6.5
+---------------------------------------------------
+Report for cell pcinc04
+   Instance path: topp04/U03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.17         6.6
+                                  LUT4	      14.00         8.0
+                                PFUREG	          5         4.0

@@ -1,0 +1,31 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\mux00\\mux00\\synwork\\mux00_mux00_comp.srs|-top|mux01|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\bin64\\c_vhdl.exe":1429561930
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\location.map":1429719370
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std1164.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\numeric.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\arith.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1429561514
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377014408
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\mux00\\mux00\\source\\mux01.vhd":1425481711
+0 "D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\source\mux01.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+
+# Design Unit to File Association
+arch work mux01 mux01 1
+module work mux01 1
+
+
+# Configuration files used

@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/23/2016 07:59:30
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/not01; Project name: not01
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/not01/not01.ldf"
+prj_project close
+#Stop recording: 2/23/2016 08:03:04

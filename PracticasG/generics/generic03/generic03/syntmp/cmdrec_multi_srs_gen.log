@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.topgeneric00  -multisrs  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_comp.srs  -osyn  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_mult.srs  -log  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synlog\generic03_generic03_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_comp.srs|i|1464576079|27682
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_mult.srs|o|1464576081|7089
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synlog\generic03_generic03_multi_srs_gen.srr|o|1464576081|377
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439974012|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439974198|3974144

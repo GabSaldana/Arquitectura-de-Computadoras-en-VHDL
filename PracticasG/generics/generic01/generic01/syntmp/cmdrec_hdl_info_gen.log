@@ -1,0 +1,21 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_hdl_.srs  -top  topgeneric01  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\osc00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\div00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\packageosc00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\toposc00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\and00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\or00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\nor00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\nand00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\xor00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\xnor00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\not00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\uc00.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\packagegeneric01.vhdl -lib work C:\Users\lu_he\Documents\proyect\generics\generic01\topgeneric01.vhdl  -log  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\syntax.log  -fileorder  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_hdl_.srs|o|0|0
+C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd|i|1389389414|72734
+C:\Users\lu_he\Documents\proyect\generics\generic01\osc00.vhdl|i|1464284485|590
+C:\Users\lu_he\Documents\proyect\generics\generic01\div00.vhdl|i|1464284485|2096
+C:\Users\lu_he\Documents\proyect\generics\generic01\packageosc00.vhdl|i|1464284485|450
+C:\Users\lu_he\Documents\proyect\generics\generic01\toposc00.vhdl|i|1464284485|591
+C:\Users\lu_he\Documents\proyect\generics\generic01\and00.vhdl|i|1464284680|982
+C:\Users\lu_he\Documents\proyect\generics\generic01\or00.vhdl|i|1464285180|974
+C:\Users\lu_he\Documents\proyect\generics\generic01\nor00.vhdl|i|1464285227|1026
+C:\Users\lu_he\Documents\proyect\generics\generic01\nand00.vhdl|i|1464285287|1056
+C:\Users\lu_he\Documents\proyect\generics\generic01\xor00.vhdl|i|1464285341|1026
+C:\Users\lu_he\Documents\proyect\generics\generic01\xnor00.vhdl|i|1464285469|1056
+C:\Users\lu_he\Documents\proyect\generics\generic01\not00.vhdl|i|1464285514|973
+C:\Users\lu_he\Documents\proyect\generics\generic01\uc00.vhdl|i|1464285671|704
+C:\Users\lu_he\Documents\proyect\generics\generic01\packagegeneric01.vhdl|i|1464285730|2784
+C:\Users\lu_he\Documents\proyect\generics\generic01\topgeneric01.vhdl|i|1464285800|2377
+C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\syntax.log|o|1464285807|4629
+C:\lscc\diamond\3.5_x64\synpbase\bin\c_vhdl.exe|i|1429565328|2318336
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_vhdl.exe|i|1429565530|3172352

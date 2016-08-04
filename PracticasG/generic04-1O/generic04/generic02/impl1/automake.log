@@ -1,0 +1,1206 @@
+
+synpwrap -msg -prj "generic02_impl1_synplify.tcl" -log "generic02_impl1.srf"
+Copyright (C) 1992-2016 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.7.0.96.1
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of generic02_impl1.srf
+#Build: Synplify Pro K-2015.09L-2, Build 126R, Dec 14 2015
+#install: C:\lscc\diamond\3.7_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DANIEL-LAPTOP
+
+# Tue Jun 07 12:23:48 2016
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Top entity is set to topgeneric01.
+File C:\lscc\diamond\3.7_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\enab00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\div0.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\packagediv00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\topdiv00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\and00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\or00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\xor00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\not00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nand00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nor00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nxor00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftr00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftl00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\shiftx00.vhd changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotr00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotl00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\add00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\sub00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\multicomb.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp2.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\concat00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\top_sumadormedio.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\top_sumadorcompleto.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\topmulticomb01.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\uc00.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\packagegeneric01.vhdl changed - recompiling
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\topgeneric01.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\topgeneric01.vhdl changed - recompiling
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0.
+Post processing for work.uc00.uc0
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\shiftx00.vhd":8:7:8:15|Synthesizing work.shiftrx00.shiftrx0.
+Post processing for work.shiftrx00.shiftrx0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\shiftx00.vhd":27:3:27:4|Pruning unused register outFlagsrx_cl_8. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\topmulticomb01.vhdl":5:7:5:18|Synthesizing work.etopmultip00.atopmultip.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\top_sumadorcompleto.vhdl":5:7:5:21|Synthesizing work.etopsumcompleto.atopsumcompleto.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\top_sumadormedio.vhdl":5:7:5:18|Synthesizing work.etopsummedio.atopsummedio.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\xor.vhdl":4:7:4:10|Synthesizing work.exor.axor.
+Post processing for work.exor.axor
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\and.vhdl":4:7:4:10|Synthesizing work.eand.aand.
+Post processing for work.eand.aand
+Post processing for work.etopsummedio.atopsummedio
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\or.vhdl":4:7:4:9|Synthesizing work.eor.aor.
+Post processing for work.eor.aor
+Post processing for work.etopsumcompleto.atopsumcompleto
+Post processing for work.etopmultip00.atopmultip
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\multicomb.vhdl":6:7:6:17|Synthesizing work.multicomb00.multicomb0.
+Post processing for work.multicomb00.multicomb0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\multicomb.vhdl":22:6:22:7|Pruning unused register outFlagmc_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\concat00.vhdl":8:7:8:14|Synthesizing work.concat00.concat0.
+Post processing for work.concat00.concat0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\concat00.vhdl":25:6:25:7|Pruning unused register outFlagct_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":8:7:8:12|Synthesizing work.comp00.comp0.
+Post processing for work.comp00.comp0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Pruning unused register outFlagc0_cl_7. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(7) is always 0.
+@N: CL189 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(6) is always 0.
+@N: CL189 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(5) is always 0.
+@N: CL189 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(4) is always 0.
+@N: CL189 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(3) is always 0.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp2.vhdl":8:7:8:11|Synthesizing work.comp2.comp0.
+Post processing for work.comp2.comp0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Pruning unused register outFlagc2_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotl00.vhdl":8:7:8:12|Synthesizing work.rotl00.rotl0.
+Post processing for work.rotl00.rotl0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotr00.vhdl":8:7:8:12|Synthesizing work.rotr00.rotr0.
+Post processing for work.rotr00.rotr0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftl00.vhdl":8:7:8:14|Synthesizing work.shiftl00.shiftl0.
+Post processing for work.shiftl00.shiftl0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftr00.vhdl":8:7:8:14|Synthesizing work.shiftr00.shiftr0.
+Post processing for work.shiftr00.shiftr0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\sub00.vhdl":8:7:8:11|Synthesizing work.sub00.sub0.
+Post processing for work.sub00.sub0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\sub00.vhdl":26:6:26:7|Pruning unused register outFlagsub_cl_5. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\add00.vhdl":8:7:8:11|Synthesizing work.add00.add0.
+Post processing for work.add00.add0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Pruning unused register outFlagadd_cl_5. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nxor00.vhdl":6:7:6:12|Synthesizing work.nxor00.nxor0.
+Post processing for work.nxor00.nxor0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Pruning unused register outFlagnx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nor00.vhdl":6:7:6:11|Synthesizing work.nor00.nor0.
+Post processing for work.nor00.nor0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nand00.vhdl":6:7:6:12|Synthesizing work.nand00.nand0.
+Post processing for work.nand00.nand0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Pruning unused register outFlago_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\not00.vhdl":6:7:6:11|Synthesizing work.not00.not0.
+Post processing for work.not00.not0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@W: CL169 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@W: CD277 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\packagediv00.vhdl":23:7:23:13|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\enab00.vhdl":6:7:6:12|Synthesizing work.enab00.ena.
+Post processing for work.enab00.ena
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\div0.vhdl":8:7:8:10|Synthesizing work.div0.div0.
+Post processing for work.div0.div0
+@N: CD630 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\div00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topgeneric01.topgeneric0
+@W: CL246 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\concat00.vhdl":12:4:12:10|Input port bits 7 to 4 of portact(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\concat00.vhdl":13:4:13:10|Input port bits 7 to 4 of portbct(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\shiftx00.vhd":13:4:13:11|Input port bits 7 to 4 of portbsrx(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\uc00.vhdl":9:4:9:9|Input enable is unused.
+@W: CL158 :"C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\source\topgeneric01.vhdl":17:4:17:11|Inout outdiv00 is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 82MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 07 12:23:49 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 07 12:23:49 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 07 12:23:49 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201509p1, Build 145R, built Dec  9 2015
+@N|Running in 64-bit mode
+File C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\synwork\generic02_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun 07 12:23:51 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\generic02_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\generic02_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 117MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topgeneric01
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+
+
+Clock Summary
+*****************
+
+Start                            Requested     Requested     Clock                                           Clock              
+Clock                            Frequency     Period        Type                                            Group              
+--------------------------------------------------------------------------------------------------------------------------------
+div0|outdiv_derived_clock        2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0
+================================================================================================================================
+
+@W: MT529 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\div00\div0.vhdl":20:5:20:6|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.U1.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun 07 12:23:52 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1368R, Built Jan  8 2016 09:37:50
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version K-2015.09L-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_23[7] because it is equivalent to instance G19.outsrx_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_22[7] because it is equivalent to instance G19.outsrx_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_21[7] because it is equivalent to instance G19.outsrx_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_20[7] because it is equivalent to instance G19.outsrx_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_19[7] because it is equivalent to instance G19.outsrx_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_18[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance G19.outsrx_cl_7[7] because it is equivalent to instance G19.outsrx_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":28:7:28:8|Removing user instance G19.outsrx_cl_17[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance G19.outsrx_cl_5[7] because it is equivalent to instance G19.outsrx_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance G19.outsrx_cl_4[7] because it is equivalent to instance G19.outsrx_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance outsrx_cl_6[7] (in view: work.shiftrx00(shiftrx0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance outsrx_cl_3[7] (in view: work.shiftrx00(shiftrx0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\shiftx00.vhd":27:3:27:4|Removing sequential instance outsrx_cl_2[7] (in view: work.shiftrx00(shiftrx0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_7[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_6[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_5[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_4[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_3[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_2[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\multicomb.vhdl":22:6:22:7|Removing sequential instance outmc_cl_1[7] (in view: work.multicomb00(multicomb0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_7[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_6[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_5[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_4[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_3[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_2[7] (in view: work.comp00(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_7[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_6[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_5[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_4[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_3[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_2[7] (in view: work.comp2(comp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_7[7] (in view: work.rotr00(rotr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_4[7] (in view: work.rotr00(rotr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_3[7] (in view: work.rotr00(rotr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_2[7] (in view: work.rotr00(rotr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Removing sequential instance outsl_cl_7[7] (in view: work.shiftl00(shiftl0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Removing sequential instance outsl_cl_4[7] (in view: work.shiftl00(shiftl0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Removing sequential instance outsl_cl_3[7] (in view: work.shiftl00(shiftl0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Removing sequential instance outsl_cl_2[7] (in view: work.shiftl00(shiftl0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_7[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_6[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_5[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_4[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_3[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_2[7] (in view: work.shiftr00(shiftr0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_7[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_6[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_5[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_4[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_3[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_2[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_1[7] (in view: work.add00(add0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_7[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_6[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_5[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_4[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_3[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_2[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_1[7] (in view: work.nxor00(nxor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_7[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_6[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_5[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_4[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_3[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_2[7] (in view: work.nor00(nor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_7[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_6[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_5[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_4[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_3[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_2[7] (in view: work.nand00(nand0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_7[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_6[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_5[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_4[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_3[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_2[7] (in view: work.or00(or0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_7[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_6[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_5[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_4[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_3[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_2[7] (in view: work.not00(not0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_7[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_6[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_5[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_4[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_3[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_2[7] (in view: work.xor00(xor0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_7[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_6[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_5[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_4[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_3[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_2[7] (in view: work.and00(and0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+@N: MF179 :"c:\users\usuario_local\documents\escom\arquitectura de computadoras\practicasg\generic04-1o\generic04\generic02\impl1\source\comp00.vhdl":30:9:30:25|Found 8 bit by 8 bit '==' comparator, 'pc0\.un5_codopc0'
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 148MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 148MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   468.75ns		 482 /       230
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 162MB peak: 164MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 162MB peak: 164MB)
+
+@N: MT611 :|Automatically generated clock div0|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 230 clock pin(s) of sequential element(s)
+0 instances converted, 230 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       G00.U0.OSCInst0     OSCH                   230        G00.U1.outdiv       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 127MB peak: 164MB)
+
+Writing Analyst data base C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\synwork\generic02_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 161MB peak: 164MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\impl1\generic02_impl1.edi
+K-2015.09L-2
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 167MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 164MB peak: 167MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:G00.U0.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jun 07 12:23:56 2016
+#
+
+
+Top view:               topgeneric01
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 467.596
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       75.9 MHz      480.769       13.174        467.596     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     467.596  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                         Arrival            
+Instance           Reference                        Type        Pin     Net         Time        Slack  
+                   Clock                                                                               
+-------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[0]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]     1.044       467.596
+G00.U1.sdiv[1]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]     1.044       467.596
+G00.U1.sdiv[2]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]     1.044       467.596
+G00.U1.sdiv[3]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]     1.044       467.596
+G00.U1.sdiv[6]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]     1.044       467.596
+G00.U1.sdiv[7]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]     1.044       467.596
+G00.U1.sdiv[4]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]     1.044       468.612
+G00.U1.sdiv[5]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]     1.044       468.612
+G00.U1.sdiv[8]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]     1.044       468.612
+G00.U1.sdiv[9]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]     1.044       468.612
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                              Required            
+Instance            Reference                        Type        Pin     Net              Time         Slack  
+                    Clock                                                                                     
+--------------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      467.596
+G00.U1.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      467.596
+G00.U1.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      467.738
+G00.U1.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      467.738
+G00.U1.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      467.881
+G00.U1.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      467.881
+G00.U1.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      468.024
+G00.U1.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      468.024
+G00.U1.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      468.167
+G00.U1.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      468.167
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      13.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     467.595
+
+    Number of logic level(s):                18
+    Starting point:                          G00.U1.sdiv[0] / Q
+    Ending point:                            G00.U1.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[0]                          FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[0]                                 Net          -        -       -         -           2         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16_4     ORCALUT4     A        In      0.000     1.044       -         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16_4     ORCALUT4     Z        Out     1.017     2.061       -         
+outdiv3lto19_i_a2_16_4                  Net          -        -       -         -           1         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16       ORCALUT4     B        In      0.000     2.061       -         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16       ORCALUT4     Z        Out     1.193     3.253       -         
+N_111_13                                Net          -        -       -         -           4         
+G00.U1.pdiv\.outdiv13lto16_i_a2_15      ORCALUT4     B        In      0.000     3.253       -         
+G00.U1.pdiv\.outdiv13lto16_i_a2_15      ORCALUT4     Z        Out     1.193     4.446       -         
+N_105_18                                Net          -        -       -         -           4         
+G00.U1.pdiv\.outdiv13lto16_i_a2         ORCALUT4     A        In      0.000     4.446       -         
+G00.U1.pdiv\.outdiv13lto16_i_a2         ORCALUT4     Z        Out     1.017     5.463       -         
+N_111                                   Net          -        -       -         -           1         
+G00.U1.pdiv\.outdiv13lto20              ORCALUT4     A        In      0.000     5.463       -         
+G00.U1.pdiv\.outdiv13lto20              ORCALUT4     Z        Out     1.017     6.480       -         
+outdiv13                                Net          -        -       -         -           1         
+G00.U1.outdiv_0_sqmuxa_2                ORCALUT4     A        In      0.000     6.480       -         
+G00.U1.outdiv_0_sqmuxa_2                ORCALUT4     Z        Out     1.193     7.673       -         
+outdiv_0_sqmuxa_2                       Net          -        -       -         -           4         
+G00.U1.un1_sdiv_cry_0_0_RNO             ORCALUT4     C        In      0.000     7.673       -         
+G00.U1.un1_sdiv_cry_0_0_RNO             ORCALUT4     Z        Out     1.017     8.689       -         
+un1_outdiv44_i                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_0_0                 CCU2D        B0       In      0.000     8.689       -         
+G00.U1.un1_sdiv_cry_0_0                 CCU2D        COUT     Out     1.545     10.234      -         
+un1_sdiv_cry_0                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_1_0                 CCU2D        CIN      In      0.000     10.234      -         
+G00.U1.un1_sdiv_cry_1_0                 CCU2D        COUT     Out     0.143     10.377      -         
+un1_sdiv_cry_2                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_3_0                 CCU2D        CIN      In      0.000     10.377      -         
+G00.U1.un1_sdiv_cry_3_0                 CCU2D        COUT     Out     0.143     10.520      -         
+un1_sdiv_cry_4                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_5_0                 CCU2D        CIN      In      0.000     10.520      -         
+G00.U1.un1_sdiv_cry_5_0                 CCU2D        COUT     Out     0.143     10.662      -         
+un1_sdiv_cry_6                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_7_0                 CCU2D        CIN      In      0.000     10.662      -         
+G00.U1.un1_sdiv_cry_7_0                 CCU2D        COUT     Out     0.143     10.805      -         
+un1_sdiv_cry_8                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_9_0                 CCU2D        CIN      In      0.000     10.805      -         
+G00.U1.un1_sdiv_cry_9_0                 CCU2D        COUT     Out     0.143     10.948      -         
+un1_sdiv_cry_10                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_11_0                CCU2D        CIN      In      0.000     10.948      -         
+G00.U1.un1_sdiv_cry_11_0                CCU2D        COUT     Out     0.143     11.091      -         
+un1_sdiv_cry_12                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_13_0                CCU2D        CIN      In      0.000     11.091      -         
+G00.U1.un1_sdiv_cry_13_0                CCU2D        COUT     Out     0.143     11.233      -         
+un1_sdiv_cry_14                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_15_0                CCU2D        CIN      In      0.000     11.233      -         
+G00.U1.un1_sdiv_cry_15_0                CCU2D        COUT     Out     0.143     11.376      -         
+un1_sdiv_cry_16                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_17_0                CCU2D        CIN      In      0.000     11.376      -         
+G00.U1.un1_sdiv_cry_17_0                CCU2D        COUT     Out     0.143     11.519      -         
+un1_sdiv_cry_18                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_19_0                CCU2D        CIN      In      0.000     11.519      -         
+G00.U1.un1_sdiv_cry_19_0                CCU2D        S1       Out     1.549     13.068      -         
+un1_sdiv[21]                            Net          -        -       -         -           1         
+G00.U1.sdiv[20]                         FD1S3IX      D        In      0.000     13.068      -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 167MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 167MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 230 of 6864 (3%)
+PIC Latch:       0
+I/O cells:       38
+
+
+Details:
+BB:             1
+CCU2D:          34
+FD1P3AX:        188
+FD1S3AX:        1
+FD1S3IX:        21
+FD1S3JX:        1
+GSR:            1
+IB:             25
+IFS1P3DX:       9
+INV:            18
+OB:             12
+OFS1P3DX:       10
+ORCALUT4:       445
+OSCH:           1
+PFUMX:          9
+PUR:            1
+VHI:            21
+VLO:            29
+false:          43
+true:           51
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 55MB peak: 167MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue Jun 07 12:23:56 2016
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/impl1" -path "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02"   "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/impl1/generic02_impl1.edi" "generic02_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.7.0.96.1
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to generic02_impl1.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.7_x64/ispfpga/xo2c00/data"  -p "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/impl1" -p "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02"  "generic02_impl1.ngo" "generic02_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.7.0.96.1
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'generic02_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.7_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G00/U1/un1_sdiv_cry_19_0_COUT" arg2="G00/U1/un1_sdiv_cry_19_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G00/U1/un1_sdiv_cry_0_0_S0" arg2="G00/U1/un1_sdiv_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G00/U0/OSCInst0_SEDSTDBY" arg2="G00/U0/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G08/res_cry_7_0_COUT" arg2="G08/res_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G08/res_cry_0_0_S0" arg2="G08/res_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G08/res_cry_0_0_S1" arg2="G08/res_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G09/res_1_cry_7_0_COUT" arg2="G09/res_1_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G09/res_1_cry_0_0_S0" arg2="G09/res_1_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G09/res_1_cry_0_0_S1" arg2="G09/res_1_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G14/un3_outc2_s_7_0_COUT" arg2="G14/un3_outc2_s_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G14/un3_outc2_s_7_0_S1" arg2="G14/un3_outc2_s_7_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G14/un3_outc2_cry_0_0_S0" arg2="G14/un3_outc2_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G14/un3_outc2_cry_0_0_S1" arg2="G14/un3_outc2_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_I_21_0_COUT" arg2="G15/un5_codopc0_0_I_21_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_I_21_0_S0" arg2="G15/un5_codopc0_0_I_21_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_I_9_0_S0" arg2="G15/un5_codopc0_0_I_9_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_I_9_0_S1" arg2="G15/un5_codopc0_0_I_9_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_I_1_0_S0" arg2="G15/un5_codopc0_0_I_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un5_codopc0_0_N_17" arg2="G15/un5_codopc0_0_N_17"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_7_0_COUT" arg2="G15/un6_codopc0_cry_7_0_COUT"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_7_0_S0" arg2="G15/un6_codopc0_cry_7_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_5_0_S0" arg2="G15/un6_codopc0_cry_5_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_5_0_S1" arg2="G15/un6_codopc0_cry_5_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_3_0_S0" arg2="G15/un6_codopc0_cry_3_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_3_0_S1" arg2="G15/un6_codopc0_cry_3_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_1_0_S0" arg2="G15/un6_codopc0_cry_1_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_1_0_S1" arg2="G15/un6_codopc0_cry_1_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_0_0_S0" arg2="G15/un6_codopc0_cry_0_0_S0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="G15/un6_codopc0_cry_0_0_S1" arg2="G15/un6_codopc0_cry_0_0_S1"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="enable0" arg2="enable0"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="outdiv00" arg2="outdiv00"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="31"  />
+
+Design Results:
+    826 blocks expanded
+Complete the first expansion.
+Writing 'generic02_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "generic02_impl1.ngd" -o "generic02_impl1_map.ncd" -pr "generic02_impl1.prf" -mp "generic02_impl1.mrp" -lpf "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/impl1/generic02_impl1_synplify.lpf" -lpf "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/generic00.lpf" -c 0            
+map:  version Diamond (64-bit) 3.7.0.96.1
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: generic02_impl1.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.7_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+2 CCU2 constant inputs absorbed.
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="enable0"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="outdiv00"  />
+
+
+
+Design Summary:
+   Number of registers:    230 out of  7209 (3%)
+      PFU registers:          211 out of  6864 (3%)
+      PIO registers:           19 out of   345 (6%)
+   Number of SLICEs:       266 out of  3432 (8%)
+      SLICEs as Logic/ROM:    266 out of  3432 (8%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         34 out of  3432 (1%)
+   Number of LUT4s:        528 out of  6864 (8%)
+      Number used as logic LUTs:        460
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       68
+      Number used as shift registers:     0
+   Number of PIO sites used: 38 + 4(JTAG) out of 115 (37%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net G00.clk0: 158 loads, 158 rising, 0 falling (Driver: G00/U0/OSCInst0 )
+   Number of Clock Enables:  24
+     Net outuc2_cnv: 10 loads, 0 LSLICEs
+     Net outc2_1ce[0]: 5 loads, 4 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_2_RNIBKKT: 56 loads, 55 LSLICEs
+     Net G01/aux_RNI1FJB1: 4 loads, 4 LSLICEs
+     Net G02/aux_RNIODL22: 4 loads, 4 LSLICEs
+     Net G03/outn_1ce[0]: 4 loads, 4 LSLICEs
+     Net G04/outo_1ce[0]: 4 loads, 4 LSLICEs
+     Net G05/aux_RNI539D1: 3 loads, 3 LSLICEs
+     Net G05/outna_1ce[4]: 2 loads, 2 LSLICEs
+     Net G06/aux_RNI5OQN1: 4 loads, 4 LSLICEs
+     Net G07/aux_RNI60QA1: 4 loads, 4 LSLICEs
+     Net G08/outCarryadd_RNO: 1 loads, 1 LSLICEs
+     Net G08/aux_RNI64M93: 4 loads, 4 LSLICEs
+     Net G09/aux_RNIVCRF1: 4 loads, 4 LSLICEs
+     Net G09/outCarrysubce: 1 loads, 1 LSLICEs
+     Net G10/aux_RNINNUO1: 4 loads, 4 LSLICEs
+     Net G11/aux_RNI0DL63: 4 loads, 4 LSLICEs
+     Net G12/aux_RNIOSR02: 4 loads, 4 LSLICEs
+     Net G13/un1_codoprl_i_o2_RNIM11D1: 4 loads, 4 LSLICEs
+     Net G15/outc0_1_RNO_0[0]: 1 loads, 1 LSLICEs
+     Net G15/aux_RNIBIT12: 2 loads, 2 LSLICEs
+     Net outct_1ce[0]: 8 loads, 1 LSLICEs
+     Net G17/outmc_1ce[0]: 4 loads, 4 LSLICEs
+     Net G19/aux_RNIOPHT1: 4 loads, 4 LSLICEs
+   Number of LSRs:  2
+     Net G20/fb: 1 loads, 1 LSLICEs
+     Net G00/U1/outdiv_0_sqmuxa_RNI3DAH: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outdiv_0_sqmuxa_1_2_RNIBKKT: 78 loads
+     Net outFlag0_c: 77 loads
+     Net codop0_c[1]: 42 loads
+     Net codop0_c[3]: 40 loads
+     Net portB0_c[0]: 38 loads
+     Net codop0_c[0]: 37 loads
+     Net portB0_c[2]: 35 loads
+     Net portA0_c[3]: 34 loads
+     Net portA0_c[2]: 33 loads
+     Net portB0_c[1]: 33 loads
+ 
+
+   Number of warnings:  2
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 61 MB
+
+Dumping design to file generic02_impl1_map.ncd.
+
+mpartrce -p "generic02_impl1.p2t" -f "generic02_impl1.p3t" -tf "generic02_impl1.pt" "generic02_impl1_map.ncd" "generic02_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "generic02_impl1_map.ncd"
+Tue Jun 07 12:24:00 2016
+
+PAR: Place And Route Diamond (64-bit) 3.7.0.96.1.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "C:/Users/Usuario_local/Documents/ESCOM/Arquitectura de computadoras/PracticasG/generic04-1O/generic04/generic02/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF generic02_impl1_map.ncd generic02_impl1.dir/5_1.ncd generic02_impl1.prf
+Preference file: generic02_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file generic02_impl1_map.ncd.
+Design name: topgeneric01
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.7_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 33.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   38+4(JTAG)/336     13% used
+                  38+4(JTAG)/115     37% bonded
+   IOLOGIC           19/336           5% used
+
+   SLICE            266/3432          7% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 782
+Number of Connections: 2324
+
+Pin Constraint Summary:
+   38 out of 38 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    G00.clk0 (driver: G00/U0/OSCInst0, clk load #: 158)
+
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    un1_outdiv_0_sqmuxa_1_2_RNIBKKT (driver: SLICE_176, clk load #: 0, sr load #: 0, ce load #: 56)
+    G00/U1/outdiv_0_sqmuxa_RNI3DAH (driver: G00/U1/SLICE_172, clk load #: 0, sr load #: 11, ce load #: 0)
+    outuc2_cnv (driver: SLICE_142, clk load #: 0, sr load #: 0, ce load #: 10)
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 128870.
+Finished Placer Phase 1.  REAL time: 7 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  128317
+Finished Placer Phase 2.  REAL time: 7 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "G00.clk0" from OSC on comp "G00/U0/OSCInst0" on site "OSC", clk load = 158
+  SECONDARY "un1_outdiv_0_sqmuxa_1_2_RNIBKKT" from F1 on comp "SLICE_176" on site "R14C20D", clk load = 0, ce load = 56, sr load = 0
+  SECONDARY "G00/U1/outdiv_0_sqmuxa_RNI3DAH" from F0 on comp "G00/U1/SLICE_172" on site "R21C18A", clk load = 0, ce load = 0, sr load = 11
+  SECONDARY "outuc2_cnv" from F0 on comp "SLICE_142" on site "R21C20D", clk load = 0, ce load = 10, sr load = 0
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 3 out of 8 (37%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   38 + 4(JTAG) out of 336 (12.5%) PIO sites used.
+   38 + 4(JTAG) out of 115 (36.5%) bonded PIO sites used.
+   Number of PIO comps: 38; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 8 / 28 ( 28%)  | 2.5V       | -         |
+| 1        | 6 / 29 ( 20%)  | 2.5V       | -         |
+| 2        | 21 / 29 ( 72%) | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 1 / 10 ( 10%)  | 2.5V       | -         |
+| 5        | 2 / 10 ( 20%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 7 secs 
+
+Dumping design to file generic02_impl1.dir/5_1.ncd.
+
+0 connections routed; 2324 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 9 secs 
+
+Start NBR router at 12:24:09 06/07/16
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 12:24:10 06/07/16
+
+Start NBR section for initial routing at 12:24:10 06/07/16
+Level 4, iteration 1
+49(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 10 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 12:24:10 06/07/16
+Level 4, iteration 1
+21(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 10 secs 
+Level 4, iteration 2
+8(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 10 secs 
+Level 4, iteration 3
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 10 secs 
+Level 4, iteration 4
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 10 secs 
+Level 4, iteration 5
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 11 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 12:24:11 06/07/16
+
+Start NBR section for re-routing at 12:24:11 06/07/16
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.397ns/0.000ns; real time: 11 secs 
+
+Start NBR section for post-routing at 12:24:11 06/07/16
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 459.397ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 11 secs 
+Total REAL time: 12 secs 
+Completely routed.
+End of route.  2324 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file generic02_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 459.397
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.379
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 12 secs 
+Total REAL time to completion: 12 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "generic02_impl1.t2b" -w "generic02_impl1.ncd" -jedec "generic02_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.7.0.96.1
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file generic02_impl1.ncd.
+Design name: topgeneric01
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.7_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 33.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from generic02_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.90.
+ 
+Saving bit stream in "generic02_impl1.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

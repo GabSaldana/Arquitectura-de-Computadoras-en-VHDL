@@ -1,0 +1,12 @@
+#Start recording tcl command: 5/28/2016 10:28:13
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic00; Project name: generic00
+C:/Users/Gabriela/Desktop/PracticasG/generic01
+generic01
+#Start recording tcl command: 5/28/2016 11:27:56
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic01; Project name: generic01
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/generic00/generic00.ldf"
+prj_project close
+prj_project new -name "generic01" -impl "generic01" -dev LCMXO2-7000HE-5FG484C -synthesis "synplify" -lpf "C:/Users/Gabriela/Desktop/PracticasG/generic00/generic00.lpf"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic00/and00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/div00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/or00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/osc00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/packagegeneric00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/packageosc00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/topgeneric00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/toposc00.vhdl" "C:/Users/Gabriela/Desktop/PracticasG/generic00/uc00.vhdl"
+prj_project save
+#Stop recording: 5/28/2016 11:27:57

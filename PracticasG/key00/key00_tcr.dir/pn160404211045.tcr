@@ -1,0 +1,15 @@
+#Start recording tcl command: 4/4/2016 20:18:07
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/key00; Project name: key00
+prj_project new -name "key00" -impl "key00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/Teclado/coder00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/contring00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/div00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/osc00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/packagediv00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/packagekey00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/topdiv00.vhd" "C:/Users/Gabriela/Desktop/PracticasG/Teclado/topkey00.vhd"
+prj_project save
+prj_run Export -impl key00 -task Jedecgen
+pgr_project save "C:/Users/Gabriela/Desktop/PracticasG/key00/key00/key00.xcf"
+prj_src add -exclude "C:/Users/Gabriela/Desktop/PracticasG/key00/key00/key00.xcf"
+prj_src enable "C:/Users/Gabriela/Desktop/PracticasG/key00/key00/key00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/PracticasG/key00/key00/key00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 4/4/2016 21:10:45

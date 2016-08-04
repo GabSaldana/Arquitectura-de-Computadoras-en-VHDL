@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "binaryBCD_binaryBCD.log"
+-o "binaryBCD_binaryBCD.csv"
+-pr "binaryBCD_binaryBCD.prf"

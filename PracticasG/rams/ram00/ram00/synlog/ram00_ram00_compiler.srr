@@ -1,0 +1,90 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl":9:7:9:14|Top entity is set to topram00.
+File C:\lscc\diamond\3.6_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageosc00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packagekey00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl":9:7:9:14|Synthesizing work.topram00.topram0 
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl":18:7:18:10|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl":10:7:10:16|Synthesizing work.contread00.contread0 
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl":30:6:30:16|Removed redundant assignment
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":8:7:8:17|Synthesizing work.coder7seg00.coder7seg0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":18:9:18:15|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":20:7:20:13|Referenced variable clkbuff is not in sensitivity list
+Post processing for work.coder7seg00.coder7seg0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl":10:7:10:11|Synthesizing work.ram00.ram0 
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl":25:7:25:10|Found RAM dato, depth=16, width=7
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl":9:7:9:14|Synthesizing work.topkey00.topkey0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":10:7:10:13|Synthesizing work.coder00.coder0 
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":42:8:42:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":86:8:86:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":130:8:130:15|Removed redundant assignment
+@N: CD364 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":174:8:174:15|Removed redundant assignment
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":26:10:26:16|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":32:5:32:8|Referenced variable clkc is not in sensitivity list
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl":8:7:8:16|Synthesizing work.contring00.contring0 
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl":20:4:20:5|Pruning register bits 2 to 0 of sring(3 downto 0)  
+Post processing for work.topkey00.topkey0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topram00.topram0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Apr 23 19:37:46 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Apr 23 19:37:47 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Apr 23 19:37:47 2016
+
+###########################################################]

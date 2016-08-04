@@ -1,0 +1,33 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 37 clock pin(s) of sequential element(s)
+12 gated/generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+15 instances converted, 28 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element         Drive Element Type     Fanout     Sample Instance
+-------------------------------------------------------------------------------------------
+@K:CKID0013       LCD01.OS00.OSCInst0     OSCH                   37         LCD04.ENcw     
+===========================================================================================
+======================================================== Gated/Generated Clocks =========================================================
+Clock Tree ID     Driving Element                     Drive Element Type     Fanout     Sample Instance         Explanation              
+-----------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       LCD05.un2_incontw                   ORCALUT4               8          LCD05.outwordw_1[0]     No clocks found on inputs
+@K:CKID0002       LCD03.un1_inflagc_7_0               ORCALUT4               1          LCD03.outWordc_1[4]     No clocks found on inputs
+@K:CKID0003       LCD03.un1_inflagc_9_0               ORCALUT4               1          LCD03.outWordc_1[3]     No clocks found on inputs
+@K:CKID0004       LCD06.pbuff.un2_inflagbuffwrite     ORCALUT4               10         LCD06.ENbb              No clocks found on inputs
+@K:CKID0005       LCD03.un1_inflagc_1_0_a2            ORCALUT4               1          LCD03.ENc               No clocks found on inputs
+@K:CKID0006       LCD03.un1_inflagc_2_0_a2            ORCALUT4               1          LCD03.outFlagc          No clocks found on inputs
+@K:CKID0007       LCD03.un1_inflagc_7_0_a2            ORCALUT4               1          LCD03.outWordc_1[5]     No clocks found on inputs
+@K:CKID0008       LCD03.un1_inflagc_8_0               ORCALUT4               1          LCD03.outWordc_1[2]     No clocks found on inputs
+@K:CKID0009       LCD03.outWordc_1_RNO[1]             ORCALUT4               1          LCD03.outWordc_1[1]     No clocks found on inputs
+@K:CKID0010       LCD03.outWordc_1_RNO[0]             ORCALUT4               1          LCD03.outWordc_1[0]     No clocks found on inputs
+@K:CKID0011       LCD03.outWordc_1_RNO[6]             ORCALUT4               1          LCD03.outWordc_1[6]     No clocks found on inputs
+@K:CKID0012       LCD04.pcw.un2_outcontcwlto5         ORCALUT4               1          LCD05.outFlagw          No clocks found on inputs
+=========================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

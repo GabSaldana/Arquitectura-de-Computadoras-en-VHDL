@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.topkey00  -multisrs  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_comp.srs  -osyn  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_mult.srs  -log  C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synlog\key00_key00_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_comp.srs|i|1461450428|10317
+C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synwork\key00_key00_mult.srs|o|1461450430|3850
+C:\Users\Gabriela\Desktop\PracticasG\key00\key00\synlog\key00_key00_multi_srs_gen.srr|o|1461450431|483
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439974012|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439974198|3974144

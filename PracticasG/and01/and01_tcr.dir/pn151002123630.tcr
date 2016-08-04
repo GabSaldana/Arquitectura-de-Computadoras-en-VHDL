@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/2/2015 12:36:03
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/and01; Project name: and01
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/and01/and01.ldf"
+pgr_project close
+prj_project close
+#Stop recording: 10/2/2015 12:36:30

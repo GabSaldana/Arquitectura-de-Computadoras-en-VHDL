@@ -1,0 +1,13 @@
+#Start recording tcl command: 6/8/2016 08:57:36
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02; Project name: adder8bit
+prj_project new -name "adder8bit" -impl "adder8bit" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/adder8bita00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/anda00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/nxora00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/ora00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/package8bita00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/packageresta00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/packagetopfaa00.vhdl"
+prj_src add "C:/Users/Gabriela/Desktop/PracticasG/generic04-1O/generic04/generic02/packagetophaa00.vhd"
+#Stop recording: 6/8/2016 09:09:06

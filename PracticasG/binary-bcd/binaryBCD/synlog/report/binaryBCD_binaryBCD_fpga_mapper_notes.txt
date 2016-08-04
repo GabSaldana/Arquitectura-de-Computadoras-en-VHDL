@@ -1,0 +1,57 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|ROM outcode_1[2:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|ROM outcode_1[2:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":31:26:31:31|Found ROM, 'outcode_1[2:0]', 16 words by 3 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|ROM outC_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|ROM outD_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|ROM outU_1[6:0] mapped in logic.
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|ROM outC_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":82:7:82:10|Found ROM, 'outC_1[6:0]', 10 words by 7 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|ROM outD_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":55:7:55:10|Found ROM, 'outD_1[6:0]', 10 words by 7 bits 
+@N: FA239 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|ROM outU_1[6:0] mapped in logic.
+@N: MO106 :"c:\users\gabriela\desktop\practicasg\binary-bcd\codernibbles04.vhdl":28:7:28:10|Found ROM, 'outU_1[6:0]', 10 words by 7 bits 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_8[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":23:6:23:7|Removing sequential instance outACss_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.shift12bit04(shift12bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift8bit04.vhdl":23:6:23:7|Removing sequential instance outACs_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.shift8bit04(shift8bit0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\init04.vhdl":26:6:26:7|Removing sequential instance outACA8init_1[4] of view:PrimLib.sdffse(prim) in hierarchy view:work.init04(init0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_3[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\portab04.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_11[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_10[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_9[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_8[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_7[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_6[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_5[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_4[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_3[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl_2[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: BN362 :"c:\users\gabriela\desktop\practicasg\binary-bcd\compadd04.vhdl":24:5:24:6|Removing sequential instance U09.outBuf12ca_cl[11] of view:PrimLib.dff(prim) in hierarchy view:work.topp04(topp0) because there are no references to its outputs 
+@N: MF578 :"c:\users\gabriela\desktop\practicasg\binary-bcd\ac12bit0.vhdl":22:7:22:8|Incompatible asynchronous control logic preventing generated clock conversion of U07.aux (view:work.topp04(topp0)).
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

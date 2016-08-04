@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/2/2015 12:50:16
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/xor01; Project name: xor01
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/xor01/xor01.ldf"
+prj_run Export -impl xor01 -task Jedecgen
+#Stop recording: 10/3/2015 07:41:06

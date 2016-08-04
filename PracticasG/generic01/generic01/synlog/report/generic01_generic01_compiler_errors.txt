@@ -1,0 +1,4 @@
+@E: CD415 :"C:\Users\Gabriela\Desktop\PracticasG\generic01\packagegeneric00.vhdl":39:7:39:10|Expecting keyword end
+@E: CD879 :"C:\Users\Gabriela\Desktop\PracticasG\generic01\topgeneric00.vhdl":45:12:45:15|Illegal concurrent statement. Possible missing component declaration for xor00
+@E|Parse errors encountered - exiting
+

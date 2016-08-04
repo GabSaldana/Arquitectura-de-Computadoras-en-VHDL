@@ -1,0 +1,556 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
+#install: C:\lscc\diamond\3.6_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: ISCGAB
+
+#Implementation: rom00
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd":11:7:11:14|Top entity is set to toprom00.
+File C:\lscc\diamond\3.6_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packageosc00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd changed - recompiling
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd changed - recompiling
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd":11:7:11:14|Synthesizing work.toprom00.toprom0 
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd":23:3:23:9|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":10:7:10:16|Synthesizing work.contread00.contread0 
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":10:7:10:11|Synthesizing work.rom00.rom0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":38:6:38:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":45:9:45:15|Referenced variable offtran is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:7:40:15|Referenced variable inflagrom is not in sensitivity list
+Post processing for work.rom00.rom0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Latch generated from process for signal outwordrom(6 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":8:7:8:16|Synthesizing work.contring00.contring0 
+Post processing for work.contring00.contring0
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 0 of sring(3 downto 0)  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toprom00.toprom0
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Register bit sring(3) is always 1, optimizing ...
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd":20:4:20:5|Pruning register bit 3 of sring(3 downto 1)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 6 of outwordrom(6 downto 0)  
+@W: CL260 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":40:2:40:5|Pruning register bit 3 of outwordrom(6 downto 0)  
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd":13:3:13:10|Input port bit 3 of indirrom(3 downto 0) is unused 
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Register bit outcont(3) is always 0, optimizing ...
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd":21:2:21:3|Pruning register bits 3 to 2 of outcont(3 downto 0)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:14 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:15 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:15 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\rom00_rom00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:17 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\rom00_rom00_scck.rpt 
+Printing clock  summary report in "C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\rom00_rom00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@W: MT462 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":50:10:50:15|Net R002.prom\.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toprom00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                            Requested     Requested     Clock                                           Clock              
+Clock                            Frequency     Period        Type                                            Group              
+--------------------------------------------------------------------------------------------------------------------------------
+System                           1.0 MHz       1000.000      system                                          system_clkgroup    
+div00|outdiv_derived_clock       2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0
+================================================================================================================================
+
+@W: MT531 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":40:2:40:5|Found signal identified as System clock which controls 5 sequential elements including R002.outwordrom_1[5:4].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\div00.vhd":22:2:22:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including R001.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:18 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":50:10:50:15|Net R002.prom\.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: MO129 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\rom00.vhd":40:2:40:5|Sequential instance R002.outwordrom_1[1] reduced to a combinational gate by constant propagation
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   471.83ns		  34 /        30
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\contread00.vhd":21:2:21:3|Boundary register R003.outcont_1_1_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\gabriela\desktop\practicasg\rom2\rom2\rom00\contread00.vhd":21:2:21:3|Boundary register R003.outcont_1_0_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+8 instances converted, 4 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance
+------------------------------------------------------------------------------------------
+@K:CKID0002       R001.OS00.OSCInst0     OSCH                   30         R004.outr[2]   
+==========================================================================================
+=================================================== Gated/Generated Clocks ====================================================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance          Explanation              
+-------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       R004.outr_RNI79RR[0]     ORCALUT4               4          R002.outwordrom_1[5]     No clocks found on inputs
+===============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 140MB)
+
+Writing Analyst data base C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\rom00_rom00_m.srm
+@W: MT462 :|Net R004.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT462 :|Net R004.un1_outwordrom14 appears to be an unidentified clock source. Assuming default frequency. 
+J-2015.03L-SP1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:R001.OS00.osc_int"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed May 04 08:16:19 2016
+#
+
+
+Top view:               toprom00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 471.102
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       103.4 MHz     480.769       9.667         471.102     inferred     Inferred_clkgroup_0
+System                           1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+=====================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise   |    fall  to  fall     |    rise  to  fall   |    fall  to  rise   
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack  |  constraint  slack    |  constraint  slack  |  constraint  slack  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  System                        |  No paths    -      |  No paths    -        |  No paths    -      |  480.769     478.653
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  No paths    -      |  480.769     471.102  |  No paths    -      |  No paths    -      
+======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival            
+Instance               Reference                        Type        Pin     Net          Time        Slack  
+                       Clock                                                                                
+------------------------------------------------------------------------------------------------------------
+R001.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[12]     1.044       471.102
+R001.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[13]     1.044       471.102
+R001.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[14]     1.044       471.102
+R001.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[15]     1.044       471.102
+R001.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.180       471.911
+R001.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.148       471.943
+R001.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[18]     1.108       472.055
+R001.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[17]     1.148       472.087
+R001.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[16]     1.108       472.127
+R001.OS01.sdiv[0]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      0.972       475.313
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                        Required            
+Instance               Reference                        Type        Pin     Net                        Time         Slack  
+                       Clock                                                                                               
+---------------------------------------------------------------------------------------------------------------------------
+R001.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_19_0_S0     480.664      471.102
+R001.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_19_0_S1     480.664      471.102
+R001.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_17_0_S0     480.664      471.245
+R001.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_17_0_S1     480.664      471.245
+R001.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_15_0_S0     480.664      471.387
+R001.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_15_0_S1     480.664      471.387
+R001.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_13_0_S0     480.664      471.530
+R001.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_13_0_S1     480.664      471.530
+R001.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_11_0_S0     480.664      471.673
+R001.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_1_cry_11_0_S1     480.664      471.673
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      9.562
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     471.102
+
+    Number of logic level(s):                15
+    Starting point:                          R001.OS01.sdiv[12] / Q
+    Ending point:                            R001.OS01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+R001.OS01.sdiv[12]                                   FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[12]                                             Net          -        -       -         -           2         
+R001.OS01.divisor\.un15_sdivlto18_i_a2_17_0_a2_0     ORCALUT4     A        In      0.000     1.044       -         
+R001.OS01.divisor\.un15_sdivlto18_i_a2_17_0_a2_0     ORCALUT4     Z        Out     1.089     2.133       -         
+N_48                                                 Net          -        -       -         -           2         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO_2                   ORCALUT4     A        In      0.000     2.133       -         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO_2                   ORCALUT4     Z        Out     1.017     3.149       -         
+N_32                                                 Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO_0                   ORCALUT4     A        In      0.000     3.149       -         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO_0                   ORCALUT4     Z        Out     1.017     4.166       -         
+N_39                                                 Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO                     ORCALUT4     B        In      0.000     4.166       -         
+R001.OS01.un1_sdiv_1_cry_0_0_RNO                     ORCALUT4     Z        Out     1.017     5.183       -         
+un1_outdiv37_i_0                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_0_0                         CCU2D        B0       In      0.000     5.183       -         
+R001.OS01.un1_sdiv_1_cry_0_0                         CCU2D        COUT     Out     1.545     6.728       -         
+un1_sdiv_1_cry_0                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_1_0                         CCU2D        CIN      In      0.000     6.728       -         
+R001.OS01.un1_sdiv_1_cry_1_0                         CCU2D        COUT     Out     0.143     6.870       -         
+un1_sdiv_1_cry_2                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_3_0                         CCU2D        CIN      In      0.000     6.870       -         
+R001.OS01.un1_sdiv_1_cry_3_0                         CCU2D        COUT     Out     0.143     7.013       -         
+un1_sdiv_1_cry_4                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_5_0                         CCU2D        CIN      In      0.000     7.013       -         
+R001.OS01.un1_sdiv_1_cry_5_0                         CCU2D        COUT     Out     0.143     7.156       -         
+un1_sdiv_1_cry_6                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_7_0                         CCU2D        CIN      In      0.000     7.156       -         
+R001.OS01.un1_sdiv_1_cry_7_0                         CCU2D        COUT     Out     0.143     7.299       -         
+un1_sdiv_1_cry_8                                     Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_9_0                         CCU2D        CIN      In      0.000     7.299       -         
+R001.OS01.un1_sdiv_1_cry_9_0                         CCU2D        COUT     Out     0.143     7.441       -         
+un1_sdiv_1_cry_10                                    Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_11_0                        CCU2D        CIN      In      0.000     7.441       -         
+R001.OS01.un1_sdiv_1_cry_11_0                        CCU2D        COUT     Out     0.143     7.584       -         
+un1_sdiv_1_cry_12                                    Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_13_0                        CCU2D        CIN      In      0.000     7.584       -         
+R001.OS01.un1_sdiv_1_cry_13_0                        CCU2D        COUT     Out     0.143     7.727       -         
+un1_sdiv_1_cry_14                                    Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_15_0                        CCU2D        CIN      In      0.000     7.727       -         
+R001.OS01.un1_sdiv_1_cry_15_0                        CCU2D        COUT     Out     0.143     7.870       -         
+un1_sdiv_1_cry_16                                    Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_17_0                        CCU2D        CIN      In      0.000     7.870       -         
+R001.OS01.un1_sdiv_1_cry_17_0                        CCU2D        COUT     Out     0.143     8.013       -         
+un1_sdiv_1_cry_18                                    Net          -        -       -         -           1         
+R001.OS01.un1_sdiv_1_cry_19_0                        CCU2D        CIN      In      0.000     8.013       -         
+R001.OS01.un1_sdiv_1_cry_19_0                        CCU2D        S1       Out     1.549     9.562       -         
+un1_sdiv_1_cry_19_0_S1                               Net          -        -       -         -           1         
+R001.OS01.sdiv[20]                                   FD1S3IX      D        In      0.000     9.562       -         
+===================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 30 of 6864 (0%)
+Latch bits:      4
+PIC Latch:       0
+I/O cells:       22
+
+
+Details:
+CCU2D:          11
+FD1P3AX:        3
+FD1P3IX:        2
+FD1P3JX:        2
+FD1S1B:         4
+FD1S3AX:        1
+FD1S3IX:        21
+GSR:            1
+IB:             5
+IFS1P3DX:       1
+INV:            4
+OB:             17
+ORCALUT4:       29
+OSCH:           1
+PUR:            1
+VHI:            5
+VLO:            6
+false:          1
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 144MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 04 08:16:19 2016
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

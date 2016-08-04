@@ -1,0 +1,48 @@
+@P:  Worst Slack : 993.880
+@P:  div04|outdiv_derived_clock - Estimated Frequency : 163.4 MHz
+@P:  div04|outdiv_derived_clock - Requested Frequency : 1.0 MHz
+@P:  div04|outdiv_derived_clock - Estimated Period : 6.120
+@P:  div04|outdiv_derived_clock - Requested Period : 1000.000
+@P:  div04|outdiv_derived_clock - Slack : 997.868
+@P:  pcinc04|outFlagpc_derived_clock - Estimated Frequency : 163.4 MHz
+@P:  pcinc04|outFlagpc_derived_clock - Requested Frequency : 1.0 MHz
+@P:  pcinc04|outFlagpc_derived_clock - Estimated Period : 6.120
+@P:  pcinc04|outFlagpc_derived_clock - Requested Period : 1000.000
+@P:  pcinc04|outFlagpc_derived_clock - Slack : 993.880
+@P:  topp04|clk0 - Estimated Frequency : 501.7 MHz
+@P:  topp04|clk0 - Requested Frequency : 1.0 MHz
+@P:  topp04|clk0 - Estimated Period : 1.993
+@P:  topp04|clk0 - Requested Period : 1000.000
+@P:  topp04|clk0 - Slack : 998.007
+@P:  Worst Slack(min analysis) : -1999.831
+@P:  div04|outdiv_derived_clock - Estimated Frequency(min analysis) : 163.4 MHz
+@P:  div04|outdiv_derived_clock - Requested Frequency(min analysis) : 1.0 MHz
+@P:  div04|outdiv_derived_clock - Estimated Period(min analysis) : 6.120
+@P:  div04|outdiv_derived_clock - Requested Period(min analysis) : 1000.000
+@P:  div04|outdiv_derived_clock - Slack(min analysis) : 997.868
+@P:  pcinc04|outFlagpc_derived_clock - Estimated Frequency(min analysis) : 163.4 MHz
+@P:  pcinc04|outFlagpc_derived_clock - Requested Frequency(min analysis) : 1.0 MHz
+@P:  pcinc04|outFlagpc_derived_clock - Estimated Period(min analysis) : 6.120
+@P:  pcinc04|outFlagpc_derived_clock - Requested Period(min analysis) : 1000.000
+@P:  pcinc04|outFlagpc_derived_clock - Slack(min analysis) : 993.880
+@P:  topp04|clk0 - Estimated Frequency(min analysis) : 501.7 MHz
+@P:  topp04|clk0 - Requested Frequency(min analysis) : 1.0 MHz
+@P:  topp04|clk0 - Estimated Period(min analysis) : 1.993
+@P:  topp04|clk0 - Requested Period(min analysis) : 1000.000
+@P:  topp04|clk0 - Slack(min analysis) : 998.007
+@P:  Total Area : 177.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

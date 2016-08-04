@@ -1,0 +1,70 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|eXor|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\bin64\\c_vhdl.exe":1449734446
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\location.map":1449914594
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\std1164.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\numeric.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\arith.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1449734046
+#CUR:"C:\\lscc\\diamond\\3.7_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377014408
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\paquete_topcombin.vhdl":1449082194
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\top_sumadormedio.vhdl":1443566808
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\top_sumadorcompleto.vhdl":1443566812
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\paquete_sumadormedio.vhdl":1443566594
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\paquete_sumadorcompleto.vhdl":1443566536
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\topmulticomb01.vhdl":1449094490
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\and.vhdl":1443565940
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\or.vhdl":1443566250
+#CUR:"C:\\Users\\Usuario_local\\Documents\\ESCOM\\Arquitectura de computadoras\\PracticasG\\generic04-1O\\generic04\\generic02\\combinacional01\\combin01\\source\\xor.vhdl":1443566350
+0 "C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\paquete_topcombin.vhdl" vhdl
+2 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\top_sumadormedio.vhdl" vhdl
+3 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\top_sumadorcompleto.vhdl" vhdl
+4 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\paquete_sumadormedio.vhdl" vhdl
+5 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl" vhdl
+6 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\topmulticomb01.vhdl" vhdl
+7 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\and.vhdl" vhdl
+8 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\or.vhdl" vhdl
+9 "C:\Users\Usuario_local\Documents\ESCOM\Arquitectura de computadoras\PracticasG\generic04-1O\generic04\generic02\combinacional01\combin01\source\xor.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 7 9 4 
+3 8 2 5 
+4 -1
+5 -1
+6 7 3 1 
+7 -1
+8 -1
+9 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 6 
+2 3 
+3 6 
+4 2 
+5 3 
+6 -1
+7 6 2 
+8 3 
+9 2 
+
+# Design Unit to File Association
+arch work etopsummedio atopsummedio 2
+module work etopsummedio 2
+arch work etopsumcompleto atopsumcompleto 3
+module work etopsumcompleto 3
+arch work etopmultip00 atopmultip 6
+module work etopmultip00 6
+arch work eand aand 7
+module work eand 7
+arch work eor aor 8
+module work eor 8
+arch work exor axor 9
+module work exor 9

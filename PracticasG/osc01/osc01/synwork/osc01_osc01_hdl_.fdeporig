@@ -1,0 +1,50 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|toposc00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\osc01\\syntmp\\hdlorder.tcl"
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\bin64\\c_vhdl.exe":1429565530
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\location.map":1429722970
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std1164.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\numeric.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\arith.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1429565114
+#CUR:"D:\\Program Files (x86)\\lscc\\diamond\\3.5_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377018008
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\enab00.vhdl":1442926817
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\oscint00.vhdl":1432297972
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\div00.vhdl":1442927402
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\packageoscint00.vhdl":1432298051
+#CUR:"D:\\ArquitecturaDeComputadoras\\PrimerParcial\\Practicas\\osc01\\toposc00.vhdl":1442927471
+0 "D:\Program Files (x86)\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\enab00.vhdl" vhdl
+2 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\oscint00.vhdl" vhdl
+3 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\div00.vhdl" vhdl
+4 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\packageoscint00.vhdl" vhdl
+5 "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\toposc00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 0 
+4 -1
+5 2 3 1 0 4 
+
+# Dependency Lists (Users Of)
+0 5 3 
+1 5 
+2 5 
+3 5 
+4 5 
+5 -1
+
+# Design Unit to File Association
+arch work enab00 ena 1
+module work enab00 1
+arch work oscint00 oscint0 2
+module work oscint00 2
+arch work div00 div0 3
+module work div00 3
+arch work toposc00 toposc0 5
+module work toposc00 5

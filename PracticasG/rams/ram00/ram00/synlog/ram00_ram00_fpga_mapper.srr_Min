@@ -1,0 +1,191 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Apr 23 19:37:55 2016
+#
+
+
+Top view:               topram00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.606
+
+                                  Requested     Estimated     Requested     Estimated                 Clock                                            Clock              
+Starting Clock                    Frequency     Frequency     Period        Period        Slack       Type                                             Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock        2.1 MHz       455.2 MHz     480.769       2.197         479.692     derived (from osc00|osc_int0_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int0_inferred_clock     2.1 MHz       82.1 MHz      480.769       12.173        468.596     inferred                                         Inferred_clkgroup_0
+==========================================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int0_inferred_clock  osc00|osc_int0_inferred_clock  |  0.000       0.606  |  No paths    -      |  No paths    -      |  No paths    -    
+osc00|osc_int0_inferred_clock  div00|outdiv_derived_clock     |  0.000       0.731  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outdiv_derived_clock     osc00|osc_int0_inferred_clock  |  0.000       0.606  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                        Arrival          
+Instance          Reference                      Type         Pin     Net         Time        Slack
+                  Clock                                                                            
+---------------------------------------------------------------------------------------------------
+RA03.dato_ram     div00|outdiv_derived_clock     DPR16X4C     DO3     dato[3]     0.680       0.606
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                       Required          
+Instance             Reference                      Type        Pin     Net         Time         Slack
+                     Clock                                                                            
+------------------------------------------------------------------------------------------------------
+RA03.outWordm[3]     div00|outdiv_derived_clock     FD1P3JX     D       dato[3]     0.074        0.606
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.606
+
+    Number of logic level(s):                0
+    Starting point:                          RA03.dato_ram / DO3
+    Ending point:                            RA03.outWordm[3] / D
+    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin WCK
+    The end   point is clocked by            osc00|osc_int0_inferred_clock [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+RA03.dato_ram        DPR16X4C     DO3      Out     0.680     0.680       -         
+dato[3]              Net          -        -       -         -           1         
+RA03.outWordm[3]     FD1P3JX      D        In      0.000     0.680       -         
+===================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                 Arrival          
+Instance                 Reference                         Type        Pin     Net                Time        Slack
+                         Clock                                                                                     
+-------------------------------------------------------------------------------------------------------------------
+RA02.K01.sring[3]        osc00|osc_int0_inferred_clock     FD1P3JX     Q       sring[3]           0.680       0.606
+RA02.K02.out7segc[0]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[0]     0.731       0.731
+RA02.K02.out7segc[1]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[1]     0.731       0.731
+RA02.K02.out7segc[2]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[2]     0.731       0.731
+RA02.K02.out7segc[3]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[3]     0.731       0.731
+RA02.K02.out7segc[4]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[4]     0.731       0.731
+RA02.K02.out7segc[5]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[5]     0.731       0.731
+RA02.K02.out7segc[6]     osc00|osc_int0_inferred_clock     FD1P3AX     Q       soutwordkey[6]     0.731       0.731
+RA02.K01.outr[0]         osc00|osc_int0_inferred_clock     FD1P3IX     Q       outr0_c[0]         0.871       0.797
+RA02.K01.outr[3]         osc00|osc_int0_inferred_clock     FD1P3IX     Q       outr0_c[3]         0.882       0.808
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                                  Required          
+Instance             Reference                         Type         Pin     Net                Time         Slack
+                     Clock                                                                                       
+-----------------------------------------------------------------------------------------------------------------
+RA02.K01.outr[3]     osc00|osc_int0_inferred_clock     FD1P3IX      D       sring[3]           0.074        0.606
+RA03.dato_ram        osc00|osc_int0_inferred_clock     DPR16X4C     DI0     soutwordkey[0]     0.000        0.731
+RA03.dato_ram        osc00|osc_int0_inferred_clock     DPR16X4C     DI1     soutwordkey[1]     0.000        0.731
+RA03.dato_ram        osc00|osc_int0_inferred_clock     DPR16X4C     DI2     soutwordkey[2]     0.000        0.731
+RA03.dato_ram        osc00|osc_int0_inferred_clock     DPR16X4C     DI3     soutwordkey[3]     0.000        0.731
+RA03.dato_ram_0      osc00|osc_int0_inferred_clock     DPR16X4C     DI0     soutwordkey[4]     0.000        0.731
+RA03.dato_ram_0      osc00|osc_int0_inferred_clock     DPR16X4C     DI1     soutwordkey[5]     0.000        0.731
+RA03.dato_ram_0      osc00|osc_int0_inferred_clock     DPR16X4C     DI2     soutwordkey[6]     0.000        0.731
+RA02.K01.outr[1]     osc00|osc_int0_inferred_clock     FD1P3IX      D       outr0_c[0]         0.074        0.797
+RA02.K01.outr[0]     osc00|osc_int0_inferred_clock     FD1P3IX      D       outr0_c[3]         0.074        0.808
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.606
+
+    Number of logic level(s):                0
+    Starting point:                          RA02.K01.sring[3] / Q
+    Ending point:                            RA02.K01.outr[3] / D
+    The start point is clocked by            osc00|osc_int0_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int0_inferred_clock [rising] on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+RA02.K01.sring[3]     FD1P3JX     Q        Out     0.680     0.680       -         
+sring[3]              Net         -        -       -         -           1         
+RA02.K01.outr[3]      FD1P3IX     D        In      0.000     0.680       -         
+===================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

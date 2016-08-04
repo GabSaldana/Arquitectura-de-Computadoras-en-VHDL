@@ -1,0 +1,27 @@
+PAR: Place And Route Diamond (64-bit) 3.5.0.102.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Oct 28 07:26:49 2015
+
+D:/Program Files (x86)/lscc/diamond/3.5_x64/ispfpga\bin\nt64\par -f
+adder4bit00_adder4bit00.p2t adder4bit00_adder4bit00_map.ncd
+adder4bit00_adder4bit00.dir adder4bit00_adder4bit00.prf -gui -msgset
+D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/promote.xml
+
+
+Preference file: adder4bit00_adder4bit00.prf.
+
+Level/      Number      Worst       Timing      Worst       Timing      Run         NCD
+Cost [ncd]  Unrouted    Slack       Score       Slack(hold) Score(hold) Time        Status
+----------  --------    -----       ------      ----------- ----------- -----       ------
+5_1   *     0           -           -           -           -           09          Complete        
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 9 secs 
+
+par done!

@@ -1,0 +1,19 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\lu_he\Documents\proyect\generics\generic01\topgeneric01.vhdl":12:7:12:18|Top entity is set to topgeneric01.
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\topgeneric01.vhdl":12:7:12:18|Synthesizing work.topgeneric01.topgeneric0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\uc00.vhdl":10:7:10:10|Synthesizing work.uc00.uc0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\not00.vhdl":10:7:10:11|Synthesizing work.not00.not0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\xnor00.vhdl":10:7:10:12|Synthesizing work.xnor00.xnor0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\xor00.vhdl":10:7:10:11|Synthesizing work.xor00.xor0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\nand00.vhdl":10:7:10:12|Synthesizing work.nand00.nand0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\nor00.vhdl":10:7:10:11|Synthesizing work.nor00.nor0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\or00.vhdl":10:7:10:10|Synthesizing work.or00.or0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\and00.vhdl":10:7:10:11|Synthesizing work.and00.and0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\toposc00.vhdl":12:7:12:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+@N: CD630 :"C:\Users\lu_he\Documents\proyect\generics\generic01\osc00.vhdl":10:7:10:11|Synthesizing work.osc00.osc0 
+@N: CD630 :"C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd":2245:10:2245:13|Synthesizing work.osch.syn_black_box 
+@N|Running in 64-bit mode
+

@@ -1,0 +1,17 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\generic01\generic01\synwork\generic01_generic01_comp.srs  -top  work.topgeneric00  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\generic01\generic01\synlog\generic01_generic01_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\generic01\generic01\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\div00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\osc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\packageosc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\toposc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\and00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\or00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\uc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\packagegeneric00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\xor00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\generic01\topgeneric00.vhdl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\generic01\generic01\synwork\generic01_generic01_comp.srs|o|1464462255|15885
+C:\Users\Gabriela\Desktop\PracticasG\generic01\generic01\synlog\generic01_generic01_compiler.srr|o|1464462255|5002
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\generic01\div00.vhdl|i|1464461327|2202
+C:\Users\Gabriela\Desktop\PracticasG\generic01\osc00.vhdl|i|1464461352|573
+C:\Users\Gabriela\Desktop\PracticasG\generic01\packageosc00.vhdl|i|1464461379|396
+C:\Users\Gabriela\Desktop\PracticasG\generic01\toposc00.vhdl|i|1464461405|526
+C:\Users\Gabriela\Desktop\PracticasG\generic01\and00.vhdl|i|1464461433|1000
+C:\Users\Gabriela\Desktop\PracticasG\generic01\or00.vhdl|i|1464461457|992
+C:\Users\Gabriela\Desktop\PracticasG\generic01\uc00.vhdl|i|1464461485|664
+C:\Users\Gabriela\Desktop\PracticasG\generic01\packagegeneric00.vhdl|i|1464462252|1514
+C:\Users\Gabriela\Desktop\PracticasG\generic01\xor00.vhdl|i|1464462228|1000
+C:\Users\Gabriela\Desktop\PracticasG\generic01\topgeneric00.vhdl|i|1464462170|1475
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439973922|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439974110|1896960

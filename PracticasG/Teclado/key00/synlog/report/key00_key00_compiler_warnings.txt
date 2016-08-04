@@ -1,0 +1,5 @@
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd":20:10:20:16|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\coder00.vhd":23:5:23:8|Referenced variable clkc is not in sensitivity list
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\Teclado\contring00.vhd":20:4:20:5|Pruning register bits 2 to 0 of sring(3 downto 0)  
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

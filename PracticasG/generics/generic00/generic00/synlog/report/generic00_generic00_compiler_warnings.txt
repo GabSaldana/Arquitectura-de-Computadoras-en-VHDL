@@ -1,0 +1,10 @@
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\packagegeneric00.vhdl":102:4:102:12|Port direction mismatch between component and entity
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\not00.vhdl":26:2:26:3|Pruning register outFlagnot_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xnor00.vhdl":26:2:26:3|Pruning register outFlagxnor_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xor00.vhdl":26:2:26:3|Pruning register outFlagxor_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nand00.vhdl":26:2:26:3|Pruning register outFlagnand_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nor00.vhdl":26:2:26:3|Pruning register outFlagnor_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\or00.vhdl":26:2:26:3|Pruning register outFlago_cl_7  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\and00.vhdl":26:2:26:3|Pruning register outFlaga_cl_7  
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

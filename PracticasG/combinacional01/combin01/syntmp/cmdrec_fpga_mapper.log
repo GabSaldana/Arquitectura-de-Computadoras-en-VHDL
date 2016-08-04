@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synlog\report\combin01_combin01_fpga_mapper.xml  -top_level_module  work.eTopMultip00  -flow mapping  -multisrs  -oedif  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\combin01_combin01.edi   -freq 1.000   C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synwork\combin01_combin01_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\syntmp\combin01_combin01.plg  -osyn  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\combin01_combin01.srm  -prjdir  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\  -prjname  proj_1  -log  C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synlog\combin01_combin01_fpga_mapper.srr 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\combin01_combin01.edi|o|1458048331|95078
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synwork\combin01_combin01_prem.srd|i|1458048329|6817
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v|i|1439963974|54295
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439963974|40584
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\syntmp\combin01_combin01.plg|o|1458048331|1262
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\combin01_combin01.srm|o|1458048330|8544
+C:\Users\Gabriela\Desktop\Practicas\combinacional01\combin01\synlog\combin01_combin01_fpga_mapper.srr|o|1458048331|6788
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439965052|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439966684|20782592

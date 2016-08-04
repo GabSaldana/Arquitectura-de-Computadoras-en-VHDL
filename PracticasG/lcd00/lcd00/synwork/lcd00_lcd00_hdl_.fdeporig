@@ -1,0 +1,84 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\lcd00\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\osc00.vhdl":1462403169
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\div00.vhdl":1462403189
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\packageosc00.vhdl":1462403208
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\toposc00.vhdl":1462403222
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\contconfig00.vhdl":1462403238
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\config00.vhdl":1462403256
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\contw00.vhdl":1462403270
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\write00.vhdl":1462974160
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\bufferlcd00.vhdl":1462403305
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\packagelcd00.vhdl":1462403321
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\lcd00\\toplcd00.vhdl":1462403338
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\osc00.vhdl" vhdl
+2 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl" vhdl
+3 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\packageosc00.vhdl" vhdl
+4 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\toposc00.vhdl" vhdl
+5 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl" vhdl
+6 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl" vhdl
+7 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl" vhdl
+8 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl" vhdl
+9 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl" vhdl
+10 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\packagelcd00.vhdl" vhdl
+11 "C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 1 2 0 3 
+5 0 
+6 0 
+7 0 
+8 0 
+9 0 
+10 0 
+11 4 5 6 7 8 9 0 10 
+
+# Dependency Lists (Users Of)
+0 11 10 9 8 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 11 
+5 11 
+6 11 
+7 11 
+8 11 
+9 11 
+10 11 
+11 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work toposc00 toposc0 4
+module work toposc00 4
+arch work contconfig00 contconfig0 5
+module work contconfig00 5
+arch work config00 config0 6
+module work config00 6
+arch work contw00 contw0 7
+module work contw00 7
+arch work write00 write0 8
+module work write00 8
+arch work bufferlcd00 bufferlcd0 9
+module work bufferlcd00 9
+arch work toplcd00 toplcd0 11
+module work toplcd00 11

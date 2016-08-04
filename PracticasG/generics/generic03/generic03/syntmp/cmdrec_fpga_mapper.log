@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synlog\report\generic03_generic03_fpga_mapper.xml  -top_level_module  work.topgeneric00  -flow mapping  -multisrs  -oedif  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\generic03_generic03.edi   -freq 1.000   C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\syntmp\generic03_generic03.plg  -osyn  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\generic03_generic03.srm  -prjdir  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\  -prjname  proj_1  -log  C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synlog\generic03_generic03_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\generic03_generic03.edi|o|1464576083|237147
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synwork\generic03_generic03_prem.srd|i|1464576081|39825
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\machxo2.v|i|1439967574|54295
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439967574|40584
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\syntmp\generic03_generic03.plg|o|1464576084|1084
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\generic03_generic03.srm|o|1464576083|14509
+C:\Users\Gabriela\Desktop\PracticasG\generics\generic03\generic03\synlog\generic03_generic03_fpga_mapper.srr|o|1464576084|39445
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439968652|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439970284|20782592

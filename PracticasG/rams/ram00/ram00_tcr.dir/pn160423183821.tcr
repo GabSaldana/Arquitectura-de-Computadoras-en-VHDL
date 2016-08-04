@@ -1,0 +1,19 @@
+#Start recording tcl command: 4/23/2016 17:48:39
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/rams/ram00; Project name: ram00
+C:/Users/Gabriela/Desktop/PracticasG/key00
+key00
+#Start recording tcl command: 4/23/2016 18:38:21
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/key00; Project name: key00
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00.ldf"
+prj_run Export -impl ram00 -task Jedecgen
+prj_run Export -impl ram00 -task Jedecgen
+pgr_project save "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00/ram00.xcf"
+prj_src add -exclude "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00/ram00.xcf"
+prj_src enable "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00/ram00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00/ram00.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/key00/key00.ldf"
+pgr_project close
+#Stop recording: 4/23/2016 18:38:21

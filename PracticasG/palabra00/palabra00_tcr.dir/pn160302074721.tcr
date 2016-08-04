@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/2/2016 07:39:10
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/palabra00; Project name: palabra00
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00.ldf"
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00/palabra00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Gabriela/Desktop/Practicas/palabra00/palabra00/palabra00.xcf"
+prj_project close
+#Stop recording: 3/2/2016 07:47:21

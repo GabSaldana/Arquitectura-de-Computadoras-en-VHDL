@@ -1,0 +1,384 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun May 29 09:03:27 2016
+#
+
+
+Top view:               topp04
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1999.831
+
+                                    Requested     Estimated     Requested     Estimated                 Clock                          Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type                           Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+div04|outdiv_derived_clock          1.0 MHz       163.4 MHz     1000.000      6.120         997.868     derived (from topp04|clk0)     Inferred_clkgroup_0
+pcinc04|outFlagpc_derived_clock     1.0 MHz       163.4 MHz     1000.000      6.120         993.880     derived (from topp04|clk0)     Inferred_clkgroup_0
+topp04|clk0                         1.0 MHz       501.7 MHz     1000.000      1.993         998.007     inferred                       Inferred_clkgroup_0
+==========================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise       |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack      |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+topp04|clk0                      topp04|clk0                      |  0.000       0.657      |  No paths    -      |  No paths    -      |  No paths    -    
+div04|outdiv_derived_clock       div04|outdiv_derived_clock       |  0.000       -1999.831  |  No paths    -      |  No paths    -      |  No paths    -    
+div04|outdiv_derived_clock       pcinc04|outFlagpc_derived_clock  |  0.000       1.600      |  No paths    -      |  No paths    -      |  No paths    -    
+pcinc04|outFlagpc_derived_clock  div04|outdiv_derived_clock       |  0.000       0.358      |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div04|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                          Arrival              
+Instance           Reference                      Type        Pin     Net            Time        Slack    
+                   Clock                                                                                  
+----------------------------------------------------------------------------------------------------------
+U09.aux            div04|outdiv_derived_clock     FD1P3AX     Q       aux            0.731       -1999.831
+U06.aux            div04|outdiv_derived_clock     FD1S3AX     Q       aux            0.803       -1999.758
+U10.aux            div04|outdiv_derived_clock     FD1S3AX     Q       aux            0.803       -1999.758
+U01.aux1           div04|outdiv_derived_clock     FD1P3AX     Q       aux1           0.731       -1999.400
+U09.snibb00[0]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb00[0]     0.680       -1999.394
+U09.snibb00[1]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb00[1]     0.680       -1999.394
+U09.snibb00[2]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb00[2]     0.680       -1999.394
+U09.snibb00[3]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb00[3]     0.680       -1999.394
+U09.snibb01[0]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb01[0]     0.680       -1999.394
+U09.snibb01[1]     div04|outdiv_derived_clock     FD1P3AX     Q       snibb01[1]     0.680       -1999.394
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                          Required              
+Instance                 Reference                      Type        Pin     Net            Time         Slack    
+                         Clock                                                                                   
+-----------------------------------------------------------------------------------------------------------------
+U09.outFlagca_1          div04|outdiv_derived_clock     FD1S3IX     CD      aux            2000.562     -1999.831
+U06.outFlags_1           div04|outdiv_derived_clock     FD1S3IX     CD      aux            2000.562     -1999.758
+U10.outFlagss_1          div04|outdiv_derived_clock     FD1S3IX     CD      aux            2000.562     -1999.758
+U01.outACA8init_1[2]     div04|outdiv_derived_clock     FD1S3JX     PD      fb             2000.562     -1999.400
+U09.outBuf12ca_1[0]      div04|outdiv_derived_clock     FD1P3AX     D       snibb00[0]     2000.074     -1999.394
+U09.outBuf12ca_1[1]      div04|outdiv_derived_clock     FD1P3AX     D       snibb00[1]     2000.074     -1999.394
+U09.outBuf12ca_1[2]      div04|outdiv_derived_clock     FD1P3AX     D       snibb00[2]     2000.074     -1999.394
+U09.outBuf12ca_1[3]      div04|outdiv_derived_clock     FD1P3AX     D       snibb00[3]     2000.074     -1999.394
+U09.outBuf12ca_1[4]      div04|outdiv_derived_clock     FD1P3AX     D       snibb01[0]     2000.074     -1999.394
+U09.outBuf12ca_1[5]      div04|outdiv_derived_clock     FD1P3AX     D       snibb01[1]     2000.074     -1999.394
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.731
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      2000.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -1999.831
+
+    Number of logic level(s):                0
+    Starting point:                          U09.aux / Q
+    Ending point:                            U09.outFlagca_1 / CD
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+    -Timing constraint applied as hold multi cycle path with factor 1 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U09.aux             FD1P3AX     Q        Out     0.731     0.731       -         
+aux                 Net         -        -       -         -           2         
+U09.outFlagca_1     FD1S3IX     CD       In      0.000     0.731       -         
+=================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      2000.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 -1999.758
+
+    Number of logic level(s):                0
+    Starting point:                          U06.aux / Q
+    Ending point:                            U06.outFlags_1 / CD
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+    -Timing constraint applied as hold multi cycle path with factor 1 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+U06.aux            FD1S3AX     Q        Out     0.803     0.803       -         
+aux                Net         -        -       -         -           4         
+U06.outFlags_1     FD1S3IX     CD       In      0.000     0.803       -         
+================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      2000.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 -1999.758
+
+    Number of logic level(s):                0
+    Starting point:                          U10.aux / Q
+    Ending point:                            U10.outFlagss_1 / CD
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+    -Timing constraint applied as hold multi cycle path with factor 1 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U10.aux             FD1S3AX     Q        Out     0.803     0.803       -         
+aux                 Net         -        -       -         -           4         
+U10.outFlagss_1     FD1S3IX     CD       In      0.000     0.803       -         
+=================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        1.163
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      2000.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 -1999.400
+
+    Number of logic level(s):                1
+    Starting point:                          U01.aux1 / Q
+    Ending point:                            U01.outACA8init_1[2] / PD
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+    -Timing constraint applied as hold multi cycle path with factor 1 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+U01.aux1                    FD1P3AX      Q        Out     0.731     0.731       -         
+aux1                        Net          -        -       -         -           2         
+U01.outACA8init_1_2_.fb     ORCALUT4     C        In      0.000     0.731       -         
+U01.outACA8init_1_2_.fb     ORCALUT4     Z        Out     0.432     1.163       -         
+fb                          Net          -        -       -         -           1         
+U01.outACA8init_1[2]        FD1S3JX      PD       In      0.000     1.163       -         
+==========================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      2000.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 -1999.394
+
+    Number of logic level(s):                0
+    Starting point:                          U09.snibb00[0] / Q
+    Ending point:                            U09.outBuf12ca_1[0] / D
+    The start point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+    -Timing constraint applied as hold multi cycle path with factor 1 (from c:div04|outdiv_derived_clock to c:div04|outdiv_derived_clock)
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                    Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+U09.snibb00[0]          FD1P3AX     Q        Out     0.680     0.680       -         
+snibb00[0]              Net         -        -       -         -           1         
+U09.outBuf12ca_1[0]     FD1P3AX     D        In      0.000     0.680       -         
+=====================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pcinc04|outFlagpc_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                     Arrival          
+Instance           Reference                           Type        Pin     Net                  Time        Slack
+                   Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------------
+U05.outcode[1]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[1]     0.920       0.358
+U05.outcode[2]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[2]     0.922       0.360
+U05.outcode[0]     pcinc04|outFlagpc_derived_clock     FD1S1AY     Q       outcodeport_c[0]     0.916       0.900
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                     Required          
+Instance                        Reference                           Type        Pin     Net                  Time         Slack
+                                Clock                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------
+U02.ACLpA_cl[7]                 pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U01.outACA12init_cl[11]         pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U06.outACs_cl[7]                pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U10.outACss_cl[11]              pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U01.outFlag8init_tri_enable     pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U02.outFlagLp_tri_enable        pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U06.outFlags_tri_enable         pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U10.outFlagss_tri_enable        pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[1]     0.562        0.358
+U08.outAC12bitsu_cl[11]         pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[2]     0.562        0.360
+U09.outBuf12ca_cl_1[11]         pcinc04|outFlagpc_derived_clock     FD1S3IX     CD      outcodeport_c[2]     0.562        0.360
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.920
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.358
+
+    Number of logic level(s):                0
+    Starting point:                          U05.outcode[1] / Q
+    Ending point:                            U02.ACLpA_cl[7] / CD
+    The start point is clocked by            pcinc04|outFlagpc_derived_clock [rising] on pin CK
+    The end   point is clocked by            div04|outdiv_derived_clock [rising] on pin CK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                 Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+U05.outcode[1]       FD1S1AY     Q        Out     0.920     0.920       -         
+outcodeport_c[1]     Net         -        -       -         -           30        
+U02.ACLpA_cl[7]      FD1S3IX     CD       In      0.000     0.920       -         
+==================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: topp04|clk0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                            Arrival          
+Instance            Reference       Type        Pin     Net             Time        Slack
+                    Clock                                                                
+-----------------------------------------------------------------------------------------
+U13.sintRing[0]     topp04|clk0     FD1S3IX     Q       sintRing[0]     0.731       0.657
+U13.sintRing[1]     topp04|clk0     FD1S3JX     Q       sintRing[1]     0.731       0.657
+U13.sintRing[2]     topp04|clk0     FD1S3JX     Q       sintRing[2]     0.731       0.657
+U13.sintRing[3]     topp04|clk0     FD1S3JX     Q       sintRing[3]     0.731       0.657
+U14.QR[3]           topp04|clk0     FD1S3DX     Q       QR[3]           0.775       1.269
+U14.QR[0]           topp04|clk0     FD1S3DX     Q       QR[0]           0.803       1.297
+U14.QR[2]           topp04|clk0     FD1S3DX     Q       QR[2]           0.803       1.297
+U14.QR[1]           topp04|clk0     FD1S3DX     Q       QR[1]           0.826       1.320
+U14.outdiv          topp04|clk0     FD1S3DX     Q       outdiv_i        1.026       1.520
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                 Required          
+Instance            Reference       Type         Pin     Net                 Time         Slack
+                    Clock                                                                      
+-----------------------------------------------------------------------------------------------
+U13_outrio[3]       topp04|clk0     OFS1P3DX     D       U13.sintRing[3]     0.074        0.657
+U13.outr[0]         topp04|clk0     FD1P3AX      D       sintRing[0]         0.074        0.657
+U13.outr[1]         topp04|clk0     FD1P3AX      D       sintRing[1]         0.074        0.657
+U13.outr[2]         topp04|clk0     FD1P3AX      D       sintRing[2]         0.074        0.657
+U13.sintRing[0]     topp04|clk0     FD1S3IX      D       sintRing[3]         0.074        0.657
+U13.sintRing[1]     topp04|clk0     FD1S3JX      D       sintRing[0]         0.074        0.657
+U13.sintRing[2]     topp04|clk0     FD1S3JX      D       sintRing[1]         0.074        0.657
+U13.sintRing[3]     topp04|clk0     FD1S3JX      D       sintRing[2]         0.074        0.657
+U14.QR[0]           topp04|clk0     FD1S3DX      D       QR_3[0]             -0.062       1.269
+U14.QR[3]           topp04|clk0     FD1S3DX      D       QR_3[3]             -0.062       1.269
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.731
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.657
+
+    Number of logic level(s):                0
+    Starting point:                          U13.sintRing[0] / Q
+    Ending point:                            U13.outr[0] / D
+    The start point is clocked by            topp04|clk0 [rising] on pin CK
+    The end   point is clocked by            topp04|clk0 [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U13.sintRing[0]     FD1S3IX     Q        Out     0.731     0.731       -         
+sintRing[0]         Net         -        -       -         -           2         
+U13.outr[0]         FD1P3AX     D        In      0.000     0.731       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "palabra00_palabra00.log"
+-o "palabra00_palabra00.csv"
+-pr "palabra00_palabra00.prf"

@@ -1,0 +1,11 @@
+#Start recording tcl command: 2/23/2016 09:25:33
+#Project Location: C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/combinacional01; Project name: combin01
+prj_project open "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/combinacional01/combin01.ldf"
+pgr_project close
+prj_run Export -impl combin01 -task Jedecgen
+pgr_project open "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/combinacional01/combin01/combin01.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/combinacional01/combin01/combin01.xcf"
+prj_project close
+#Stop recording: 2/23/2016 09:45:04

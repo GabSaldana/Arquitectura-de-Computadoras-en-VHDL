@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\rom00_rom00_hdl_.srs  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\osc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packageosc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd  -log  C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\syntax.log  -fileorder  C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\synwork\rom00_rom00_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\osc00.vhd|i|1461761124|527
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd|i|1461761144|2096
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packageosc00.vhd|i|1461761191|387
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd|i|1461761206|527
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd|i|1461761243|718
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd|i|1462367768|1405
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd|i|1461761333|728
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd|i|1461761336|898
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd|i|1461761285|1096
+C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00\syntax.log|o|1462367773|928
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439973978|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439974174|3183616

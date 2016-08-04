@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/5/2015 09:38:29
+#Project Location: D:/PracticasDiamond/nand01; Project name: nand01
+prj_project open "D:/PracticasDiamond/nand01/nand01.ldf"
+pgr_project close
+prj_project close
+#Stop recording: 2/5/2015 09:38:49

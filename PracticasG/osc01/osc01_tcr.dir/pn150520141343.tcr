@@ -1,0 +1,24 @@
+#Start recording tcl command: 5/20/2015 08:16:45
+#Project Location: D:/DisenoDigital/osc01; Project name: osc01
+D:/DisenoDigital/latchnand00
+latchnand00
+#Start recording tcl command: 5/20/2015 14:13:43
+#Project Location: D:/DisenoDigital/latchnand00; Project name: latchnand00
+prj_project new -name "osc01" -impl "osc01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/DisenoDigital/osc01/oscint01.vhdl"
+prj_src add "D:/DisenoDigital/osc01/div00.vhdl"
+prj_src remove "D:/DisenoDigital/osc01/div00.vhdl"
+prj_src add "D:/DisenoDigital/osc01/div01.vhdl"
+prj_src add "D:/DisenoDigital/osc01/packageosc01.vhdl"
+prj_src add "D:/DisenoDigital/osc01/toposc00.vhdl"
+prj_run Export -impl osc01 -task Jedecgen
+pgr_project save "D:/DisenoDigital/osc01/osc01/osc01.xcf"
+prj_src add -exclude "D:/DisenoDigital/osc01/osc01/osc01.xcf"
+prj_src enable "D:/DisenoDigital/osc01/osc01/osc01.xcf"
+pgr_program run
+pgr_project save "D:/DisenoDigital/osc01/osc01/osc01.xcf"
+prj_project save
+prj_project close
+prj_project open "D:/DisenoDigital/latchnand00/latchnand00.ldf"
+#Stop recording: 5/20/2015 14:13:43

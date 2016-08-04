@@ -1,0 +1,69 @@
+[ START MERGED ]
+outFlagsu_tri_enable_i outFlagsu_tri_enable
+reset0_c_i reset0_c
+[ END MERGED ]
+[ START CLIPPED ]
+VCC
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.6.0.83.4 -- WARNING: Map write only section -- Sun May 29 09:03:31 2016
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF ;
+LOCATE COMP "sFlagInst" SITE "p14" ;
+LOCATE COMP "sclk0" SITE "p24" ;
+LOCATE COMP "clk0" SITE "p56" ;
+LOCATE COMP "outDisplay[6]" SITE "p130" ;
+LOCATE COMP "outDisplay[5]" SITE "p131" ;
+LOCATE COMP "outDisplay[4]" SITE "p132" ;
+LOCATE COMP "outDisplay[3]" SITE "p133" ;
+LOCATE COMP "outDisplay[2]" SITE "p134" ;
+LOCATE COMP "outDisplay[1]" SITE "p135" ;
+LOCATE COMP "outDisplay[0]" SITE "p138" ;
+LOCATE COMP "outTransist0[3]" SITE "p139" ;
+LOCATE COMP "outTransist0[2]" SITE "p140" ;
+LOCATE COMP "outTransist0[1]" SITE "p141" ;
+LOCATE COMP "outTransist0[0]" SITE "p142" ;
+LOCATE COMP "outport8a0[7]" SITE "p4" ;
+LOCATE COMP "outport8a0[6]" SITE "p5" ;
+LOCATE COMP "outport8a0[5]" SITE "p6" ;
+LOCATE COMP "outport8a0[4]" SITE "p7" ;
+LOCATE COMP "outport8a0[3]" SITE "p8" ;
+LOCATE COMP "outport8a0[2]" SITE "p9" ;
+LOCATE COMP "outport8a0[1]" SITE "p11" ;
+LOCATE COMP "outport8a0[0]" SITE "p12" ;
+LOCATE COMP "outport120[11]" SITE "p28" ;
+LOCATE COMP "outport120[10]" SITE "p29" ;
+LOCATE COMP "outport120[9]" SITE "p30" ;
+LOCATE COMP "outport120[8]" SITE "p31" ;
+LOCATE COMP "outport120[7]" SITE "p32" ;
+LOCATE COMP "outport120[6]" SITE "p33" ;
+LOCATE COMP "outport120[5]" SITE "p39" ;
+LOCATE COMP "outport120[4]" SITE "p40" ;
+LOCATE COMP "outport120[3]" SITE "p41" ;
+LOCATE COMP "outport120[2]" SITE "p42" ;
+LOCATE COMP "outport120[1]" SITE "p43" ;
+LOCATE COMP "outport120[0]" SITE "p143" ;
+LOCATE COMP "inport8a0[7]" SITE "p125" ;
+LOCATE COMP "inport8a0[6]" SITE "p124" ;
+LOCATE COMP "inport8a0[5]" SITE "p123" ;
+LOCATE COMP "inport8a0[4]" SITE "p122" ;
+LOCATE COMP "inport8a0[3]" SITE "p121" ;
+LOCATE COMP "inport8a0[2]" SITE "p120" ;
+LOCATE COMP "inport8a0[1]" SITE "p117" ;
+LOCATE COMP "inport8a0[0]" SITE "p110" ;
+LOCATE COMP "outcodeport[3]" SITE "p62" ;
+LOCATE COMP "outcodeport[2]" SITE "p63" ;
+LOCATE COMP "outcodeport[1]" SITE "p70" ;
+LOCATE COMP "outcodeport[0]" SITE "p71" ;
+LOCATE COMP "outpcport[3]" SITE "p58" ;
+LOCATE COMP "outpcport[2]" SITE "p59" ;
+LOCATE COMP "outpcport[1]" SITE "p60" ;
+LOCATE COMP "outpcport[0]" SITE "p61" ;
+LOCATE COMP "soutFlagrom" SITE "p21" ;
+LOCATE COMP "sFlag12out" SITE "p16" ;
+LOCATE COMP "sFlag8out" SITE "p15" ;
+LOCATE COMP "soutFlagpc" SITE "p13" ;
+LOCATE COMP "reset0" SITE "p104" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

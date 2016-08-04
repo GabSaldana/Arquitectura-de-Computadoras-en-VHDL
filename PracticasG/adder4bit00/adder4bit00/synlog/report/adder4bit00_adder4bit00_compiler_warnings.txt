@@ -1,0 +1,2 @@
+@W: CD280 :"D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\source\packagetopadder4bit00.vhdl":17:13:17:18|Unbound component nxor00 mapped to black box
+

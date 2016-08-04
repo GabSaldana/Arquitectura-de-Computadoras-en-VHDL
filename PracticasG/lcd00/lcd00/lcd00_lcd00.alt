@@ -1,0 +1,40 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed May 11 08:43:03 2016 *
+NOTE DESIGN NAME: toplcd00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 10 : out *
+NOTE PINS reset0 : 81 : in *
+NOTE PINS outcontcw0[5] : 113 : out *
+NOTE PINS outcontcw0[4] : 114 : out *
+NOTE PINS outcontcw0[3] : 6 : out *
+NOTE PINS outcontcw0[2] : 115 : out *
+NOTE PINS outcontcw0[1] : 117 : out *
+NOTE PINS outcontcw0[0] : 9 : out *
+NOTE PINS EN0 : 39 : out *
+NOTE PINS RS0 : 40 : out *
+NOTE PINS RW0 : 41 : out *
+NOTE PINS outword0[7] : 107 : out *
+NOTE PINS outword0[6] : 106 : out *
+NOTE PINS outword0[5] : 105 : out *
+NOTE PINS outword0[4] : 104 : out *
+NOTE PINS outword0[3] : 100 : out *
+NOTE PINS outword0[2] : 99 : out *
+NOTE PINS outword0[1] : 98 : out *
+NOTE PINS outword0[0] : 97 : out *
+NOTE PINS outFlagw0 : 109 : out *
+NOTE PINS outFlagcc0 : 112 : out *
+NOTE PINS outcc0[5] : 110 : out *
+NOTE PINS outcc0[4] : 1 : out *
+NOTE PINS outcc0[3] : 2 : out *
+NOTE PINS outcc0[2] : 3 : out *
+NOTE PINS outcc0[1] : 4 : out *
+NOTE PINS outcc0[0] : 5 : out *
+NOTE PINS inFlagcc0 : 111 : out *
+NOTE PINS cdiv00[3] : 75 : in *
+NOTE PINS cdiv00[2] : 76 : in *
+NOTE PINS cdiv00[1] : 73 : in *
+NOTE PINS cdiv00[0] : 74 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

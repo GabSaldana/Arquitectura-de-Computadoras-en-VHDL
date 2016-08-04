@@ -1,0 +1,1 @@
+project -fileorder "D:/Archivos\ de\ Programa/lscc/diamond/3.2_x64/cae_library/synthesis/vhdl/machxo2.vhd" "D:/PracticasDiamond/and01/and01.vhdl" 

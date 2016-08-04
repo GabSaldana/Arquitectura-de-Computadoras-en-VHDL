@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topgeneric01  -multisrs  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_comp.srs  -osyn  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_mult.srs  -log  C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synlog\generic01_generic01_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_comp.srs|i|1464285808|27849
+C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synwork\generic01_generic01_mult.srs|o|1464285810|7034
+C:\Users\lu_he\Documents\proyect\generics\generic01\generic01\synlog\generic01_generic01_multi_srs_gen.srr|o|1464285810|374
+C:\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429565366|3000832
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429565558|3967488

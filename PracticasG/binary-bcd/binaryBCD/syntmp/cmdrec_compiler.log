@@ -1,0 +1,24 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_comp.srs  -top  work.topp04  -hdllog  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synlog\binaryBCD_binaryBCD_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac8bit04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac12bit0.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\coderNibbles04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contring04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\packagep04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_comp.srs|o|1464530602|33437
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synlog\binaryBCD_binaryBCD_compiler.srr|o|1464530602|11801
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac8bit04.vhdl|i|1464299427|825
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac12bit0.vhdl|i|1464299790|843
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\coderNibbles04.vhdl|i|1464299818|2819
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl|i|1464299851|1757
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl|i|1464299883|924
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contring04.vhdl|i|1464299917|698
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl|i|1464299981|867
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl|i|1464300005|1895
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl|i|1464300031|912
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl|i|1464300070|775
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\packagep04.vhdl|i|1464300101|4050
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl|i|1464300168|2796
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl|i|1464300196|915
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl|i|1464300222|1166
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl|i|1464300252|1221
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl|i|1464300290|1316
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl|i|1464300334|6086
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439973922|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439974110|1896960

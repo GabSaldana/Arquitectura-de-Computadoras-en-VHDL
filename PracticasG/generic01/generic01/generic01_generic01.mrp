@@ -1,0 +1,468 @@
+
+         Lattice Mapping Report File for Design Module 'topgeneric00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t FPBGA484 -s 5 -oc Commercial
+     generic01_generic01.ngd -o generic01_generic01_map.ncd -pr
+     generic01_generic01.prf -mp generic01_generic01.mrp -lpf C:/Users/Gabriela/
+     Desktop/PracticasG/generic01/generic01/generic01_generic01_synplify.lpf
+     -lpf C:/Users/Gabriela/Desktop/PracticasG/generic01/generic01.lpf -c 0 -gui
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HEFPBGA484
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.6.0.83.4
+Mapped on:  05/28/16  14:12:09
+
+Design Summary
+--------------
+
+   Number of registers:     67 out of  7869 (1%)
+      PFU registers:           59 out of  6864 (1%)
+      PIO registers:            8 out of  1005 (1%)
+   Number of SLICEs:        57 out of  3432 (2%)
+      SLICEs as Logic/ROM:     57 out of  3432 (2%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        108 out of  6864 (2%)
+      Number used as logic LUTs:         86
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 37 + 4(JTAG) out of 335 (12%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net G01.soscout0: 45 loads, 45 rising, 0 falling (Driver: G01/OS00/OSCInst0
+     )
+
+                                    Page 1
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+Design Summary (cont)
+---------------------
+   Number of Clock Enables:  5
+     Net outuc_cnv[0]: 8 loads, 0 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_0_RNIT0181: 13 loads, 13 LSLICEs
+     Net G02/aux_RNI8A4N2: 4 loads, 4 LSLICEs
+     Net G03/aux_RNI9EAR2: 4 loads, 4 LSLICEs
+     Net G04/aux_RNIAIGV2: 4 loads, 4 LSLICEs
+   Number of LSRs:  1
+     Net G01/OS01/un1_outdiv37_RNISNGS: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outdiv_0_sqmuxa_1_0_RNIT0181: 17 loads
+     Net G01/OS01/un1_outdiv37_RNISNGS: 11 loads
+     Net G02/N_48: 11 loads
+     Net G03/N_49: 11 loads
+     Net G04/N_47: 11 loads
+     Net codop0_c[0]: 9 loads
+     Net codop0_c[1]: 9 loads
+     Net G02/outa_cl[7]: 9 loads
+     Net G03.outo_cl[7]: 9 loads
+     Net G04.outx_cl[7]: 9 loads
+
+
+
+
+   Number of warnings:  74
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Specified location site name "23" is not valid for sinFlag0.
+     Location directive ignored.
+WARNING - map: Specified location site name "10" is not valid for clk0. Location
+     directive ignored.
+WARNING - map: Specified location site name "74" is not valid for cdiv00[0].
+     Location directive ignored.
+WARNING - map: Specified location site name "24" is not valid for soutFlag0.
+     Location directive ignored.
+WARNING - map: Specified location site name "113" is not valid for outg0[7].
+     Location directive ignored.
+WARNING - map: Specified location site name "4" is not valid for outg0[6].
+     Location directive ignored.
+WARNING - map: Specified location site name "3" is not valid for outg0[5].
+     Location directive ignored.
+WARNING - map: Specified location site name "2" is not valid for outg0[4].
+     Location directive ignored.
+WARNING - map: Specified location site name "1" is not valid for outg0[3].
+     Location directive ignored.
+WARNING - map: Specified location site name "111" is not valid for outg0[2].
+     Location directive ignored.
+WARNING - map: Specified location site name "110" is not valid for outg0[1].
+     Location directive ignored.
+WARNING - map: Specified location site name "109" is not valid for outg0[0].
+     Location directive ignored.
+WARNING - map: Specified location site name "52" is not valid for portB0[7].
+
+                                    Page 2
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+Design Errors/Warnings (cont)
+-----------------------------
+     Location directive ignored.
+WARNING - map: Specified location site name "55" is not valid for portB0[6].
+     Location directive ignored.
+WARNING - map: Specified location site name "54" is not valid for portB0[5].
+     Location directive ignored.
+WARNING - map: Specified location site name "56" is not valid for portB0[4].
+     Location directive ignored.
+WARNING - map: Specified location site name "57" is not valid for portB0[3].
+     Location directive ignored.
+WARNING - map: Specified location site name "59" is not valid for portB0[2].
+     Location directive ignored.
+WARNING - map: Specified location site name "58" is not valid for portB0[1].
+     Location directive ignored.
+WARNING - map: Specified location site name "60" is not valid for portB0[0].
+     Location directive ignored.
+WARNING - map: Specified location site name "61" is not valid for portA0[7].
+     Location directive ignored.
+WARNING - map: Specified location site name "65" is not valid for portA0[6].
+     Location directive ignored.
+WARNING - map: Specified location site name "62" is not valid for portA0[5].
+     Location directive ignored.
+WARNING - map: Specified location site name "67" is not valid for portA0[4].
+     Location directive ignored.
+WARNING - map: Specified location site name "68" is not valid for portA0[3].
+     Location directive ignored.
+WARNING - map: Specified location site name "70" is not valid for portA0[2].
+     Location directive ignored.
+WARNING - map: Specified location site name "69" is not valid for portA0[1].
+     Location directive ignored.
+WARNING - map: Specified location site name "71" is not valid for portA0[0].
+     Location directive ignored.
+WARNING - map: Specified location site name "81" is not valid for enable0.
+     Location directive ignored.
+WARNING - map: Specified location site name "45" is not valid for codop0[4].
+     Location directive ignored.
+WARNING - map: Specified location site name "47" is not valid for codop0[3].
+     Location directive ignored.
+WARNING - map: Specified location site name "49" is not valid for codop0[2].
+     Location directive ignored.
+WARNING - map: Specified location site name "48" is not valid for codop0[1].
+     Location directive ignored.
+WARNING - map: Specified location site name "50" is not valid for codop0[0].
+     Location directive ignored.
+WARNING - map: Specified location site name "75" is not valid for cdiv00[3].
+     Location directive ignored.
+WARNING - map: Specified location site name "76" is not valid for cdiv00[2].
+     Location directive ignored.
+WARNING - map: Specified location site name "73" is not valid for cdiv00[1].
+     Location directive ignored.
+WARNING - map: Semantic error in "LOCATE COMP "sinFlag0" SITE "23" ;": Unable to
+     find site 23 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "clk0" SITE "10" ;": Unable to
+     find site 10 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "cdiv00[0]" SITE "74" ;": Unable
+     to find site 74 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "soutFlag0" SITE "24" ;": Unable
+
+                                    Page 3
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+Design Errors/Warnings (cont)
+-----------------------------
+     to find site 24 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[7]" SITE "113" ;": Unable
+     to find site 113 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[6]" SITE "4" ;": Unable to
+     find site 4 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[5]" SITE "3" ;": Unable to
+     find site 3 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[4]" SITE "2" ;": Unable to
+     find site 2 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[3]" SITE "1" ;": Unable to
+     find site 1 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[2]" SITE "111" ;": Unable
+     to find site 111 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[1]" SITE "110" ;": Unable
+     to find site 110 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "outg0[0]" SITE "109" ;": Unable
+     to find site 109 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[7]" SITE "52" ;": Unable
+     to find site 52 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[6]" SITE "55" ;": Unable
+     to find site 55 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[5]" SITE "54" ;": Unable
+     to find site 54 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[4]" SITE "56" ;": Unable
+     to find site 56 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[3]" SITE "57" ;": Unable
+     to find site 57 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[2]" SITE "59" ;": Unable
+     to find site 59 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[1]" SITE "58" ;": Unable
+     to find site 58 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portB0[0]" SITE "60" ;": Unable
+     to find site 60 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[7]" SITE "61" ;": Unable
+     to find site 61 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[6]" SITE "65" ;": Unable
+     to find site 65 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[5]" SITE "62" ;": Unable
+     to find site 62 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[4]" SITE "67" ;": Unable
+     to find site 67 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[3]" SITE "68" ;": Unable
+     to find site 68 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[2]" SITE "70" ;": Unable
+     to find site 70 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[1]" SITE "69" ;": Unable
+     to find site 69 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "portA0[0]" SITE "71" ;": Unable
+     to find site 71 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "enable0" SITE "81" ;": Unable to
+     find site 81 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "codop0[4]" SITE "45" ;": Unable
+     to find site 45 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "codop0[3]" SITE "47" ;": Unable
+     to find site 47 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "codop0[2]" SITE "49" ;": Unable
+
+                                    Page 4
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+Design Errors/Warnings (cont)
+-----------------------------
+     to find site 49 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "codop0[1]" SITE "48" ;": Unable
+     to find site 48 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "codop0[0]" SITE "50" ;": Unable
+     to find site 50 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "cdiv00[3]" SITE "75" ;": Unable
+     to find site 75 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "cdiv00[2]" SITE "76" ;": Unable
+     to find site 76 in the device. This preference has been disabled.
+WARNING - map: Semantic error in "LOCATE COMP "cdiv00[1]" SITE "73" ;": Unable
+     to find site 73 in the device. This preference has been disabled.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| sinFlag0            | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| soutFlag0           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outg0[7]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[6]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[5]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[4]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[3]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[2]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[1]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outg0[0]            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| portB0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[1]           | INPUT     | LVCMOS25  |            |
+
+                                    Page 5
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| portB0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block G01/OS01/VCC undriven or does not drive anything - clipped.
+Block G05/GND undriven or does not drive anything - clipped.
+Block G05/VCC undriven or does not drive anything - clipped.
+Block G04/VCC undriven or does not drive anything - clipped.
+Block G04/GND undriven or does not drive anything - clipped.
+Block G03/VCC undriven or does not drive anything - clipped.
+Block G03/GND undriven or does not drive anything - clipped.
+Block G02/VCC undriven or does not drive anything - clipped.
+Block G02/GND undriven or does not drive anything - clipped.
+Signal G01/OS00/GND undriven or does not drive anything - clipped.
+Signal G01/OS01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+
+                                    Page 6
+
+
+
+
+Design:  topgeneric00                                  Date:  05/28/16  14:12:09
+
+Removed logic (cont)
+--------------------
+Signal GND undriven or does not drive anything - clipped.
+Signal G01/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+     
+Signal G01/OS01/un1_sdiv_1_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal G01/OS01/un1_sdiv_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal G01/OS01/N_1 undriven or does not drive anything - clipped.
+Block G01/OS00/GND was optimized away.
+Block G01/OS01/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                G01/OS00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     G01.soscout0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: G01/OS00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 35 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 7
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.

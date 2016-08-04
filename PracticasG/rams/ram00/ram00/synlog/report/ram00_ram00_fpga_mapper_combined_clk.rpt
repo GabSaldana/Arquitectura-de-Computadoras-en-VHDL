@@ -1,0 +1,22 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 62 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+40 instances converted, 2 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance 
+-------------------------------------------------------------------------------------------
+@K:CKID0002       RA01.OS00.OSCInst0     OSCH                   62         RA01.OS01.outdiv
+===========================================================================================
+================================================================= Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance     Explanation                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       RA01.OS01.outdiv     FD1S3AX                2          RA03.dato_ram       No gated clock conversion method for cell cell:LUCENT.DPR16X4C
+===========================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

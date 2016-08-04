@@ -1,0 +1,7 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder4bit00  -multisrs  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_mult.srs  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synlog\adder4bit00_adder4bit00_multi_srs_gen.srr 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs|i|1446038434|5467
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_mult.srs|o|1446038435|3541
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\adder4bit00\adder4bit00\synlog\adder4bit00_adder4bit00_multi_srs_gen.srr|o|1446038435|624
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429561766|3000832
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429561958|3967488

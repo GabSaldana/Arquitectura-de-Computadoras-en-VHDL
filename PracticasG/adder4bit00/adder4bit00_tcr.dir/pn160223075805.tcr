@@ -1,0 +1,13 @@
+#Start recording tcl command: 2/23/2016 07:28:32
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/adder4bit00; Project name: adder4bit00
+C:/Users/Gabriela/Desktop/Practicas/nand01
+nand01
+#Start recording tcl command: 2/23/2016 07:58:04
+#Project Location: C:/Users/Gabriela/Desktop/Practicas/nand01; Project name: nand01
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/adder4bit00/adder4bit00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Gabriela/Desktop/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+prj_project close
+prj_project open "C:/Users/Gabriela/Desktop/Practicas/nand01/nand01.ldf"
+#Stop recording: 2/23/2016 07:58:05

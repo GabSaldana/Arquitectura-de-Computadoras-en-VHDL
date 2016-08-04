@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1464956204"/>
+            <Task name="Jedecgen" build_result="0" update_result="2" update_time="1465320257"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1465320240">
+            <Task name="Map" build_result="0" update_result="2" update_time="1465320240"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1465320252">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1465320252"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1465320238">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1465320238"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1465320223"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="0" build_time="1465320239">
+            <Task name="Translate" build_result="0" update_result="2" update_time="1465320239"/>
+        </Milestone>
+        <Report name="generic02_impl1.bgn" last_build_time="1465320256" last_build_size="4256"/>
+        <Report name="generic02_impl1.edi" last_build_time="1465320235" last_build_size="596912"/>
+        <Report name="generic02_impl1.jed" last_build_time="1465320256" last_build_size="1465610"/>
+        <Report name="generic02_impl1.ncd" last_build_time="1465320252" last_build_size="541924"/>
+        <Report name="generic02_impl1.ngd" last_build_time="1465320239" last_build_size="470655"/>
+        <Report name="generic02_impl1_map.ncd" last_build_time="1465320240" last_build_size="362722"/>
+        <Report name="generic02_impl1_vho.sdf" last_build_time="1464956204" last_build_size="378318"/>
+        <Report name="generic02_impl1_vho.vho" last_build_time="1464956203" last_build_size="2502618"/>
+    </Strategy>
+</BuildStatus>

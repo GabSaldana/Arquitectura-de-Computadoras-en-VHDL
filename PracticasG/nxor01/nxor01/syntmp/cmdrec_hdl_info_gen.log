@@ -1,0 +1,10 @@
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe  -osyn  D:\PracticasDiamond\nxor01\nxor01\synwork\nxor01_nxor01_hdl_.srs  -top  nxor01  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -divnmod -encrypt  -pro  -dmgen  D:\PracticasDiamond\nxor01\nxor01\dm  -lite   -ui -fid2 -ram -sharing on  -ll 2000 -autosm -ignore_undefined_lib  -lib work "D:\Archivos de Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" -lib work D:\PracticasDiamond\nxor01\nxor01.vhdl -loga  D:\PracticasDiamond\nxor01\nxor01\syntax.log  -fileorder  D:\PracticasDiamond\nxor01\nxor01\syntmp\hdlorder.tcl 
+rc:0 success:1
+D:\PracticasDiamond\nxor01\nxor01\synwork\nxor01_nxor01_hdl_.srs|o|0|0
+"D:\Archivos|i|0|0
+de|i|0|0
+Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd"|i|0|0
+D:\PracticasDiamond\nxor01\nxor01.vhdl|i|1422649682|328
+D:\PracticasDiamond\nxor01\nxor01\syntax.log|o|1422649692|1123
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\c_vhdl.exe|i|1397620946|5463552
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin\c_vhdl.exe|i|1397620744|1982464

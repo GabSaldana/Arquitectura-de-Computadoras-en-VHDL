@@ -1,0 +1,70 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\rom00\\synwork\\rom00_rom00_comp.srs|-top|work.toprom00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\osc00.vhd":1461761124
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\cpld\\lattice.vhd":1439967574
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1439967574
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\div00.vhd":1461761144
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\packageosc00.vhd":1461761191
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\toposc00.vhd":1461761206
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\contring00.vhd":1461761243
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\rom00.vhd":1462367768
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\contread00.vhd":1461761333
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\packagerom00.vhd":1461761336
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\ROM2\\ROM2\\rom00\\toprom00.vhd":1461761285
+0			"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\osc00.vhd" vhdl
+2			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\div00.vhd" vhdl
+3			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packageosc00.vhd" vhdl
+4			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toposc00.vhd" vhdl
+5			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contring00.vhd" vhdl
+6			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\rom00.vhd" vhdl
+7			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\contread00.vhd" vhdl
+8			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\packagerom00.vhd" vhdl
+9			"C:\Users\Gabriela\Desktop\PracticasG\ROM2\ROM2\rom00\toprom00.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 0
+3 0
+4 3 0 2 1
+5 0
+6 0
+7 0
+8 0
+9 8 0 7 6 5 4
+#Dependency Lists(Users Of)
+0 1 2 3 4 5 6 7 8 9
+1 4
+2 4
+3 4
+4 9
+5 9
+6 9
+7 9
+8 9
+9 -1
+#Design Unit to File Association
+module work toprom00 9
+arch work toprom00 toprom0 9
+module work contread00 7
+arch work contread00 contread0 7
+module work rom00 6
+arch work rom00 rom0 6
+module work contring00 5
+arch work contring00 contring0 5
+module work toposc00 4
+arch work toposc00 toposc0 4
+module work div00 2
+arch work div00 div0 2
+module work osc00 1
+arch work osc00 osc0 1

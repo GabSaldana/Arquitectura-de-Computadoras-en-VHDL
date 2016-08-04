@@ -1,0 +1,12 @@
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_23[7],  because it is equivalent to instance G08.outnot_cl_22[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_22[7],  because it is equivalent to instance G08.outnot_cl_20[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_21[7],  because it is equivalent to instance G08.outnot_cl_19[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_20[7],  because it is equivalent to instance G08.outnot_cl_18[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_19[7],  because it is equivalent to instance G08.outnot_cl_17[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_18[7],  because it is equivalent to instance G08.outnot_cl_16[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":26:2:26:3|Removing sequential instance G08.outnot_cl_7[7],  because it is equivalent to instance G08.outnot_cl_5[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":26:2:26:3|Removing sequential instance G08.outnot_cl_6[7],  because it is equivalent to instance G08.outnot_cl_4[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":27:3:27:4|Removing user instance G08.outnot_cl_17[7],  because it is equivalent to instance G08.outnot_cl_16[7]
+@W: BN132 :"c:\users\lu_he\documents\proyect\generics\generic01\not00.vhdl":26:2:26:3|Removing sequential instance G08.outnot_cl_4[7],  because it is equivalent to instance G08.outnot_cl_2[7]
+@W: MT558 :|Unable to locate source for clock div00|outdiv_derived_clock. Clock will not be forward annotated
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:G01.OS00.osc_int"

@@ -1,0 +1,102 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic03\\generic03\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic00\\div00.vhdl":1464298808
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic00\\osc00.vhdl":1464298868
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic00\\packageosc00.vhdl":1464298934
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generic00\\toposc00.vhdl":1464298986
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\and00.vhdl":1463061603
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\nand00.vhdl":1464013456
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\nor00.vhdl":1464012333
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\not00.vhdl":1464014677
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\or00.vhdl":1463061812
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\packagegeneric00.vhdl":1464014700
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\topgeneric00.vhdl":1464014677
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\uc00.vhdl":1464575685
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\xnor00.vhdl":1464014222
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\generics\\generic00\\xor00.vhdl":1464013810
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Gabriela\Desktop\PracticasG\generic00\div00.vhdl" vhdl
+2 "C:\Users\Gabriela\Desktop\PracticasG\generic00\osc00.vhdl" vhdl
+3 "C:\Users\Gabriela\Desktop\PracticasG\generic00\packageosc00.vhdl" vhdl
+4 "C:\Users\Gabriela\Desktop\PracticasG\generic00\toposc00.vhdl" vhdl
+5 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\and00.vhdl" vhdl
+6 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nand00.vhdl" vhdl
+7 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\nor00.vhdl" vhdl
+8 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\not00.vhdl" vhdl
+9 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\or00.vhdl" vhdl
+10 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\packagegeneric00.vhdl" vhdl
+11 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\topgeneric00.vhdl" vhdl
+12 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\uc00.vhdl" vhdl
+13 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xnor00.vhdl" vhdl
+14 "C:\Users\Gabriela\Desktop\PracticasG\generics\generic00\xor00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 2 1 0 3 
+5 0 
+6 0 
+7 0 
+8 0 
+9 0 
+10 0 
+11 4 5 9 7 6 14 13 8 12 0 10 
+12 0 
+13 0 
+14 0 
+
+# Dependency Lists (Users Of)
+0 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 11 
+5 11 
+6 11 
+7 11 
+8 11 
+9 11 
+10 11 
+11 -1
+12 11 
+13 11 
+14 11 
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work toposc00 toposc0 4
+module work toposc00 4
+arch work and00 and0 5
+module work and00 5
+arch work nand00 nand0 6
+module work nand00 6
+arch work nor00 nor0 7
+module work nor00 7
+arch work not00 not0 8
+module work not00 8
+arch work or00 or0 9
+module work or00 9
+arch work topgeneric00 topgeneric0 11
+module work topgeneric00 11
+arch work uc00 uc0 12
+module work uc00 12
+arch work xnor00 xnor0 13
+module work xnor00 13
+arch work xor00 xor0 14
+module work xor00 14

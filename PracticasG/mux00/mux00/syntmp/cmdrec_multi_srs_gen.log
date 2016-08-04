@@ -1,0 +1,7 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  mux01  -multisrs  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_comp.srs  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_mult.srs  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synlog\mux00_mux00_multi_srs_gen.srr 
+rc:0 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_comp.srs|i|1446213206|1831
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synwork\mux00_mux00_mult.srs|o|1446213208|1965
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\mux00\mux00\synlog\mux00_mux00_multi_srs_gen.srr|o|1446213208|374
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429561766|3000832
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429561958|3967488

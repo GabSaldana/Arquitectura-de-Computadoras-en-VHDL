@@ -1,0 +1,115 @@
+Running in Lattice mode
+
+sourcing D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\message_override.tcl
+
+
+Starting:    D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase
+Hostname:    ASUS-ROG
+Date:        Tue Sep 22 08:10:08 2015
+Version:     J-2015.03L
+
+Arguments:   -product synplify_pro -batch osc01_osc01_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srr to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srf
+
+log file: "D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srr"
+
+Running: osc01 in foreground
+
+
+
+Running proj_1|osc01
+
+
+Running: compile (Compile) on proj_1|osc01
+
+
+Running: compile_flow (Compile Process) on proj_1|osc01
+
+
+Running: compiler (Compile Input) on proj_1|osc01
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_comp.srs to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:03s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|osc01
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_comp.srs to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_mult.srs to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srs
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srr to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srf
+
+Complete: Compile Process on proj_1|osc01
+
+
+Running: premap (Pre-mapping) on proj_1|osc01
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.fse to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_s.fse
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+Complete: Compile on proj_1|osc01
+
+
+Running: map (Map) on proj_1|osc01
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|osc01
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_m.srm to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+Complete: Map on proj_1|osc01
+
+Copied D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srr to D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.srf
+
+Complete: Logic Synthesis on proj_1|osc01
+
+TCL script complete: "osc01_osc01_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\proj_1.prj
+
+batch mode default:no
+

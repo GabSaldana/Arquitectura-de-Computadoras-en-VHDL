@@ -1,0 +1,2 @@
+@E: CD327 :"C:\Users\Jonathan\Documents\ESCOM\6semestre\ARQUI\ROM2\rom00\toprom00.vhd":35:18:35:25|Illegal connection of instance input offtran to entity output offtran0
+

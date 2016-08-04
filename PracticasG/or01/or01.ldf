@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="or01" device="LCMXO2-7000HE-4TG144C" default_implementation="or01">
+    <Options/>
+    <Implementation title="or01" dir="or01" description="or01" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="or01"/>
+        <Source name="or01.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="or01"/>
+        </Source>
+        <Source name="or01.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="or01/or01.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="or011.sty"/>
+</BaliProject>

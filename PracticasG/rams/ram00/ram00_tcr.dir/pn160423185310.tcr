@@ -1,0 +1,10 @@
+#Start recording tcl command: 4/23/2016 18:39:56
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/rams/ram00; Project name: ram00
+C:/Users/Gabriela/Desktop/PracticasG/key00
+key00
+#Start recording tcl command: 4/23/2016 18:53:09
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/key00; Project name: key00
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/rams/ram00/ram00.ldf"
+prj_project close
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/key00/key00.ldf"
+#Stop recording: 4/23/2016 18:53:10

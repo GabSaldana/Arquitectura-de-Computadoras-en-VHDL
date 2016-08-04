@@ -1,0 +1,94 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\ram00\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\osc00.vhdl":1461025024
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\div00.vhdl":1461025043
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\packageosc00.vhdl":1461025059
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\toposc00.vhdl":1461025076
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\contring00.vhdl":1461025094
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\coder00.vhdl":1461451942
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\packagekey00.vhdl":1461455588
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\topkey00.vhdl":1461455309
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\ram00.vhdl":1461025327
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\coder7seg00.vhdl":1461025144
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\contRead00.vhdl":1461025191
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\packageram00.vhdl":1461025291
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\rams\\ram00\\topram00.vhdl":1461451552
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\osc00.vhdl" vhdl
+2 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\div00.vhdl" vhdl
+3 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageosc00.vhdl" vhdl
+4 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\toposc00.vhdl" vhdl
+5 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl" vhdl
+6 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl" vhdl
+7 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packagekey00.vhdl" vhdl
+8 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topkey00.vhdl" vhdl
+9 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\ram00.vhdl" vhdl
+10 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl" vhdl
+11 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contRead00.vhdl" vhdl
+12 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl" vhdl
+13 "C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\topram00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 1 2 0 3 
+5 0 
+6 0 
+7 0 
+8 5 6 0 7 
+9 0 
+10 0 
+11 0 
+12 0 
+13 4 8 9 10 11 0 12 
+
+# Dependency Lists (Users Of)
+0 13 12 11 10 9 8 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 13 
+5 8 
+6 8 
+7 8 
+8 13 
+9 13 
+10 13 
+11 13 
+12 13 
+13 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work toposc00 toposc0 4
+module work toposc00 4
+arch work contring00 contring0 5
+module work contring00 5
+arch work coder00 coder0 6
+module work coder00 6
+arch work topkey00 topkey0 8
+module work topkey00 8
+arch work ram00 ram0 9
+module work ram00 9
+arch work coder7seg00 coder7seg0 10
+module work coder7seg00 10
+arch work contread00 contread0 11
+module work contread00 11
+arch work topram00 topram0 13
+module work topram00 13

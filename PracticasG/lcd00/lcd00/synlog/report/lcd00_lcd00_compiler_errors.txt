@@ -1,0 +1,4 @@
+@E: CD395 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":38:37:38:45|Constant width 7 does not match context width 8
+@E: CD716 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":38:37:38:45|Expression has ambiguous type
+@E: CD351 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl":38:37:38:45|Can't implement expression type string yet
+

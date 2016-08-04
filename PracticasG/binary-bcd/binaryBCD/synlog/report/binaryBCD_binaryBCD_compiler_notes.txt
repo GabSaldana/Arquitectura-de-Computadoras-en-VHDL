@@ -1,0 +1,26 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":7:7:7:12|Top entity is set to topp04.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":7:7:7:12|Synthesizing work.topp04.topp0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":6:7:6:11|Synthesizing work.mux04.mux0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl":6:7:6:11|Synthesizing work.div04.div0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contring04.vhdl":6:7:6:16|Synthesizing work.contring04.contring0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\coderNibbles04.vhdl":6:7:6:20|Synthesizing work.codernibbles04.codernibbles0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":6:7:6:16|Synthesizing work.contiter04.contiter0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl":6:7:6:18|Synthesizing work.shift12bit04.shift12bit0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl":6:7:6:15|Synthesizing work.compadd04.compadd0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":6:7:6:12|Synthesizing work.sust04.sust0 
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":27:13:27:28|Sharing sequential element outFlagsuB_tri_enable.
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":27:13:27:28|Sharing sequential element outFlagsuB.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac12bit0.vhdl":6:7:6:15|Synthesizing work.ac12bit04.ac12bit0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl":6:7:6:17|Synthesizing work.shift8bit04.shift8bit0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl":6:7:6:15|Synthesizing work.leeinst04.leeinst0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac8bit04.vhdl":6:7:6:14|Synthesizing work.ac8bit04.ac8bit0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl":6:7:6:13|Synthesizing work.pcinc04.pcinc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl":6:7:6:14|Synthesizing work.portab04.portab0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":6:7:6:12|Synthesizing work.init04.init0 
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":27:13:27:30|Sharing sequential element outFlag12init_tri_enable.
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":27:13:27:30|Sharing sequential element outFlag12init.
+@N|Running in 64-bit mode
+

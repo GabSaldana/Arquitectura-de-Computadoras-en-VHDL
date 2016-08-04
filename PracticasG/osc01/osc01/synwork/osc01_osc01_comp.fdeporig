@@ -1,0 +1,43 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|toposcint|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\bin64\\c_vhdl.exe":1397624546
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\location.map":1397753250
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\std1164.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\numeric.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1397624428
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\arith.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1397624178
+#CUR:"D:\\Archivos de Programa\\lscc\\diamond\\3.2_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377018008
+#CUR:"D:\\DisenoDigital\\osc01\\oscint01.vhdl":1432148355
+#CUR:"D:\\DisenoDigital\\osc01\\div01.vhdl":1432128199
+#CUR:"D:\\DisenoDigital\\osc01\\packageosc01.vhdl":1432148454
+#CUR:"D:\\DisenoDigital\\osc01\\toposc00.vhdl":1432148492
+0 "D:\Archivos de Programa\lscc\diamond\3.2_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\DisenoDigital\osc01\oscint01.vhdl" vhdl
+2 "D:\DisenoDigital\osc01\div01.vhdl" vhdl
+3 "D:\DisenoDigital\osc01\packageosc01.vhdl" vhdl
+4 "D:\DisenoDigital\osc01\toposc00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 1 2 0 3 
+
+# Dependency Lists (Users Of)
+0 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work oscint oscint0 1
+module work oscint 1
+arch work div0 div01 2
+module work div0 2
+arch work toposcint toposc 4
+module work toposcint 4

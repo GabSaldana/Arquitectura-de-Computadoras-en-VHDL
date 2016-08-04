@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/28/2016 11:50:34
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic00; Project name: generic00
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/generic00/generic00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Gabriela/Desktop/PracticasG/generic00/generic00/generic00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 5/28/2016 11:55:00

@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/9/2016 09:20:00
+#Project Location: C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/Teclado; Project name: teclado00
+prj_project new -name "teclado00" -impl "tecl00" -dev LCMXO3L-6900C-5BG256C -synthesis "synplify"
+prj_src add "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/oscilador/div00.vhdl" "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/oscilador/osc00.vhdl" "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/oscilador/packagediv00.vhdl" "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/oscilador/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/ARTURO/Documents/ESCOM/Arquitectura de Computadoras/Practicas/1erParcial/Teclado/coder00.vhdl"
+#Stop recording: 3/9/2016 09:50:58

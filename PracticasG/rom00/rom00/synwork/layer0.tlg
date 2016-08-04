@@ -1,0 +1,17 @@
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\toprom00.vhdl":9:7:9:14|Synthesizing work.toprom00.toprom0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\contread00.vhdl":10:7:10:16|Synthesizing work.contread00.contread0 
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00.vhdl":10:7:10:11|Synthesizing work.rom00.rom0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00.vhdl":35:8:35:14|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\rom00.vhdl":37:9:37:17|Referenced variable inflagrom is not in sensitivity list
+Post processing for work.rom00.rom0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0 
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\rom00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toprom00.toprom0

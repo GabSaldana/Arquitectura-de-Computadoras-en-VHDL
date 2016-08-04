@@ -1,0 +1,11 @@
+#Start recording tcl command: 4/5/2016 07:44:45
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/Teclado; Project name: key00
+C:/Users/Gabriela/Desktop/PracticasG/rom00
+rom00
+#Start recording tcl command: 4/5/2016 08:06:19
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/rom00; Project name: rom00
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/Teclado/key00.ldf"
+prj_project close
+prj_project new -name "rom00" -impl "rom00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 4/5/2016 08:06:19

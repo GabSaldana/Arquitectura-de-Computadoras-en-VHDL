@@ -1,0 +1,11 @@
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\PracticasDiamond\or01\or01  -part LCMXO2_7000HE  -package TG144C  -grade -4   -maxfan 1000    -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1  -use_rename_in_edif 1 -Write_declared_clocks_only 1     -summaryfile D:\PracticasDiamond\or01\or01\synlog\report\or01_or01_fpga_mapper.xml -top_level_module  or01  -flow mapping  -oedif  D:\PracticasDiamond\or01\or01\or01_or01.edi  -freq 1.000  D:\PracticasDiamond\or01\or01\synwork\or01_or01_prem.srd  -devicelib  "D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v"  -devicelib  "D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v"  -ologparam  D:\PracticasDiamond\or01\or01\syntmp\or01_or01.plg  -osyn  D:\PracticasDiamond\or01\or01\or01_or01.srm  -prjdir  D:\PracticasDiamond\or01\or01\  -prjname  proj_1  -log  D:\PracticasDiamond\or01\or01\synlog\or01_or01_fpga_mapper.srr 
+rc:0 success:1
+D:\PracticasDiamond\or01\or01\or01_or01.edi|o|1422648206|13630
+D:\PracticasDiamond\or01\or01\synwork\or01_or01_prem.srd|i|1422648204|1541
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\machxo2.v|i|1397653498|51625
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\lib\lucent\pmi_def.v|i|1397653498|40584
+D:\PracticasDiamond\or01\or01\syntmp\or01_or01.plg|o|1422648207|111
+D:\PracticasDiamond\or01\or01\or01_or01.srm|o|1422648206|3588
+D:\PracticasDiamond\or01\or01\synlog\or01_or01_fpga_mapper.srr|o|1422648207|6236
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin64\m_gen_lattice.exe|i|1397657722|24119808
+D:\Archivos de Programa\lscc\diamond\3.2_x64\synpbase\bin\m_gen_lattice.exe|i|1397655102|20611584

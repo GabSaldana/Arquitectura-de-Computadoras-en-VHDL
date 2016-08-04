@@ -1,0 +1,18 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_hdl_.srs  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\osc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\packageosc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\toposc00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\packagelcd00.vhdl -lib work C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl  -log  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\syntax.log  -fileorder  C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\synwork\lcd200_lcd200_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd|i|1377021608|73964
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl|i|1462403189|2096
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\osc00.vhdl|i|1462403169|527
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\packageosc00.vhdl|i|1462403208|387
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\toposc00.vhdl|i|1462403222|527
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl|i|1462403238|1077
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl|i|1464354893|5300
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl|i|1464396259|1374
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl|i|1464396862|3281
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl|i|1462403305|1021
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\packagelcd00.vhdl|i|1462403321|2148
+C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl|i|1462403338|2603
+C:\Users\Gabriela\Desktop\PracticasG\lcd2\lcd200\syntax.log|o|1464396865|917
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439973978|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439974174|3183616

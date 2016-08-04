@@ -1,0 +1,38 @@
+#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
+#install: C:\lscc\diamond\3.6_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: ISCGAB
+
+#Implementation: lcd00
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+@E: CD632 :"C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl":10:13:10:14|duplicate entity name div00
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\div00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\packageosc00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\toposc00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\contconfig00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\config00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\contw00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\write00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\bufferlcd00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\packagelcd00.vhdl
+1 error parsing file C:\Users\Gabriela\Desktop\PracticasG\lcd00\toplcd00.vhdl
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 28 17:19:22 2016
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 28 17:19:22 2016
+
+###########################################################]

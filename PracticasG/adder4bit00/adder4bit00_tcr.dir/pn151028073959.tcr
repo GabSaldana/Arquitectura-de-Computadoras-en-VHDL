@@ -1,0 +1,13 @@
+#Start recording tcl command: 10/28/2015 07:17:56
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00; Project name: adder4bit00
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00.ldf"
+prj_run Export -impl adder4bit00 -task Jedecgen
+prj_run Export -impl adder4bit00 -task Jedecgen
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_src add -exclude "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_src enable "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program run
+pgr_project save "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 10/28/2015 07:39:59

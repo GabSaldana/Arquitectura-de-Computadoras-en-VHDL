@@ -1,0 +1,12 @@
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\sust04.vhdl":27:13:27:28|Removing sequential instance U08.outFlagsu_1,  because it is equivalent to instance U02.outFlagLp_1
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_23[11],  because it is equivalent to instance U10.outACss_cl_22[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_22[11],  because it is equivalent to instance U10.outACss_cl_20[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_21[11],  because it is equivalent to instance U10.outACss_cl_19[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_20[11],  because it is equivalent to instance U10.outACss_cl_18[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_19[11],  because it is equivalent to instance U10.outACss_cl_17[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_18[11],  because it is equivalent to instance U10.outACss_cl_16[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_17[11],  because it is equivalent to instance U10.outACss_cl_15[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_16[11],  because it is equivalent to instance U10.outACss_cl_14[11]
+@W: BN132 :"c:\users\gabriela\desktop\practicasg\binary-bcd\shift12bit04.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_15[11],  because it is equivalent to instance U10.outACss_cl_13[11]
+@W: MO129 :"c:\users\gabriela\desktop\practicasg\binary-bcd\leeinst04.vhdl":30:9:30:10|Sequential instance U05.outcode[3] reduced to a combinational gate by constant propagation
+@W: MT420 |Found inferred clock topp04|clk0 with period 1000.00ns. Please declare a user-defined clock on object "p:clk0"

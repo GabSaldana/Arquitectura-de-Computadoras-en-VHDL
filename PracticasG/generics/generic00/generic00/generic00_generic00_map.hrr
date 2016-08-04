@@ -1,0 +1,114 @@
+---------------------------------------------------
+Report for cell topgeneric00
+   Instance path: topgeneric00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     113.00        100.0
+                                 IOLGC	       8.00        100.0
+                                  LUT4	     190.00        100.0
+                                 IOREG	          8        100.0
+                                 IOBUF	         37        100.0
+                                PFUREG	        107        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 xor00	          1         6.0
+                                xnor00	          1         9.0
+                                  uc00	          1         1.0
+                              toposc00	          1        19.5
+                                 nor00	          1         8.7
+                                  or00	          1         8.6
+                                 not00	          1        11.9
+                                nand00	          1         8.7
+                                 and00	          1        23.6
+---------------------------------------------------
+Report for cell and00
+   Instance path: topgeneric00/G02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.67        23.6
+                                  LUT4	      52.00        27.4
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell or00
+   Instance path: topgeneric00/G03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.67         8.6
+                                  LUT4	      18.00         9.5
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell nor00
+   Instance path: topgeneric00/G04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         8.7
+                                  LUT4	      15.00         7.9
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell nand00
+   Instance path: topgeneric00/G05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         8.7
+                                  LUT4	      18.00         9.5
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell xor00
+   Instance path: topgeneric00/G06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.83         6.0
+                                  LUT4	       9.00         4.7
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell xnor00
+   Instance path: topgeneric00/G07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.17         9.0
+                                  LUT4	      22.00        11.6
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell not00
+   Instance path: topgeneric00/G08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50        11.9
+                                  LUT4	      25.00        13.2
+                                PFUREG	         12        11.2
+---------------------------------------------------
+Report for cell uc00
+   Instance path: topgeneric00/G09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         1.0
+                                  LUT4	       2.00         1.1
+                                PFUREG	          1         0.9
+---------------------------------------------------
+Report for cell toposc00
+   Instance path: topgeneric00/G01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        19.5
+                                  LUT4	      22.00        11.6
+                                PFUREG	         22        20.6
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        19.5
+---------------------------------------------------
+Report for cell div00
+   Instance path: topgeneric00/G01/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00        19.5
+                                  LUT4	      22.00        11.6
+                                PFUREG	         22        20.6
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topgeneric00/G01/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

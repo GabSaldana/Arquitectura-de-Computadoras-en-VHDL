@@ -1,0 +1,122 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\binaryBCD\\synwork\\binaryBCD_binaryBCD_comp.srs|-top|work.topp04|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439974174
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440059946
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439973816
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1377021608
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\ac8bit04.vhdl":1464299427
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\ac12bit0.vhdl":1464299790
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\coderNibbles04.vhdl":1464299818
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\compadd04.vhdl":1464299851
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\contIter04.vhdl":1464299883
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\contring04.vhdl":1464299917
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\div04.vhdl":1464299981
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\init04.vhdl":1464300005
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\leeInst04.vhdl":1464300031
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\mux04.vhdl":1464300070
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\packagep04.vhdl":1464300101
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\pcinc04.vhdl":1464300168
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\portAB04.vhdl":1464300196
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\shift8bit04.vhdl":1464300222
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\shift12bit04.vhdl":1464300252
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\sust04.vhdl":1464300290
+#CUR:"C:\\Users\\Gabriela\\Desktop\\PracticasG\\binary-bcd\\topp04.vhdl":1464300334
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac8bit04.vhdl" vhdl
+2 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac12bit0.vhdl" vhdl
+3 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\coderNibbles04.vhdl" vhdl
+4 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl" vhdl
+5 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl" vhdl
+6 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contring04.vhdl" vhdl
+7 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl" vhdl
+8 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl" vhdl
+9 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl" vhdl
+10 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl" vhdl
+11 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\packagep04.vhdl" vhdl
+12 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl" vhdl
+13 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl" vhdl
+14 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl" vhdl
+15 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl" vhdl
+16 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl" vhdl
+17 "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 8 13 12 1 9 14 2 16 4 15 5 3 6 7 10 11 
+
+# Dependency Lists (Users Of)
+0 -1
+1 17 
+2 17 
+3 17 
+4 17 
+5 17 
+6 17 
+7 17 
+8 17 
+9 17 
+10 17 
+11 17 
+12 17 
+13 17 
+14 17 
+15 17 
+16 17 
+17 -1
+
+# Design Unit to File Association
+arch work ac8bit04 ac8bit0 1
+module work ac8bit04 1
+arch work ac12bit04 ac12bit0 2
+module work ac12bit04 2
+arch work codernibbles04 codernibbles0 3
+module work codernibbles04 3
+arch work compadd04 compadd0 4
+module work compadd04 4
+arch work contiter04 contiter0 5
+module work contiter04 5
+arch work contring04 contring0 6
+module work contring04 6
+arch work div04 div0 7
+module work div04 7
+arch work init04 init0 8
+module work init04 8
+arch work leeinst04 leeinst0 9
+module work leeinst04 9
+arch work mux04 mux0 10
+module work mux04 10
+arch work pcinc04 pcinc0 12
+module work pcinc04 12
+arch work portab04 portab0 13
+module work portab04 13
+arch work shift8bit04 shift8bit0 14
+module work shift8bit04 14
+arch work shift12bit04 shift12bit0 15
+module work shift12bit04 15
+arch work sust04 sust0 16
+module work sust04 16
+arch work topp04 topp0 17
+module work topp04 17

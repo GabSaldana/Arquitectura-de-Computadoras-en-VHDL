@@ -1,0 +1,8 @@
+@W: CD277 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\packageram00.vhdl":18:7:18:10|Port direction mismatch between component and entity
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":18:9:18:15|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder7seg00.vhdl":20:7:20:13|Referenced variable clkbuff is not in sensitivity list
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":26:10:26:16|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\coder00.vhdl":32:5:32:8|Referenced variable clkc is not in sensitivity list
+@W: CL279 :"C:\Users\Gabriela\Desktop\PracticasG\rams\ram00\contring00.vhdl":20:4:20:5|Pruning register bits 2 to 0 of sring(3 downto 0)  
+@W: CD276 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

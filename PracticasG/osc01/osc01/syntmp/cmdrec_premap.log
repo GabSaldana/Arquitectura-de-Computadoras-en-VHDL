@@ -1,0 +1,13 @@
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01   -part LCMXO2_7000HE  -package TG144C  -grade -4    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synlog\report\osc01_osc01_premap.xml  -top_level_module  toposc00  -oedif  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.edi  -conchk_prepass  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01_cck_prepass.rpt   -freq 1.000   D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_prem.srd  -devicelib  "D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\lucent\machxo2.v"  -devicelib  "D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\lucent\pmi_def.v"  -ologparam  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\syntmp\osc01_osc01.plg  -osyn  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_prem.srd  -prjdir  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\  -prjname  proj_1  -log  D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synlog\osc01_osc01_premap.srr 
+rc:1 success:1
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01.edi|o|1442927417|51534
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\osc01_osc01_cck_prepass.rpt|o|0|0
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_mult.srs|i|1442927478|3047
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_prem.srd|o|1442927479|6467
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\lucent\machxo2.v|i|1429020374|54295
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\lib\lucent\pmi_def.v|i|1429020374|40584
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\syntmp\osc01_osc01.plg|o|1442927479|0
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synwork\osc01_osc01_prem.srd|o|1442927479|6467
+D:\ArquitecturaDeComputadoras\PrimerParcial\Practicas\osc01\osc01\synlog\osc01_osc01_premap.srr|o|1442927480|2912
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin\m_gen_lattice.exe|i|1429568170|17277440
+D:\Program Files (x86)\lscc\diamond\3.5_x64\synpbase\bin64\m_gen_lattice.exe|i|1429569808|20520960

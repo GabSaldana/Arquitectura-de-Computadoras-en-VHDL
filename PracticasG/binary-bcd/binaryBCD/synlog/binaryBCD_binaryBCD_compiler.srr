@@ -1,0 +1,118 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":7:7:7:12|Top entity is set to topp04.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":26:37:26:46|contiterac is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":27:32:27:41|contiterac is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":28:21:28:30|contiterac is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":28:44:28:53|contiterac is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":29:32:29:41|contiterac is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl":28:36:28:41|outdiv is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":7:7:7:12|Synthesizing work.topp04.topp0 
+@W: CD326 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":127:3:127:5|Port contiterac of entity work.contiter04 is unconnected
+@W: CD638 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\topp04.vhdl":46:7:46:10|Signal sout is undriven 
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":6:7:6:11|Synthesizing work.mux04.mux0 
+@W: CD274 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":21:7:21:10|Incomplete case statement - add more cases or a when others
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":19:8:19:14|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":27:24:27:30|Referenced variable intbcdc is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":25:24:25:30|Referenced variable intbcdd is not in sensitivity list
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\mux04.vhdl":23:24:23:30|Referenced variable intbcdu is not in sensitivity list
+Post processing for work.mux04.mux0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\div04.vhdl":6:7:6:11|Synthesizing work.div04.div0 
+Post processing for work.div04.div0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contring04.vhdl":6:7:6:16|Synthesizing work.contring04.contring0 
+Post processing for work.contring04.contring0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\coderNibbles04.vhdl":6:7:6:20|Synthesizing work.codernibbles04.codernibbles0 
+Post processing for work.codernibbles04.codernibbles0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\contIter04.vhdl":6:7:6:16|Synthesizing work.contiter04.contiter0 
+Post processing for work.contiter04.contiter0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl":6:7:6:18|Synthesizing work.shift12bit04.shift12bit0 
+Post processing for work.shift12bit04.shift12bit0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl":23:6:23:7|Pruning register outFlagss_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl":6:7:6:15|Synthesizing work.compadd04.compadd0 
+Post processing for work.compadd04.compadd0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\compadd04.vhdl":24:5:24:6|Pruning register outFlagca_cl_6  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":6:7:6:12|Synthesizing work.sust04.sust0 
+Post processing for work.sust04.sust0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":26:5:26:6|Pruning register outFlagsu_cl_6  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":26:5:26:6|Pruning register outFlagsuB_cl_1  
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":27:13:27:28|Sharing sequential element outFlagsuB_tri_enable.
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":27:13:27:28|Sharing sequential element outFlagsuB.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac12bit0.vhdl":6:7:6:15|Synthesizing work.ac12bit04.ac12bit0 
+Post processing for work.ac12bit04.ac12bit0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl":6:7:6:17|Synthesizing work.shift8bit04.shift8bit0 
+Post processing for work.shift8bit04.shift8bit0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl":23:6:23:7|Pruning register outFlags_cl_7  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl":6:7:6:15|Synthesizing work.leeinst04.leeinst0 
+Post processing for work.leeinst04.leeinst0
+@W: CL117 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\leeInst04.vhdl":30:9:30:10|Latch generated from process for signal outcode(3 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\ac8bit04.vhdl":6:7:6:14|Synthesizing work.ac8bit04.ac8bit0 
+Post processing for work.ac8bit04.ac8bit0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl":6:7:6:13|Synthesizing work.pcinc04.pcinc0 
+@W: CG296 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl":23:13:23:19|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\pcinc04.vhdl":25:10:25:14|Referenced variable clkpc is not in sensitivity list
+Post processing for work.pcinc04.pcinc0
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl":6:7:6:14|Synthesizing work.portab04.portab0 
+Post processing for work.portab04.portab0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\portAB04.vhdl":22:6:22:7|Pruning register outFlagLp_cl_6  
+@N: CD630 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":6:7:6:12|Synthesizing work.init04.init0 
+Post processing for work.init04.init0
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Pruning register outFlag8init_cl_8  
+@W: CL169 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Pruning register outFlag12init_cl_1  
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":27:13:27:30|Sharing sequential element outFlag12init_tri_enable.
+@N: CL177 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":27:13:27:30|Sharing sequential element outFlag12init.
+Post processing for work.topp04.topp0
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA8init(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA8init(1) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(1) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(3) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(4) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA8init(5) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(5) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA8init(6) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(6) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA8init(7) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(7) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(8) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(9) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(10) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\init04.vhdl":26:6:26:7|Register bit outACA12init(11) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl":23:6:23:7|Register bit outACs(0) is always 0, optimizing ...
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift8bit04.vhdl":11:1:11:5|Input port bit 7 of inacs(7 downto 0) is unused 
+@W: CL246 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":11:1:11:10|Input port bits 6 to 0 of inac8bitsu(7 downto 0) are unused 
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\sust04.vhdl":12:1:12:11|Input port bit 0 of inac12bitsu(11 downto 0) is unused 
+@W: CL189 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl":23:6:23:7|Register bit outACss(0) is always 0, optimizing ...
+@W: CL247 :"C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\shift12bit04.vhdl":11:1:11:6|Input port bit 11 of inacss(11 downto 0) is unused 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 09:03:21 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 09:03:22 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun May 29 09:03:22 2016
+
+###########################################################]

@@ -1,0 +1,21 @@
+#Start recording tcl command: 1/30/2015 14:00:56
+#Project Location: D:/PracticasDiamond/or01; Project name: or01
+D:/PracticasDiamond/xor01
+xor01
+#Start recording tcl command: 1/30/2015 14:13:41
+#Project Location: D:/PracticasDiamond/xor01; Project name: xor01
+prj_project new -name "or01" -impl "or01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/PracticasDiamond/or01/or01.vhdl"
+prj_run Export -impl or01 -task Jedecgen
+prj_run Export -impl or01 -task Jedecgen
+pgr_project save "D:/PracticasDiamond/or01/or01/or01.xcf"
+prj_src add -exclude "D:/PracticasDiamond/or01/or01/or01.xcf"
+prj_src enable "D:/PracticasDiamond/or01/or01/or01.xcf"
+pgr_program run
+pgr_project save "D:/PracticasDiamond/or01/or01/or01.xcf"
+prj_project save
+prj_project close
+prj_project new -name "xor01" -impl "xor01" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 1/30/2015 14:13:41

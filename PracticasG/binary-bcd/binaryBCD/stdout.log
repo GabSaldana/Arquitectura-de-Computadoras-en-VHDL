@@ -1,0 +1,111 @@
+Running in Lattice mode
+
+sourcing C:\lscc\diamond\3.6_x64\synpbase\lib\message_override.tcl
+
+
+Starting:    C:\lscc\diamond\3.6_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.6_x64\synpbase
+Hostname:    ISCGAB
+Date:        Sun May 29 09:03:20 2016
+Version:     J-2015.03L-SP1
+
+Arguments:   -product synplify_pro -batch binaryBCD_binaryBCD_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+log file: "C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srr"
+
+Running: binaryBCD in foreground
+
+
+
+Running proj_1|binaryBCD
+
+
+Running: compile (Compile) on proj_1|binaryBCD
+
+
+Running: compile_flow (Compile Process) on proj_1|binaryBCD
+
+
+Running: compiler (Compile Input) on proj_1|binaryBCD
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_comp.srs to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|binaryBCD
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_comp.srs to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_mult.srs to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srs
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srr to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srf
+
+Complete: Compile Process on proj_1|binaryBCD
+
+
+Running: premap (Pre-mapping) on proj_1|binaryBCD
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+Complete: Compile on proj_1|binaryBCD
+
+
+Running: map (Map) on proj_1|binaryBCD
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|binaryBCD
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\synwork\binaryBCD_binaryBCD_m.srm to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+Complete: Map on proj_1|binaryBCD
+
+Copied C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srr to C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\binaryBCD_binaryBCD.srf
+
+Complete: Logic Synthesis on proj_1|binaryBCD
+
+TCL script complete: "binaryBCD_binaryBCD_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Gabriela\Desktop\PracticasG\binary-bcd\binaryBCD\proj_1.prj
+
+batch mode default:no
+

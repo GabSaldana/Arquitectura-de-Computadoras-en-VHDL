@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/2/2015 12:39:41
+#Project Location: D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/not01; Project name: not01
+prj_project open "D:/ArquitecturaDeComputadoras/PrimerParcial/Practicas/not01/not01.ldf"
+prj_run Export -impl not01 -task Jedecgen
+prj_project close
+#Stop recording: 10/2/2015 12:41:03
